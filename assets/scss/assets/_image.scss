@@ -1,0 +1,23 @@
+.zoom-in {
+
+    img {
+        scale: 1;
+        transition-duration: .3s;
+    }
+
+
+    @media (min-width: 1200px) {
+        &:hover img {
+            scale: 1.05;
+            transition-duration: .3s;
+        }
+    }
+
+
+}
+
+img.merklogo {
+    width: 65% !important;
+    aspect-ratio: 3 / 2 !important;
+    object-fit: contain !important;
+}

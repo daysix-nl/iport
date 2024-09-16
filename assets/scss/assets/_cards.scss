@@ -1,0 +1,151 @@
+.accordion-item {
+    background-color: transparent;
+    border-bottom: 1px solid #203145;
+
+
+    .accordion {
+        background-color: transparent;
+        cursor: pointer;
+        width: 100%;
+        border: none;
+        text-align: left;
+        outline: none;
+        transition-delay: .2s;
+        transition-duration: .2s;
+        border-radius: 0px;
+        display: flex;
+        align-items: flex-start;
+        position: relative;
+        color: #8A929C;
+        transition: transform 0s ease;
+
+        // padding: 20px 30px;
+
+        // // media query
+        // @media (min-width: 768px) {
+        //     padding: 30px 30px;
+        // }
+
+        // @media (min-width: 1280px) {
+        //     padding: 20px 40px;
+        // }
+
+        &::after {
+            content: url('data:image/svg+xml;utf8,<svg%20id=%22Group_116%22%20data-name=%22Group%20116%22%20xmlns=%22http://www.w3.org/2000/svg%22%20width=%229.953%22%20height=%229.954%22%20viewBox=%220%200%209.953%209.954%22><path%20id=%22Path_5%22%20data-name=%22Path%205%22%20d=%22M1.28,0,0,1.278l6.615.005L7.9,0Z%22%20transform=%22translate(-0.001%200)%22%20fill=%22%23203145%22%20/><path%20id=%22Path_6%22%20data-name=%22Path%206%22%20d=%22M10.942,0,3.051,7.892l.9.9,6.6-6.6V9.954l1.287-1.281V0Z%22%20transform=%22translate(-1.893%200)%22%20fill=%22%23203145%22%20/></svg>');
+            position: absolute;
+
+
+
+            width: 15px;
+            text-align: center;
+            transform: rotate(90deg);
+            transform-origin: center center;
+            /* Dit zorgt ervoor dat de rotatie om het midden plaatsvindt */
+            transition: transform 0s ease;
+            /* Optioneel: voor een soepele animatie */
+            right: 0px;
+
+
+
+        }
+
+
+
+    }
+
+    .panel {
+        overflow: hidden;
+        max-height: 0;
+
+        /* Dit zorgt voor de soepele overgang */
+    }
+
+    &.active {
+        transition-duration: .3s;
+
+        .accordion {
+            background-color: transparent;
+            color: #203145;
+            transition: transform 0s ease;
+
+
+            &::after {
+                content: url('data:image/svg+xml;utf8,<svg%20id=%22Group_116%22%20data-name=%22Group%20116%22%20xmlns=%22http://www.w3.org/2000/svg%22%20width=%229.953%22%20height=%229.954%22%20viewBox=%220%200%209.953%209.954%22><path%20id=%22Path_5%22%20data-name=%22Path%205%22%20d=%22M1.28,0,0,1.278l6.615.005L7.9,0Z%22%20transform=%22translate(-0.001%200)%22%20fill=%22%23203145%22%20/><path%20id=%22Path_6%22%20data-name=%22Path%206%22%20d=%22M10.942,0,3.051,7.892l.9.9,6.6-6.6V9.954l1.287-1.281V0Z%22%20transform=%22translate(-1.893%200)%22%20fill=%22%23203145%22%20/></svg>');
+
+                transform: rotate(0deg);
+                transform-origin: center center;
+                /* Dit zorgt ervoor dat de rotatie om het midden plaatsvindt */
+                transition: transform 0s ease;
+                /* Optioneel: voor een soepele animatie */
+            }
+
+
+        }
+
+        .panel {
+            overflow: hidden;
+            max-height: 1000px;
+            transition: max-height 0s ease-out;
+        }
+    }
+
+
+}
+
+
+.kleuren-wrapper {
+    .swiper-slide:nth-child(3n+1) {
+        .bg-kleur {
+            background: #1B3247;
+        }
+    }
+
+    .swiper-slide:nth-child(3n+2) {
+        .bg-kleur {
+            background: #009FE3;
+        }
+    }
+
+    .swiper-slide:nth-child(3n+3) {
+        .bg-kleur {
+            background: #FCBF39;
+        }
+    }
+}
+
+
+.swipercompanies {
+    .swiper-slide .content {
+        .hover-effect {
+            position: absolute;
+            background: linear-gradient(rgba(84, 84, 84, 0) 0%, rgba(0, 0, 0, 0.5) 100%);
+            height: 100%;
+            left: 0px;
+            right: 0px;
+            bottom: 0px;
+            transition: all .2s ease-out;
+
+            @media (min-width: 1200px) {
+                position: absolute;
+                background: linear-gradient(rgba(84, 84, 84, 0) 0%, rgba(0, 0, 0, 0.5) 100%);
+                left: 0px;
+                right: 0px;
+                bottom: -100%;
+                transition: all .2s ease-out;
+            }
+
+        }
+    }
+
+    .swiper-slide:hover .content {
+        .hover-effect {
+            background: linear-gradient(rgba(84, 84, 84, 0) 0%, rgba(0, 0, 0, 0.5) 100%);
+            height: 100%;
+            left: 0px;
+            right: 0px;
+            bottom: 0px;
+            transition: all .2s ease-out;
+
+        }
+    }
+}

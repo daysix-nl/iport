@@ -1,0 +1,86 @@
+a#talk {
+    color: #009FE3;
+    background: transparent;
+    transition-duration: .3s;
+
+    svg {
+        path {
+            fill: #009FE3;
+            transition-duration: .3s;
+        }
+    }
+}
+
+.home-header a {
+    .button-header {
+        color: #203145 !important;
+        background: #fff !important;
+        transition-duration: .3s;
+    }
+
+    svg {
+        path {
+            fill: #203145;
+            transition-duration: .3s;
+        }
+    }
+
+    img {
+        scale: 1 !important;
+        transition-duration: .3s;
+    }
+
+}
+
+
+@media (min-width: 1200px) {
+    a#talk:hover {
+        color: #fff;
+        background: #009FE3;
+        transition-duration: .3s;
+
+        svg {
+            path {
+                fill: #fff;
+                transition-duration: .3s;
+            }
+        }
+    }
+
+    .home-header a:hover {
+        .button-header {
+            color: #fff !important;
+            background: #009FE3 !important;
+            transition-duration: .3s;
+        }
+
+        svg {
+            path {
+                fill: #fff;
+                transition-duration: .3s;
+            }
+        }
+
+        img {
+            scale: 1.05 !important;
+            transition-duration: .3s;
+        }
+
+    }
+
+
+}
+
+.scroll-blok {
+    scrollbar-width: none;
+
+    button {
+        text-wrap: nowrap;
+
+        &.active {
+            background: #2A3041;
+            color: #fff;
+            transition-duration: .3s;
+        }
+    }
+}

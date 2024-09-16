@@ -1,0 +1,101 @@
+body.hamburger-closed {
+    .button-hamburger {
+        opacity: 1 !important;
+        display: block;
+        cursor: pointer;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+
+        & span {
+            display: block;
+            width: 24px;
+            height: 2px;
+            margin-bottom: 5px;
+            position: relative;
+            background: #009FE3;
+            border-radius: 3px;
+            transform-origin: 4px 0px;
+            transition: transform 0.5s cubic-bezier(0.77, 0.2, 0.05, 1),
+                background 0.5s cubic-bezier(0.77, 0.2, 0.05, 1), opacity 0.55s ease;
+
+            &:nth-last-child(1) {
+                margin: 0;
+            }
+        }
+    }
+}
+
+
+
+body.hamburger-open {
+    .button-hamburger {
+        opacity: 1 !important;
+        display: block;
+        cursor: pointer;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+
+        & span {
+            display: block;
+
+            margin-bottom: 5px;
+            position: relative;
+            background: #009FE3;
+            border-radius: 3px;
+            transform-origin: 4px 0px;
+            transition: transform 0.5s cubic-bezier(0.77, 0.2, 0.05, 1),
+                background 0.5s cubic-bezier(0.77, 0.2, 0.05, 1), opacity 0.55s ease;
+
+            transform: rotate(45deg);
+            width: 24px;
+            height: 2px;
+
+            &:nth-of-type(1) {
+                transform: rotate(45deg) translate(5px, 0px);
+            }
+
+            &:nth-of-type(2) {
+                opacity: 0;
+                transform: rotate(0) scale(0.2, 0.2);
+            }
+
+            &:nth-last-child(1) {
+                opacity: 1;
+                transform: rotate(-45deg) translate(0px, 1px);
+            }
+        }
+    }
+
+    #talk {
+        display: none;
+
+        // LG
+        @media (min-width: 1200px) {
+            display: flex;
+        }
+    }
+
+
+
+
+}
+
+.hamburger-closed {
+    #hbm {
+        left: -100% !important;
+        right: unset;
+        transition: all .2s ease-out;
+    }
+}
+
+.hamburger-open {
+    #hbm {
+        transition: all .2s ease-out;
+        left: 0 !important;
+        right: 0 !important;
+    }
+}

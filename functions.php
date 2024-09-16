@@ -603,3 +603,17 @@ function custom_frontend_translations($translated_text, $text, $domain) {
 
 add_filter('gettext', 'custom_frontend_translations', 20, 3);
 
+
+
+
+
+add_filter( 'wpsl_admin_marker_dir', 'custom_admin_marker_dir' );
+
+function custom_admin_marker_dir() {
+
+    $admin_marker_dir = get_stylesheet_directory() . '/wpsl-markers/';
+    
+    return $admin_marker_dir;
+}
+
+define( 'WPSL_MARKER_URI', dirname( get_bloginfo( 'stylesheet_url') ) . '/wpsl-markers/' );

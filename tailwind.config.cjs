@@ -28,11 +28,11 @@ module.exports = {
 
     extend: {
       fontFamily: {
-        "tanker": ["Tanker", "sans-serif"],
+        "epilogue": ["Epilogue", "sans-serif"],
       },
       colors: {
         white: "#FFFFFF",
-        black: "#0A1F16",
+        black: "#000",
         transparent: "transparent",
       },
       content: {
@@ -393,31 +393,31 @@ module.exports = {
     function ({ addComponents }) {
       addComponents({
         ".container": {
-          maxWidth: "420px",
+          maxWidth: "390px",
           width: "auto",
           marginLeft: "auto",
           marginRight: "auto",
-          paddingLeft: "15px",
-          paddingRight: "15px",
+          paddingLeft: "20px",
+          paddingRight: "20px",
           "@screen sm": {
             maxWidth: "390px",
             width: "auto",
           },
           "@screen md": {
-            maxWidth: "603px",
-            width: "603px",
+            maxWidth: "688px",
+            width: "688px",
             paddingLeft: "0px",
             paddingRight: "0px",
           },
           "@screen lg": {
-            maxWidth: "1145px",
-            width: "1145px",
+            maxWidth: "1129px",
+            width: "1129px",
             paddingLeft: "0px",
             paddingRight: "0px",
           },
           "@screen xl": {
-            maxWidth: "1145px",
-            width: "1145px",
+            maxWidth: "1272px",
+            width: "1272px",
             paddingLeft: "0px",
             paddingRight: "0px",
           },
