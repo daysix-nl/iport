@@ -15,6 +15,19 @@ main {
   padding-top: 0px;
 }
 
+/* Voor WebKit-browsers zoals Safari (iPhone) */
+::-webkit-scrollbar {
+  display: none;
+}
+
+/* Verbergt standaard scrollbars */
+html {
+  -ms-overflow-style: none;
+  /* Voor Internet Explorer en Edge */
+  scrollbar-width: none;
+  /* Voor Firefox */
+}
+
 /* Extra small devices (phones, 600px and down) */
 @media only screen and (max-width: 600px) {
   main {

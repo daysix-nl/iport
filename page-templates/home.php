@@ -9,7 +9,7 @@
 <main>
    <!-- HEADER -->
    <section class="home-header bg-[#F6F6F6]">
-      <a href="" class="h-[calc(100vh-135px)] lg:h-[calc(100dvh+55px)] xl:h-[calc(100dvh+35px)] max-h-[615px] md:max-h-[688px] lg:max-h-[950px] xl:max-h-[1000px] min-h-[550px] md:min-h-[500px] lg:min-h-[550px] xl:min-h-[600px] w-full block relative overflow-hidden">
+      <a href="" class="h-[calc(100vh-135px)] lg:h-[calc(100dvh+55px)] xl:h-[calc(100dvh+35px)] max-h-[600px] md:max-h-[688px] lg:max-h-[950px] xl:max-h-[1000px] min-h-[550px] md:min-h-[500px] lg:min-h-[550px] xl:min-h-[600px] w-full block relative overflow-hidden">
          <div class="button-header w-[200px] lg:w-[265px] xl:w-[299px] h-[43px] bg-white text-[#203145] text-14 leading-14 xl:text-16 xl:leading-16 rounded-[14px] md:rounded-[15px] xl:rounded-[18px] absolute bottom-[200px] right-[calc(50vw-175px)] md:right:[unset] md:bottom-[117px] md:left-[calc(50vw+70px)] lg:bottom-[190px] lg:left-[calc(50vw+293px)] xl:bottom-[160px] xl:left-[calc(50vw+298px)] flex items-center justify-between px-[20px] z-[10]">
             <span class="correction">For airlines</span>
                <svg id="Group_5" data-name="Group 5" xmlns="http://www.w3.org/2000/svg" width="10.955" height="10.955" viewBox="0 0 10.955 10.955">

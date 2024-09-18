@@ -63,7 +63,7 @@ try {
         lazy: false,
         freeMode: true,
         loop: true,
-        speed: 60000,
+        speed: 20000,
 
         autoplay: {
             delay: 0,
