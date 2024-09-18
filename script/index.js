@@ -273,4 +273,8 @@ try {
 } catch (error) { }
 
 
-
+try {
+    document.addEventListener('gesturestart', function (e) {
+        e.preventDefault();
+    });
+} catch (error) { }

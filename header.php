@@ -41,8 +41,6 @@
                         </g>
                       </g>
                     </svg>
-
-
                 </a>
             </div>
             <!-- NAVIGATIE -->
