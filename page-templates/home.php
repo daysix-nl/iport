@@ -11,7 +11,7 @@
    <section class="home-header bg-[#F6F6F6]">
       <a href="" class="h-[calc(100dvh-135px)] lg:h-[calc(100dvh+55px)] xl:h-[calc(100dvh+35px)] max-h-[670px] md:max-h-[688px] lg:max-h-[950px] xl:max-h-[1000px] min-h-[550px] md:min-h-[500px] lg:min-h-[550px] xl:min-h-[600px] w-full block relative overflow-hidden">
          <div class="button-header w-[200px] lg:w-[265px] xl:w-[299px] h-[43px] bg-white text-[#203145] text-14 leading-14 xl:text-16 xl:leading-16 rounded-[14px] md:rounded-[15px] xl:rounded-[18px] absolute bottom-[200px] right-[calc(50vw-175px)] md:right:[unset] md:bottom-[117px] md:left-[calc(50vw+70px)] lg:bottom-[190px] lg:left-[calc(50vw+293px)] xl:bottom-[160px] xl:left-[calc(50vw+298px)] flex items-center justify-between px-[20px] z-[10]">
-            For airlines
+            <span class="correction">For airlines</span>
                <svg id="Group_5" data-name="Group 5" xmlns="http://www.w3.org/2000/svg" width="10.955" height="10.955" viewBox="0 0 10.955 10.955">
                   <path id="Path_5" data-name="Path 5" d="M1.409,0,0,1.407l7.281.006L8.694,0Z" transform="translate(-0.001 0)" fill="#203145"/>
                   <path id="Path_6" data-name="Path 6" d="M11.737,0,3.051,8.686l.994.994,7.269-7.269v8.544l1.417-1.41V0Z" transform="translate(-1.776 0)" fill="#203145"/>
@@ -31,7 +31,7 @@
       <div class="md:flex md:justify-between md:mt-[-90px] lg:mt-[-170px] xl:mt-[-140px] z-[9] relative">
          <a href="" class="h-[184px] md:h-[252px] lg:h-[455px] xl:h-[492px] md:w-[calc(50vw+32px)] lg:w-[calc(50vw+250px)] xl:w-[calc(50vw+250px)] mt-[-165px] md:mt-[unset] rounded-tl-[40px] md:rounded-tl-[unset] rounded-tr-[40px] md:rounded-br-[40px] relative block overflow-hidden">
             <div class="button-header w-[200px] lg:w-[265px] xl:w-[299px] h-[43px] bg-white text-[#203145] text-14 leading-14 xl:text-16 xl:leading-16 rounded-[14px] md:rounded-[15px] xl:rounded-[18px] absolute top-[35px] md:top-[28px] right-[calc(50vw-175px)] md:right-[28px] flex items-center justify-between px-[20px] z-[6]">
-               For groundhandlers
+               <span class="correction">For groundhandlers</span>
                 <svg id="Group_5" data-name="Group 5" xmlns="http://www.w3.org/2000/svg" width="10.955" height="10.955" viewBox="0 0 10.955 10.955">
                     <path id="Path_5" data-name="Path 5" d="M1.409,0,0,1.407l7.281.006L8.694,0Z" transform="translate(-0.001 0)" fill="#203145"/>
                     <path id="Path_6" data-name="Path 6" d="M11.737,0,3.051,8.686l.994.994,7.269-7.269v8.544l1.417-1.41V0Z" transform="translate(-1.776 0)" fill="#203145"/>
@@ -41,7 +41,7 @@
          </a>
          <a href="" class="h-[184px] md:h-[252px] lg:h-[455px] xl:h-[492px] md:w-[calc(50vw-45px)] lg:w-[calc(50vw-265px)] xl:w-[calc(50vw-270px)] mt-[-68px] md:mt-[unset] rounded-tl-[40px] rounded-tr-[40px] md:rounded-tr-[unset] md:rounded-bl-[40px] relative block overflow-hidden">
             <div class="button-header w-[200px] lg:w-[265px] xl:w-[299px] h-[43px] bg-white text-[#203145] text-14 leading-14 xl:text-16 xl:leading-16 rounded-[14px] md:rounded-[15px] xl:rounded-[18px] absolute top-[35px] md:top-[28px] right-[calc(50vw-175px)] md:right:[unset] md:left-[28px] flex items-center justify-between px-[20px] z-[6]">
-               For airports
+               <span class="correction">For airports</span>
                 <svg id="Group_5" data-name="Group 5" xmlns="http://www.w3.org/2000/svg" width="10.955" height="10.955" viewBox="0 0 10.955 10.955">
                     <path id="Path_5" data-name="Path 5" d="M1.409,0,0,1.407l7.281.006L8.694,0Z" transform="translate(-0.001 0)" fill="#203145"/>
                     <path id="Path_6" data-name="Path 6" d="M11.737,0,3.051,8.686l.994.994,7.269-7.269v8.544l1.417-1.41V0Z" transform="translate(-1.776 0)" fill="#203145"/>
@@ -52,8 +52,6 @@
       </div>
    </section>
 
-
-
    <!-- SOLUTIONS -->
     <section class="bg-[#F6F6F6]">
       <div class="py-[60px]">
@@ -61,13 +59,13 @@
             <h2 class="text-[#2A3041] font-semibold text-32 leading-33 md:text-42 md:leading-43 lg:text-45 lg:leading-47 xl:text-54 xl:leading-56">iPort solutions</h2>
          </div>
          <div class="flex md:flex-wrap md:justify-center space-x-[8px] overflow-x-auto scroll-blok w-full md:w-[688px] lg:w-[1129px] xl:w-[1272px] px-[calc(50vw-155px)] md:px-[unset] md:mx-auto mt-[20px] md:mt-[25px] lg:mt-[35px] xl:mt-[45px]">
-            <button class="tablinks text-14 leading-14 xl:text-16 xl:leading-16 text-[#2A3041] font-medium md:min-w-[130px] h-[43px] px-[20px] border-[1px] border-[#1C1C1C] rounded-[14px] md:rounded-[15px] xl:rounded-[18px] mt-[8px] lg:hover:text-white lg:hover:bg-[#2A3041] duration-300" onclick="openTab(event, 'Tab1')">iPort DCS</button>
-            <button class="tablinks text-14 leading-14 xl:text-16 xl:leading-16 text-[#2A3041] font-medium md:min-w-[130px] h-[43px] px-[20px] border-[1px] border-[#1C1C1C] rounded-[14px] md:rounded-[15px] xl:rounded-[18px] mt-[8px] lg:hover:text-white lg:hover:bg-[#2A3041] duration-300" onclick="openTab(event, 'Tab2')">iPort W&B</button>
-            <button class="tablinks text-14 leading-14 xl:text-16 xl:leading-16 text-[#2A3041] font-medium md:min-w-[130px] h-[43px] px-[20px] border-[1px] border-[#1C1C1C] rounded-[14px] md:rounded-[15px] xl:rounded-[18px] mt-[8px] lg:hover:text-white lg:hover:bg-[#2A3041] duration-300" onclick="openTab(event, 'Tab3')">Self-Service</button>
-            <button class="tablinks text-14 leading-14 xl:text-16 xl:leading-16 text-[#2A3041] font-medium md:min-w-[130px] h-[43px] px-[20px] border-[1px] border-[#1C1C1C] rounded-[14px] md:rounded-[15px] xl:rounded-[18px] mt-[8px] lg:hover:text-white lg:hover:bg-[#2A3041] duration-300" onclick="openTab(event, 'Tab4')">iPax</button>
-            <button class="tablinks text-14 leading-14 xl:text-16 xl:leading-16 text-[#2A3041] font-medium md:min-w-[130px] h-[43px] px-[20px] border-[1px] border-[#1C1C1C] rounded-[14px] md:rounded-[15px] xl:rounded-[18px] mt-[8px] lg:hover:text-white lg:hover:bg-[#2A3041] duration-300" onclick="openTab(event, 'Tab5')">iRamp</button>
-            <button class="tablinks text-14 leading-14 xl:text-16 xl:leading-16 text-[#2A3041] font-medium md:min-w-[130px] h-[43px] px-[20px] border-[1px] border-[#1C1C1C] rounded-[14px] md:rounded-[15px] xl:rounded-[18px] mt-[8px] lg:hover:text-white lg:hover:bg-[#2A3041] duration-300" onclick="openTab(event, 'Tab6')">iSales</button>
-            <button class="tablinks text-14 leading-14 xl:text-16 xl:leading-16 text-[#2A3041] font-medium md:min-w-[130px] h-[43px] px-[20px] border-[1px] border-[#1C1C1C] rounded-[14px] md:rounded-[15px] xl:rounded-[18px] mt-[8px] lg:hover:text-white lg:hover:bg-[#2A3041] duration-300" onclick="openTab(event, 'Tab7')">iTrack</button>
+            <button class="tablinks text-14 leading-14 xl:text-16 xl:leading-16 text-[#2A3041] font-medium md:min-w-[130px] h-[43px] px-[20px] border-[1px] border-[#1C1C1C] rounded-[14px] md:rounded-[15px] xl:rounded-[18px] mt-[8px] lg:hover:text-white lg:hover:bg-[#2A3041] duration-300" onclick="openTab(event, 'Tab1')"><span class="correction">iPort DCS</span></button>
+            <button class="tablinks text-14 leading-14 xl:text-16 xl:leading-16 text-[#2A3041] font-medium md:min-w-[130px] h-[43px] px-[20px] border-[1px] border-[#1C1C1C] rounded-[14px] md:rounded-[15px] xl:rounded-[18px] mt-[8px] lg:hover:text-white lg:hover:bg-[#2A3041] duration-300" onclick="openTab(event, 'Tab2')"><span class="correction">iPort W&B</span></button>
+            <button class="tablinks text-14 leading-14 xl:text-16 xl:leading-16 text-[#2A3041] font-medium md:min-w-[130px] h-[43px] px-[20px] border-[1px] border-[#1C1C1C] rounded-[14px] md:rounded-[15px] xl:rounded-[18px] mt-[8px] lg:hover:text-white lg:hover:bg-[#2A3041] duration-300" onclick="openTab(event, 'Tab3')"><span class="correction">Self-Service</span></button>
+            <button class="tablinks text-14 leading-14 xl:text-16 xl:leading-16 text-[#2A3041] font-medium md:min-w-[130px] h-[43px] px-[20px] border-[1px] border-[#1C1C1C] rounded-[14px] md:rounded-[15px] xl:rounded-[18px] mt-[8px] lg:hover:text-white lg:hover:bg-[#2A3041] duration-300" onclick="openTab(event, 'Tab4')"><span class="correction">iPax</span></button>
+            <button class="tablinks text-14 leading-14 xl:text-16 xl:leading-16 text-[#2A3041] font-medium md:min-w-[130px] h-[43px] px-[20px] border-[1px] border-[#1C1C1C] rounded-[14px] md:rounded-[15px] xl:rounded-[18px] mt-[8px] lg:hover:text-white lg:hover:bg-[#2A3041] duration-300" onclick="openTab(event, 'Tab5')"><span class="correction">iRamp</span></button>
+            <button class="tablinks text-14 leading-14 xl:text-16 xl:leading-16 text-[#2A3041] font-medium md:min-w-[130px] h-[43px] px-[20px] border-[1px] border-[#1C1C1C] rounded-[14px] md:rounded-[15px] xl:rounded-[18px] mt-[8px] lg:hover:text-white lg:hover:bg-[#2A3041] duration-300" onclick="openTab(event, 'Tab6')"><span class="correction">iSales</span></button>
+            <button class="tablinks text-14 leading-14 xl:text-16 xl:leading-16 text-[#2A3041] font-medium md:min-w-[130px] h-[43px] px-[20px] border-[1px] border-[#1C1C1C] rounded-[14px] md:rounded-[15px] xl:rounded-[18px] mt-[8px] lg:hover:text-white lg:hover:bg-[#2A3041] duration-300" onclick="openTab(event, 'Tab7')"><span class="correction">iTrack</span></button>
          </div>
 
          <div class="container mt-[30px] md:mt-[60px] lg:mt-[90px] xl:mt-[80px]">
@@ -120,7 +118,7 @@
                         </div>
                      </div>
                      <!-- EINDE ACCORDION -->
-                     <a href="" class="text-14 leading-14 xl:text-16 xl:leading-16 text-[#2A3041] font-medium md:min-w-[130px] h-[43px] px-[20px] border-[1px] border-[#1C1C1C] rounded-[14px] md:rounded-[15px] xl:rounded-[18px] mt-[30px] md:mt-[40px] lg:mt-[60px] xl:mt-[50px] lg:hover:text-white lg:hover:bg-[#2A3041] duration-300 flex items-center justify-center w-fit">Download technical details</a>
+                     <a href="" class="text-14 leading-14 xl:text-16 xl:leading-16 text-[#2A3041] font-medium md:min-w-[130px] h-[43px] px-[20px] border-[1px] border-[#1C1C1C] rounded-[14px] md:rounded-[15px] xl:rounded-[18px] mt-[30px] md:mt-[40px] lg:mt-[60px] xl:mt-[50px] lg:hover:text-white lg:hover:bg-[#2A3041] duration-300 flex items-center justify-center w-fit"><span class="correction">Download technical details</span></a>
 
                   </div>
                   <div class="w-[350px] md:w-[509px] lg:w-[590px] xl:w-[713px] mx-auto lg:mx-[unset] h-[197px] md:h-[286px] lg:h-[332px] xl:h-[400px] bg-black mt-[30px] md:mt-[40px] lg:mt-[unset] rounded-[40px] overflow-hidden item-shadow zoom-in zoom-in">
@@ -178,7 +176,7 @@
                         </div>
                      </div>
                      <!-- EINDE ACCORDION -->
-                     <a href="" class="text-14 leading-14 xl:text-16 xl:leading-16 text-[#2A3041] font-medium md:min-w-[130px] h-[43px] px-[20px] border-[1px] border-[#1C1C1C] rounded-[14px] md:rounded-[15px] xl:rounded-[18px] mt-[30px] md:mt-[40px] lg:mt-[60px] xl:mt-[50px] lg:hover:text-white lg:hover:bg-[#2A3041] duration-300 flex items-center justify-center w-fit">Download technical details</a>
+                     <a href="" class="text-14 leading-14 xl:text-16 xl:leading-16 text-[#2A3041] font-medium md:min-w-[130px] h-[43px] px-[20px] border-[1px] border-[#1C1C1C] rounded-[14px] md:rounded-[15px] xl:rounded-[18px] mt-[30px] md:mt-[40px] lg:mt-[60px] xl:mt-[50px] lg:hover:text-white lg:hover:bg-[#2A3041] duration-300 flex items-center justify-center w-fit"><span class="correction">Download technical details</span></a>
 
                   </div>
                   <div class="w-[350px] md:w-[509px] lg:w-[590px] xl:w-[713px] mx-auto lg:mx-[unset] h-[197px] md:h-[286px] lg:h-[332px] xl:h-[400px] bg-black mt-[30px] md:mt-[40px] lg:mt-[unset] rounded-[40px] overflow-hidden item-shadow zoom-in">
@@ -236,7 +234,7 @@
                         </div>
                      </div>
                      <!-- EINDE ACCORDION -->
-                     <a href="" class="text-14 leading-14 xl:text-16 xl:leading-16 text-[#2A3041] font-medium md:min-w-[130px] h-[43px] px-[20px] border-[1px] border-[#1C1C1C] rounded-[14px] md:rounded-[15px] xl:rounded-[18px] mt-[30px] md:mt-[40px] lg:mt-[60px] xl:mt-[50px] lg:hover:text-white lg:hover:bg-[#2A3041] duration-300 flex items-center justify-center w-fit">Download technical details</a>
+                     <a href="" class="text-14 leading-14 xl:text-16 xl:leading-16 text-[#2A3041] font-medium md:min-w-[130px] h-[43px] px-[20px] border-[1px] border-[#1C1C1C] rounded-[14px] md:rounded-[15px] xl:rounded-[18px] mt-[30px] md:mt-[40px] lg:mt-[60px] xl:mt-[50px] lg:hover:text-white lg:hover:bg-[#2A3041] duration-300 flex items-center justify-center w-fit"><span class="correction">Download technical details</span></a>
 
                   </div>
                   <div class="w-[350px] md:w-[509px] lg:w-[590px] xl:w-[713px] mx-auto lg:mx-[unset] h-[197px] md:h-[286px] lg:h-[332px] xl:h-[400px] bg-black mt-[30px] md:mt-[40px] lg:mt-[unset] rounded-[40px] overflow-hidden item-shadow zoom-in">
@@ -294,7 +292,7 @@
                         </div>
                      </div>
                      <!-- EINDE ACCORDION -->
-                     <a href="" class="text-14 leading-14 xl:text-16 xl:leading-16 text-[#2A3041] font-medium md:min-w-[130px] h-[43px] px-[20px] border-[1px] border-[#1C1C1C] rounded-[14px] md:rounded-[15px] xl:rounded-[18px] mt-[30px] md:mt-[40px] lg:mt-[60px] xl:mt-[50px] lg:hover:text-white lg:hover:bg-[#2A3041] duration-300 flex items-center justify-center w-fit">Download technical details</a>
+                     <a href="" class="text-14 leading-14 xl:text-16 xl:leading-16 text-[#2A3041] font-medium md:min-w-[130px] h-[43px] px-[20px] border-[1px] border-[#1C1C1C] rounded-[14px] md:rounded-[15px] xl:rounded-[18px] mt-[30px] md:mt-[40px] lg:mt-[60px] xl:mt-[50px] lg:hover:text-white lg:hover:bg-[#2A3041] duration-300 flex items-center justify-center w-fit"><span class="correction">Download technical details</span></a>
 
                   </div>
                   <div class="w-[350px] md:w-[509px] lg:w-[590px] xl:w-[713px] mx-auto lg:mx-[unset] h-[197px] md:h-[286px] lg:h-[332px] xl:h-[400px] bg-black mt-[30px] md:mt-[40px] lg:mt-[unset] rounded-[40px] overflow-hidden item-shadow zoom-in">
@@ -352,7 +350,7 @@
                         </div>
                      </div>
                      <!-- EINDE ACCORDION -->
-                     <a href="" class="text-14 leading-14 xl:text-16 xl:leading-16 text-[#2A3041] font-medium md:min-w-[130px] h-[43px] px-[20px] border-[1px] border-[#1C1C1C] rounded-[14px] md:rounded-[15px] xl:rounded-[18px] mt-[30px] md:mt-[40px] lg:mt-[60px] xl:mt-[50px] lg:hover:text-white lg:hover:bg-[#2A3041] duration-300 flex items-center justify-center w-fit">Download technical details</a>
+                     <a href="" class="text-14 leading-14 xl:text-16 xl:leading-16 text-[#2A3041] font-medium md:min-w-[130px] h-[43px] px-[20px] border-[1px] border-[#1C1C1C] rounded-[14px] md:rounded-[15px] xl:rounded-[18px] mt-[30px] md:mt-[40px] lg:mt-[60px] xl:mt-[50px] lg:hover:text-white lg:hover:bg-[#2A3041] duration-300 flex items-center justify-center w-fit"><span class="correction">Download technical details</span></a>
 
                   </div>
                   <div class="w-[350px] md:w-[509px] lg:w-[590px] xl:w-[713px] mx-auto lg:mx-[unset] h-[197px] md:h-[286px] lg:h-[332px] xl:h-[400px] bg-black mt-[30px] md:mt-[40px] lg:mt-[unset] rounded-[40px] overflow-hidden item-shadow zoom-in">
@@ -410,7 +408,7 @@
                         </div>
                      </div>
                      <!-- EINDE ACCORDION -->
-                     <a href="" class="text-14 leading-14 xl:text-16 xl:leading-16 text-[#2A3041] font-medium md:min-w-[130px] h-[43px] px-[20px] border-[1px] border-[#1C1C1C] rounded-[14px] md:rounded-[15px] xl:rounded-[18px] mt-[30px] md:mt-[40px] lg:mt-[60px] xl:mt-[50px] lg:hover:text-white lg:hover:bg-[#2A3041] duration-300 flex items-center justify-center w-fit">Download technical details</a>
+                     <a href="" class="text-14 leading-14 xl:text-16 xl:leading-16 text-[#2A3041] font-medium md:min-w-[130px] h-[43px] px-[20px] border-[1px] border-[#1C1C1C] rounded-[14px] md:rounded-[15px] xl:rounded-[18px] mt-[30px] md:mt-[40px] lg:mt-[60px] xl:mt-[50px] lg:hover:text-white lg:hover:bg-[#2A3041] duration-300 flex items-center justify-center w-fit"><span class="correction">Download technical details</span></a>
 
                   </div>
                   <div class="w-[350px] md:w-[509px] lg:w-[590px] xl:w-[713px] mx-auto lg:mx-[unset] h-[197px] md:h-[286px] lg:h-[332px] xl:h-[400px] bg-black mt-[30px] md:mt-[40px] lg:mt-[unset] rounded-[40px] overflow-hidden item-shadow zoom-in">
@@ -468,7 +466,7 @@
                         </div>
                      </div>
                      <!-- EINDE ACCORDION -->
-                     <a href="" class="text-14 leading-14 xl:text-16 xl:leading-16 text-[#2A3041] font-medium md:min-w-[130px] h-[43px] px-[20px] border-[1px] border-[#1C1C1C] rounded-[14px] md:rounded-[15px] xl:rounded-[18px] mt-[30px] md:mt-[40px] lg:mt-[60px] xl:mt-[50px] lg:hover:text-white lg:hover:bg-[#2A3041] duration-300 flex items-center justify-center w-fit">Download technical details</a>
+                     <a href="" class="text-14 leading-14 xl:text-16 xl:leading-16 text-[#2A3041] font-medium md:min-w-[130px] h-[43px] px-[20px] border-[1px] border-[#1C1C1C] rounded-[14px] md:rounded-[15px] xl:rounded-[18px] mt-[30px] md:mt-[40px] lg:mt-[60px] xl:mt-[50px] lg:hover:text-white lg:hover:bg-[#2A3041] duration-300 flex items-center justify-center w-fit"><span class="correction">Download technical details</span></a>
 
                   </div>
                   <div class="w-[350px] md:w-[509px] lg:w-[590px] xl:w-[713px] mx-auto lg:mx-[unset] h-[197px] md:h-[286px] lg:h-[332px] xl:h-[400px] bg-black mt-[30px] md:mt-[40px] lg:mt-[unset] rounded-[40px] overflow-hidden item-shadow zoom-in">
@@ -482,7 +480,6 @@
          
       </div>
     </section>
-
 
     <!-- COMPANIES -->
     <section class="bg-gradient-to-b from-white to-[#F6F6F6] py-[60px]">
@@ -712,7 +709,7 @@
         </div>
       <div class="container">
          <a href="" class="text-14 leading-14 xl:text-16 xl:leading-16 text-white font-normal md:min-w-[130px] h-[43px] px-[20px] border-[1px] border-[#1C1C1C] bg-[#2A3041] lg:hover:bg-[#009FE3] lg:hover:border-[#009FE3] duration-300 rounded-[14px] md:rounded-[15px] xl:rounded-[18px] mt-[30px] md:mt-[40px] lg:mt-[60px] xl:mt-[50px] lg:hover:text-white flex items-center justify-center w-fit mx-auto">
-            See more Stories
+            <span class="correction">See more Stories</span>
             <svg id="Group_134" data-name="Group 134" xmlns="http://www.w3.org/2000/svg" width="9.953" height="9.954" viewBox="0 0 9.953 9.954" class="ml-[50px] xl:ml-[30px]">
                <path id="Path_5" data-name="Path 5" d="M1.28,0,0,1.278l6.615.005L7.9,0Z" transform="translate(-0.001 0)" fill="#f6f6f6"/>
                <path id="Path_6" data-name="Path 6" d="M10.942,0,3.051,7.892l.9.9,6.6-6.6V9.954l1.287-1.281V0Z" transform="translate(-1.893 0)" fill="#f6f6f6"/>
@@ -773,7 +770,123 @@
       </div>
     </section>
 
+   <!-- NEWS & EVENTS -->
+   <section class="bg-white pb-[60px]">
+      <div class="container text-center pb-[30px] md:pb-[40px] lg:pb-[40px] xl:pb-[50px]">
+         <h2 class="text-[#2A3041] font-semibold text-32 leading-33 md:text-42 md:leading-43 lg:text-45 lg:leading-47 xl:text-54 xl:leading-56">News & Events</h2>
+      </div>
+      <div class="w-full lg:w-[1129px] xl:w-[1272px] mx-auto">
+          <div class="swiper swipernews pb-[30px] md:pb-[40px] lg:pb-[50px] xl:pb-[50px] lg:px-[5px]">
+            <div class="flex w-full swiper-wrapper">
+               <a href="https://www.iport.aero/news" class="swiper-slide h-[495px] xl:h-[551px] w-[317px] lg:w-full rounded-[40px] item-shadow-news overflow-hidden">
+                  <div class="w-full h-[190px] xl:h-[236px] bg-black overflow-hidden">
+                     <img src="/wp-content/themes/iport/img/local/news1.png" alt="" class="h-full min-w-full min-h-full object-cover object-center">
+                  </div>
+                  <div class="w-[265px] xl:w-[280px] mx-auto h-[200px]">
+                     <div class="w-full h-[31px] flex space-x-[6px] mt-[20px]">
+                        <div class="h-[31px] px-[8px] bg-[#F3C155] flex items-center text-12 leading-12 xl:text-14 xl:leading-14 rounded-[11px] text-white"><span class="correction">#Airlines</span></div>
+                        <div class="h-[31px] px-[8px] bg-[#009FE3] flex items-center text-12 leading-12 xl:text-14 xl:leading-14 rounded-[11px] text-white"><span class="correction">#iPort</span></div>
+                     </div>
+                     <div class="h-[80px] w-full mt-[20px]">
+                        <h3 class="text-18 leading-22 xl:text-22 xl:leading-25 font-medium text-[#000000] line-clamp-3">iPort & PLAY airlines announce a new partnership</h3>
+                     </div>
+                     <div class="h-[60px] w-full mt-[10px]">
+                        <p class="text-14 leading-14 xl:text-16 xl:leading-16 font-normal text-[#000000]">5 september 2024</p>
+                     </div>
+                     <div class="w-full">
+                         <div id="button" class="text-14 leading-14 xl:text-16 xl:leading-16 text-[#203145] font-normal md:min-w-[130px] h-[43px] px-[20px] border-[1px] border-[#1C1C1C]  lg:hover:bg-[#F6F6F6] duration-300 rounded-[14px] md:rounded-[15px] xl:rounded-[18px] flex items-center justify-between w-[237px] xl:w-[272px] mt-[10px]">
+                           <span class="correction">Read more</span>
+                           <svg id="Group_134" data-name="Group 134" xmlns="http://www.w3.org/2000/svg" width="9.953" height="9.954" viewBox="0 0 9.953 9.954" class="ml-[50px] xl:ml-[30px]">
+                              <path id="Path_5" data-name="Path 5" d="M1.28,0,0,1.278l6.615.005L7.9,0Z" transform="translate(-0.001 0)" fill="#203145"/>
+                              <path id="Path_6" data-name="Path 6" d="M10.942,0,3.051,7.892l.9.9,6.6-6.6V9.954l1.287-1.281V0Z" transform="translate(-1.893 0)" fill="#203145"/>
+                           </svg>
+                        </div>
+                     </div>
+                  </div>
+               </a>
 
+               <a href="https://www.iport.aero/news" class="swiper-slide h-[495px] xl:h-[551px] w-[317px] lg:w-full rounded-[40px] item-shadow-news overflow-hidden">
+                  <div class="w-full h-[190px] xl:h-[236px] bg-black overflow-hidden">
+                     <img src="/wp-content/themes/iport/img/local/news2.png" alt="" class="h-full min-w-full min-h-full object-cover object-center">
+                  </div>
+                  <div class="w-[265px] xl:w-[280px] mx-auto h-[200px]">
+                     <div class="w-full h-[31px] flex space-x-[6px] mt-[20px]">
+                        <div class="h-[31px] px-[8px] bg-[#F3C155] flex items-center text-12 leading-12 xl:text-14 xl:leading-14 rounded-[11px] text-white"><span class="correction">#Airlines</span></div>
+                        <div class="h-[31px] px-[8px] bg-[#1B3247] flex items-center text-12 leading-12 xl:text-14 xl:leading-14 rounded-[11px] text-white"><span class="correction">#iPax</span></div>
+                     </div>
+                     <div class="h-[80px] w-full mt-[20px]">
+                        <h3 class="text-18 leading-22 xl:text-22 xl:leading-25 font-medium text-[#000000] line-clamp-3">Vietjet Air Thailand has gone live with iPax in Krabi</h3>
+                     </div>
+                     <div class="h-[60px] w-full mt-[10px]">
+                        <p class="text-14 leading-14 xl:text-16 xl:leading-16 font-normal text-[#000000]">15 august 2024</p>
+                     </div>
+                     <div class="w-full">
+                         <div id="button" class="text-14 leading-14 xl:text-16 xl:leading-16 text-[#203145] font-normal md:min-w-[130px] h-[43px] px-[20px] border-[1px] border-[#1C1C1C]  lg:hover:bg-[#F6F6F6] duration-300 rounded-[14px] md:rounded-[15px] xl:rounded-[18px] flex items-center justify-between w-[237px] xl:w-[272px] mt-[10px]">
+                           <span class="correction">Read more</span>
+                           <svg id="Group_134" data-name="Group 134" xmlns="http://www.w3.org/2000/svg" width="9.953" height="9.954" viewBox="0 0 9.953 9.954" class="ml-[50px] xl:ml-[30px]">
+                              <path id="Path_5" data-name="Path 5" d="M1.28,0,0,1.278l6.615.005L7.9,0Z" transform="translate(-0.001 0)" fill="#203145"/>
+                              <path id="Path_6" data-name="Path 6" d="M10.942,0,3.051,7.892l.9.9,6.6-6.6V9.954l1.287-1.281V0Z" transform="translate(-1.893 0)" fill="#203145"/>
+                           </svg>
+                        </div>
+                     </div>
+                  </div>
+               </a>
+
+               <a href="https://www.iport.aero/news" class="swiper-slide h-[495px] xl:h-[551px] w-[317px] lg:w-full rounded-[40px] item-shadow-news overflow-hidden">
+                  <div class="w-full h-[190px] xl:h-[236px] bg-black overflow-hidden">
+                     <img src="/wp-content/themes/iport/img/local/news3.png" alt="" class="h-full min-w-full min-h-full object-cover object-center">
+                  </div>
+                  <div class="w-[265px] xl:w-[280px] mx-auto h-[200px]">
+                     <div class="w-full h-[31px] flex space-x-[6px] mt-[20px]">
+                        <div class="h-[31px] px-[8px] bg-[#F3C155] flex items-center text-12 leading-12 xl:text-14 xl:leading-14 rounded-[11px] text-white"><span class="correction">#Airlines</span></div>
+                        <div class="h-[31px] px-[8px] bg-[#009FE3] flex items-center text-12 leading-12 xl:text-14 xl:leading-14 rounded-[11px] text-white"><span class="correction">#iPortDCS</span></div>
+                     </div>
+                     <div class="h-[80px] w-full mt-[20px]">
+                        <h3 class="text-18 leading-22 xl:text-22 xl:leading-25 font-medium text-[#000000] line-clamp-3">Thai Vietjet chooses iPort Departure Control System powered by Travelport and Res2</h3>
+                     </div>
+                     <div class="h-[60px] w-full mt-[10px]">
+                        <p class="text-14 leading-14 xl:text-16 xl:leading-16 font-normal text-[#000000]">10 october 2023</p>
+                     </div>
+                     <div class="w-full">
+                         <div id="button" class="text-14 leading-14 xl:text-16 xl:leading-16 text-[#203145] font-normal md:min-w-[130px] h-[43px] px-[20px] border-[1px] border-[#1C1C1C]  lg:hover:bg-[#F6F6F6] duration-300 rounded-[14px] md:rounded-[15px] xl:rounded-[18px] flex items-center justify-between w-[237px] xl:w-[272px] mt-[10px]">
+                           <span class="correction">Read more</span>
+                           <svg id="Group_134" data-name="Group 134" xmlns="http://www.w3.org/2000/svg" width="9.953" height="9.954" viewBox="0 0 9.953 9.954" class="ml-[50px] xl:ml-[30px]">
+                              <path id="Path_5" data-name="Path 5" d="M1.28,0,0,1.278l6.615.005L7.9,0Z" transform="translate(-0.001 0)" fill="#203145"/>
+                              <path id="Path_6" data-name="Path 6" d="M10.942,0,3.051,7.892l.9.9,6.6-6.6V9.954l1.287-1.281V0Z" transform="translate(-1.893 0)" fill="#203145"/>
+                           </svg>
+                        </div>
+                     </div>
+                  </div>
+               </a>
+            </div>
+            <div class="swiper-pagination bottom-[0px]"></div>
+         </div>
+      </div>
+      <div class="container mt-[30px] md:mt-[40px] lg:mt-[unset]">
+         <a href="https://www.iport.aero/news" class="text-14 leading-14 xl:text-16 xl:leading-16 text-white font-normal md:min-w-[130px] h-[43px] px-[20px] border-[1px] border-[#1C1C1C] bg-[#2A3041] lg:hover:bg-[#009FE3] lg:hover:border-[#009FE3] duration-300 rounded-[14px] md:rounded-[15px] xl:rounded-[18px] lg:hover:text-white flex items-center justify-center w-fit mx-auto">
+            <span class="correction">More news & events</span>
+            <svg id="Group_134" data-name="Group 134" xmlns="http://www.w3.org/2000/svg" width="9.953" height="9.954" viewBox="0 0 9.953 9.954" class="ml-[50px] xl:ml-[30px]">
+               <path id="Path_5" data-name="Path 5" d="M1.28,0,0,1.278l6.615.005L7.9,0Z" transform="translate(-0.001 0)" fill="#f6f6f6"/>
+               <path id="Path_6" data-name="Path 6" d="M10.942,0,3.051,7.892l.9.9,6.6-6.6V9.954l1.287-1.281V0Z" transform="translate(-1.893 0)" fill="#f6f6f6"/>
+            </svg>
+         </a>
+      </div>
+   </section>
+
+   <!-- CONTACT -->
+    <section class="bg-[#F6F6F6] py-[60px]">
+      <div class="container lg:flex justify-between">
+         <div class="w-full md:w-[558px] mb-[25px]">
+            <h2 class="text-25 leading-30 md:text-36 md:leading-37 lg:text-38 lg:leading-39 xl:text-40 xl:leading-41 font-semibold text-[#203145]">Over <span id="count" data-target="150" class="w-[40.61px] md:w-[61.72px] lg:w-[61.72px] xl:w-[64.97px] text-right inline-block">0</span> companies use iPort everyday. <br class="md:hidden">Join them.</h2>
+         </div>
+         <div class="w-full md:w-[558px] lg:w-[503px] xl:mr-[60px] contact-form">
+            <h3 class="text-18 leading-25 md:text-22 md:leading-30 xl:text-25 xl:leading-30 font-medium text-[#203145] mb-[20px]">Fill out the form and we’ll get in touch</h3>
+            <?php echo do_shortcode('[gravityform id="1" title="false"]'); ?>
+         </div>
+
+      </div>
+
+    </section>
 
 
 

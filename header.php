@@ -44,7 +44,7 @@
              </div>
         </div>
         <div class="w-[250px] md:w-[230px] lg:w-[160px] xl:w-[170px] flex items-center justify-end">
-            <a href="" id="talk" class="h-[35px] md:h-[37px] xl:h-[43px] flex items-center lg:text-14 lg:leading-14 xl:text-16 xl:leading-16 text-[#009FE3] border-[1px] border-[#009FE3] px-[20px] rounded-[14px] md:rounded-[15px] xl:rounded-[18px]">Talk to us 
+            <a href="" id="talk" class="h-[35px] md:h-[37px] xl:h-[43px] flex items-center lg:text-14 lg:leading-14 xl:text-16 xl:leading-16 text-[#009FE3] border-[1px] border-[#009FE3] px-[20px] rounded-[14px] md:rounded-[15px] xl:rounded-[18px]"><span class="correction">Talk to us</span> 
                 <svg id="Group_5" data-name="Group 5" xmlns="http://www.w3.org/2000/svg" width="10.955" height="10.955" viewBox="0 0 10.955 10.955" class="ml-[20px] lg:ml-[35px] xl:ml-[40px]">
                     <path id="Path_5" data-name="Path 5" d="M1.409,0,0,1.407l7.281.006L8.694,0Z" transform="translate(-0.001 0)" fill="#009fe3"/>
                     <path id="Path_6" data-name="Path 6" d="M11.737,0,3.051,8.686l.994.994,7.269-7.269v8.544l1.417-1.41V0Z" transform="translate(-1.776 0)" fill="#009fe3"/>
@@ -99,7 +99,7 @@
             </div>
             <hr class="border-[#F4F4F5]">
             <div class="container mt-[40px]">
-                <a href="" class="h-[35px] md:h-[37px] xl:h-[43px] flex items-center lg:text-14 lg:leading-14 xl:text-16 xl:leading-16 text-[#fff] border-[1px] border-[#009FE3] bg-[#009FE3] px-[20px] rounded-[14px] md:rounded-[15px] xl:rounded-[18px] w-fit">Talk to us 
+                <a href="" class="h-[35px] md:h-[37px] xl:h-[43px] flex items-center lg:text-14 lg:leading-14 xl:text-16 xl:leading-16 text-[#fff] border-[1px] border-[#009FE3] bg-[#009FE3] px-[20px] rounded-[14px] md:rounded-[15px] xl:rounded-[18px] w-fit"><span class="correction">Talk to us</span> 
                     <svg id="Group_5" data-name="Group 5" xmlns="http://www.w3.org/2000/svg" width="10.955" height="10.955" viewBox="0 0 10.955 10.955" class="ml-[40px]">
                         <path id="Path_5" data-name="Path 5" d="M1.409,0,0,1.407l7.281.006L8.694,0Z" transform="translate(-0.001 0)" fill="#fff"/>
                         <path id="Path_6" data-name="Path 6" d="M11.737,0,3.051,8.686l.994.994,7.269-7.269v8.544l1.417-1.41V0Z" transform="translate(-1.776 0)" fill="#fff"/>

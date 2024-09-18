@@ -87,6 +87,39 @@ try {
     });
 } catch (error) { }
 
+try {
+    var swiperNews = new Swiper(".swipernews", {
+        slidesPerView: "auto",
+        centeredSlides: true,
+        initialSlide: 1,
+        spaceBetween: 18,
+        lazy: false,
+        breakpoints: {
+            640: {
+                slidesPerView: "auto",
+                centeredSlides: true,
+                initialSlide: 1,
+                spaceBetween: 18,
+            },
+            768: {
+                slidesPerView: "auto",
+                centeredSlides: true,
+                initialSlide: 1,
+                spaceBetween: 40,
+            },
+            1200: {
+                slidesPerView: 3,
+                centeredSlides: false,
+                initialSlide: 1,
+                spaceBetween: 60,
+            },
+        },
+        pagination: {
+            el: ".swiper-pagination",
+        },
+    });
+} catch (error) { }
+
 
 try {
     // Selecteer alle buttons met de class 'location'
@@ -195,4 +228,49 @@ try {
         }
     });
 } catch (error) { }
+
+
+try {
+    document.addEventListener('DOMContentLoaded', function () {
+        // Selecteer het element dat je wilt animeren
+        const counter = document.querySelector('#count');
+        const targetNumber = parseInt(counter.getAttribute('data-target')); // Het doelgetal (150)
+        const duration = 2000; // De duur van de animatie in milliseconden
+
+        // Functie om het getal geleidelijk te laten oplopen
+        const countUp = (element, target, duration) => {
+            let start = 0;
+            let increment = target / (duration / 16); // Hoeveel we per frame verhogen (ongeveer 60 fps)
+
+            const updateCounter = () => {
+                start += increment;
+                if (start < target) {
+                    element.innerText = Math.ceil(start);
+                    requestAnimationFrame(updateCounter);
+                } else {
+                    element.innerText = target; // Zorg ervoor dat het eindgetal precies bereikt wordt
+                }
+            };
+
+            requestAnimationFrame(updateCounter);
+        };
+
+        // Maak een Intersection Observer om te detecteren wanneer het element in beeld komt
+        const observer = new IntersectionObserver((entries, observer) => {
+            entries.forEach(entry => {
+                if (entry.isIntersecting) {
+                    countUp(counter, targetNumber, duration);
+                    observer.unobserve(entry.target); // Stop met observeren nadat het getal is opgelopen
+                }
+            });
+        }, {
+            threshold: 0.5 // Start de animatie wanneer minstens 50% van het element zichtbaar is
+        });
+
+        // Observeer het element
+        observer.observe(counter);
+    });
+} catch (error) { }
+
+
 
