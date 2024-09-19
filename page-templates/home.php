@@ -80,7 +80,7 @@
                         </button>
                         <div class="panel">
                               <div class="pr-[15px] pb-[20px] xl:pb-[20px]">
-                                 <div class="text-[#203145] text-12 leading-22 md:text-14 md:leading-25 xl:text-16 xl:leading-30 font-normal w-full text-editor">Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores </div>
+                                 <div class="text-[#203145] text-12 leading-22 md:text-14 md:leading-25 xl:text-16 xl:leading-30 font-normal w-full text-editor">An innovative Departure Control System covering a broad functional scope. CUTE & CUPPS certified, ready to operate on all common-use platforms worldwide. A proven stable web-based solution, running on hundreds of airports and compatible with any reservation or order management system.</div>
                               </div>
                         </div>
                      </div>
@@ -91,7 +91,7 @@
                         </button>
                         <div class="panel">
                               <div class="pr-[15px] pb-[20px] xl:pb-[20px]">
-                                 <div class="text-[#203145] text-12 leading-22 md:text-14 md:leading-25 xl:text-16 xl:leading-30 font-normal w-full text-editor">Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. </div>
+                                 <div class="text-[#203145] text-12 leading-22 md:text-14 md:leading-25 xl:text-16 xl:leading-30 font-normal w-full text-editor">Because of the up-time, the intuitive interface, the global coverage, connectivity and government messaging. Because we arrange the security messaging certifications (e.g. APIS, APP), the airport connectivity, system installation, platform certifications, system updates and more for you.</div>
                               </div>
                         </div>
                      </div>
@@ -102,18 +102,18 @@
                         </button>
                         <div class="panel">
                               <div class="pr-[15px] pb-[20px] xl:pb-[20px]">
-                                 <div class="text-[#203145] text-12 leading-22 md:text-14 md:leading-25 xl:text-16 xl:leading-30 font-normal w-full text-editor">Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. </div>
+                                 <div class="text-[#203145] text-12 leading-22 md:text-14 md:leading-25 xl:text-16 xl:leading-30 font-normal w-full text-editor">iPort DCS covers all functionality regarding check-in and boarding, including security messaging capabilities (e.g. APIS, APP), e-ticket updates, through check-in, travel document checks, IROPS management, departure messaging, advanced reporting and much more.</div>
                               </div>
                         </div>
                      </div>
 
                      <div class="accordion-item"> 
                         <button class="accordion text-[#203145] font-medium text-12 leading-13 md:text-15 md:leading-16 xl:text-18 xl:leading-19 py-[20px] xl:py-[20px]">
-                              <span class="pr-4">Technical details</span>
+                              <span class="pr-4">Integrations</span>
                         </button>
                         <div class="panel">
                               <div class="pr-[15px] pb-[20px] xl:pb-[20px]">
-                                 <div class="text-[#203145] text-12 leading-22 md:text-14 md:leading-25 xl:text-16 xl:leading-30 font-normal w-full text-editor">Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. </div>
+                                 <div class="text-[#203145] text-12 leading-22 md:text-14 md:leading-25 xl:text-16 xl:leading-30 font-normal w-full text-editor">Connect iPort DCS with any airline reservation or OMS, with the airport’s baggage and security check systems, with government applications, with reporting and revenue management systems, with flight planning systems, with cabin crew applications, with other DCSs, with W&B applications, and so on.</div>
                               </div>
                         </div>
                      </div>
@@ -138,7 +138,7 @@
                         </button>
                         <div class="panel">
                               <div class="pr-[15px] pb-[20px] xl:pb-[20px]">
-                                 <div class="text-[#203145] text-12 leading-22 md:text-14 md:leading-25 xl:text-16 xl:leading-30 font-normal w-full text-editor">Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores </div>
+                                 <div class="text-[#203145] text-12 leading-22 md:text-14 md:leading-25 xl:text-16 xl:leading-30 font-normal w-full text-editor">An easy-to-use Load Control solution with resilient safety checks, making it impossible to finish out of trim, or to exceed the limitations of the aircraft. A web-based application, able to run with limited bandwidth. Offered as part of iPort DCS, stand-alone or integrated with another DCS.</div>
                               </div>
                         </div>
                      </div>
@@ -149,7 +149,7 @@
                         </button>
                         <div class="panel">
                               <div class="pr-[15px] pb-[20px] xl:pb-[20px]">
-                                 <div class="text-[#203145] text-12 leading-22 md:text-14 md:leading-25 xl:text-16 xl:leading-30 font-normal w-full text-editor">Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. </div>
+                                 <div class="text-[#203145] text-12 leading-22 md:text-14 md:leading-25 xl:text-16 xl:leading-30 font-normal w-full text-editor">Because the up-time, the intuitive interface that enables a high productivity, the integration capabilities, the broad functionality, the enhanced safety checks, the timestamp logging, the ample reporting possibilities and more.</div>
                               </div>
                         </div>
                      </div>
@@ -160,18 +160,18 @@
                         </button>
                         <div class="panel">
                               <div class="pr-[15px] pb-[20px] xl:pb-[20px]">
-                                 <div class="text-[#203145] text-12 leading-22 md:text-14 md:leading-25 xl:text-16 xl:leading-30 font-normal w-full text-editor">Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. </div>
+                                 <div class="text-[#203145] text-12 leading-22 md:text-14 md:leading-25 xl:text-16 xl:leading-30 font-normal w-full text-editor">iPort W&B covers all functionality for load planning and loadsheet creation, including click-and-drop loading, IATA DG checks, multi-segment flights, load & fuel planning with historical averages, NOTOC issuance, cabin and seat row trimming, EZFW and departure messaging and more.</div>
                               </div>
                         </div>
                      </div>
 
                      <div class="accordion-item"> 
                         <button class="accordion text-[#203145] font-medium text-12 leading-13 md:text-15 md:leading-16 xl:text-18 xl:leading-19 py-[20px] xl:py-[20px]">
-                              <span class="pr-4">Technical details</span>
+                              <span class="pr-4">Integrations</span>
                         </button>
                         <div class="panel">
                               <div class="pr-[15px] pb-[20px] xl:pb-[20px]">
-                                 <div class="text-[#203145] text-12 leading-22 md:text-14 md:leading-25 xl:text-16 xl:leading-30 font-normal w-full text-editor">Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. </div>
+                                 <div class="text-[#203145] text-12 leading-22 md:text-14 md:leading-25 xl:text-16 xl:leading-30 font-normal w-full text-editor">Establish data exchange between iPort W&B and iPort DCS or any other DCS, with flight planning systems, with the aircraft directly over ACARS or with the EFB application, with reporting systems, with cargo systems and more.</div>
                               </div>
                         </div>
                      </div>
@@ -196,7 +196,7 @@
                         </button>
                         <div class="panel">
                               <div class="pr-[15px] pb-[20px] xl:pb-[20px]">
-                                 <div class="text-[#203145] text-12 leading-22 md:text-14 md:leading-25 xl:text-16 xl:leading-30 font-normal w-full text-editor">Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores </div>
+                                 <div class="text-[#203145] text-12 leading-22 md:text-14 md:leading-25 xl:text-16 xl:leading-30 font-normal w-full text-editor">iPort’s web, mobile and kiosk check-in solutions, as well as baggage drop-off. Connect your own applications to the iPort interfaces, or simply activate a portal or application created by our team. Certified and compliant with all self-service standards (CUSS, CUWS and more).</div>
                               </div>
                         </div>
                      </div>
@@ -207,7 +207,7 @@
                         </button>
                         <div class="panel">
                               <div class="pr-[15px] pb-[20px] xl:pb-[20px]">
-                                 <div class="text-[#203145] text-12 leading-22 md:text-14 md:leading-25 xl:text-16 xl:leading-30 font-normal w-full text-editor">Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. </div>
+                                 <div class="text-[#203145] text-12 leading-22 md:text-14 md:leading-25 xl:text-16 xl:leading-30 font-normal w-full text-editor">To create a smooth and pleasant passenger experience, while covering all the operational needs such as security messaging (e.g. iAPI, APP), ancillary sales and seat selection, completely in sync with the airport DCS.</div>
                               </div>
                         </div>
                      </div>
@@ -218,18 +218,18 @@
                         </button>
                         <div class="panel">
                               <div class="pr-[15px] pb-[20px] xl:pb-[20px]">
-                                 <div class="text-[#203145] text-12 leading-22 md:text-14 md:leading-25 xl:text-16 xl:leading-30 font-normal w-full text-editor">Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. </div>
+                                 <div class="text-[#203145] text-12 leading-22 md:text-14 md:leading-25 xl:text-16 xl:leading-30 font-normal w-full text-editor">The Self-Service solutions are branded in the customer identity, support passport data collection and security messaging feeds (e.g. iAPI, APP), seat selection and more. When connecting a own application, the functionality can be offered through a wide range of interfaces.</div>
                               </div>
                         </div>
                      </div>
 
                      <div class="accordion-item"> 
                         <button class="accordion text-[#203145] font-medium text-12 leading-13 md:text-15 md:leading-16 xl:text-18 xl:leading-19 py-[20px] xl:py-[20px]">
-                              <span class="pr-4">Technical details</span>
+                              <span class="pr-4">Integrations</span>
                         </button>
                         <div class="panel">
                               <div class="pr-[15px] pb-[20px] xl:pb-[20px]">
-                                 <div class="text-[#203145] text-12 leading-22 md:text-14 md:leading-25 xl:text-16 xl:leading-30 font-normal w-full text-editor">Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. </div>
+                                 <div class="text-[#203145] text-12 leading-22 md:text-14 md:leading-25 xl:text-16 xl:leading-30 font-normal w-full text-editor">The web & mobile check-in solutions enjoy all integrations that iPort DCS offers, including security messaging (e.g. iAPI, APP), connectivity with the customer payment service provider for sales transactions and more. The kiosk and bag drop solutions support standard protocols such as CUSS and CUWS.</div>
                               </div>
                         </div>
                      </div>
@@ -254,7 +254,7 @@
                         </button>
                         <div class="panel">
                               <div class="pr-[15px] pb-[20px] xl:pb-[20px]">
-                                 <div class="text-[#203145] text-12 leading-22 md:text-14 md:leading-25 xl:text-16 xl:leading-30 font-normal w-full text-editor">Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores </div>
+                                 <div class="text-[#203145] text-12 leading-22 md:text-14 md:leading-25 xl:text-16 xl:leading-30 font-normal w-full text-editor">The mobile application for passenger handling agents, providing them with additional mobile capacity for check-in, connected with Bluetooth boarding pass and bag tag printers, and using the smartphone’s camera for boarding and passport scanning.</div>
                               </div>
                         </div>
                      </div>
@@ -265,7 +265,7 @@
                         </button>
                         <div class="panel">
                               <div class="pr-[15px] pb-[20px] xl:pb-[20px]">
-                                 <div class="text-[#203145] text-12 leading-22 md:text-14 md:leading-25 xl:text-16 xl:leading-30 font-normal w-full text-editor">Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. </div>
+                                 <div class="text-[#203145] text-12 leading-22 md:text-14 md:leading-25 xl:text-16 xl:leading-30 font-normal w-full text-editor">To support when the airport faces congestion at check-in or boarding, or when the airport infrastructure fails. To provide remote check-in and baggage pick-up services at hotels, cruise ships and city locations. To support the operations in charter and ad-hoc operations.</div>
                               </div>
                         </div>
                      </div>
@@ -276,18 +276,18 @@
                         </button>
                         <div class="panel">
                               <div class="pr-[15px] pb-[20px] xl:pb-[20px]">
-                                 <div class="text-[#203145] text-12 leading-22 md:text-14 md:leading-25 xl:text-16 xl:leading-30 font-normal w-full text-editor">Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. </div>
+                                 <div class="text-[#203145] text-12 leading-22 md:text-14 md:leading-25 xl:text-16 xl:leading-30 font-normal w-full text-editor">iPax covers the complete check-in and boarding process, including passport data collection via the smartphone’s camera, security messaging (e.g. iAPI, APP), boarding pass and bag tag printing over Bluetooth, seat selection, SSR changes, different lists and reports and much more.</div>
                               </div>
                         </div>
                      </div>
 
                      <div class="accordion-item"> 
                         <button class="accordion text-[#203145] font-medium text-12 leading-13 md:text-15 md:leading-16 xl:text-18 xl:leading-19 py-[20px] xl:py-[20px]">
-                              <span class="pr-4">Technical details</span>
+                              <span class="pr-4">Integrations</span>
                         </button>
                         <div class="panel">
                               <div class="pr-[15px] pb-[20px] xl:pb-[20px]">
-                                 <div class="text-[#203145] text-12 leading-22 md:text-14 md:leading-25 xl:text-16 xl:leading-30 font-normal w-full text-editor">Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. </div>
+                                 <div class="text-[#203145] text-12 leading-22 md:text-14 md:leading-25 xl:text-16 xl:leading-30 font-normal w-full text-editor">iPax works in-sync with iPort DCS, and enjoys the same integration capabilities, which means it can be connected to any airline reservation or OMS, with the airport’s baggage and security check systems, with government applications, with W&B applications, and more.</div>
                               </div>
                         </div>
                      </div>
@@ -341,7 +341,7 @@
 
                      <div class="accordion-item"> 
                         <button class="accordion text-[#203145] font-medium text-12 leading-13 md:text-15 md:leading-16 xl:text-18 xl:leading-19 py-[20px] xl:py-[20px]">
-                              <span class="pr-4">Technical details</span>
+                              <span class="pr-4">Integrations</span>
                         </button>
                         <div class="panel">
                               <div class="pr-[15px] pb-[20px] xl:pb-[20px]">
@@ -399,7 +399,7 @@
 
                      <div class="accordion-item"> 
                         <button class="accordion text-[#203145] font-medium text-12 leading-13 md:text-15 md:leading-16 xl:text-18 xl:leading-19 py-[20px] xl:py-[20px]">
-                              <span class="pr-4">Technical details</span>
+                              <span class="pr-4">Integrations</span>
                         </button>
                         <div class="panel">
                               <div class="pr-[15px] pb-[20px] xl:pb-[20px]">
@@ -457,7 +457,7 @@
 
                      <div class="accordion-item"> 
                         <button class="accordion text-[#203145] font-medium text-12 leading-13 md:text-15 md:leading-16 xl:text-18 xl:leading-19 py-[20px] xl:py-[20px]">
-                              <span class="pr-4">Technical details</span>
+                              <span class="pr-4">Integrations</span>
                         </button>
                         <div class="panel">
                               <div class="pr-[15px] pb-[20px] xl:pb-[20px]">
@@ -497,14 +497,161 @@
                            <div class="absolute left-[13px] top-[236px] md:top-[236px] lg:top-[237px] xl:top-[267px] h-[18px] w-[13px] bg-kleur z-[3]"></div>
                            <div class="absolute right-[13px] top-[236px] md:top-[236px] lg:top-[237px] xl:top-[267px] h-[18px] w-[13px] bg-kleur z-[3]"></div>
                            <div class="absolute right-[0px] bottom-[0px] w-[80px] h-[50px] xl:h-[60px] xl:w-[90px] bg-kleur rounded-[10px] flex items-center justify-center z-[3]">
-                              <img src="/wp-content/themes/iport/img/local/logo-1.png" alt="" class="merklogo">
+                              <img src="/wp-content/themes/iport/img/local/Afbeelding1.png" alt="" class="merklogo mix-blend-multiply">
                            </div>
                            <div class="content w-[266.15px] h-[417px] md:w-[264.73px] md:h-[416px] xl:h-[476px] xl:w-[302px] bg-white rounded-[10px] mt-[13px] overflow-hidden relative z-[2]">
                               <img src="https://static.wixstatic.com/media/11062b_e0b380678e2746c3bdffa6e1533de45c~mv2.jpg/v1/fill/w_2914,h_1136,al_c,q_90,usm_0.66_1.00_0.01,enc_auto/11062b_e0b380678e2746c3bdffa6e1533de45c~mv2.jpg" alt="" class="h-full min-h-full min-w-full object-cover ocbject-center">
                               <div class="hover-effect">
                                  <div class="h-full w-full flex items-end px-[20px] py-[30px] xl:px-[30px] xl:py-[40px]">
                                     <div class="grid">
-                                       <h3 class="text-white text-12 leading-22 xl:text-14 xl:leading-25 font-semibold">John Dory - CEO Ark Airlines</h3>
+                                       <h3 class="text-white text-12 leading-22 xl:text-14 xl:leading-25 font-semibold">Mohamed Hanno – Executive Chairman & CEO</h3>
+                                       <p class="text-white text-10 leading-22 xl:text-12 xl:leading-25 font-normal">The professionalism and efficiency of iPort's products have significantly improved our operations, leading to a positive impact on our work. The high quality and reliability of their services have been instrumental in streamlining our processes and increasing our overall productivity.</p>
+                                    </div>
+                                 </div>
+                              </div>
+                           </div>
+                        </div>
+                    </div>
+
+                     <div class="flex items-center w-max swiper-slide">
+                        <div class="w-[292.15px] h-[461px] md:w-[290.73px] md:h-[460px] xl:h-[520px] xl:w-[328px] bg-kleur rounded-[15px] flex justify-center items-start relative overflow-hidden">
+                           <div class="absolute left-[13px] top-[236px] md:top-[236px] lg:top-[237px] xl:top-[267px] h-[18px] w-[13px] bg-kleur z-[3]"></div>
+                           <div class="absolute right-[13px] top-[236px] md:top-[236px] lg:top-[237px] xl:top-[267px] h-[18px] w-[13px] bg-kleur z-[3]"></div>
+                           <div class="absolute right-[0px] bottom-[0px] w-[80px] h-[50px] xl:h-[60px] xl:w-[90px] bg-kleur rounded-[10px] flex items-center justify-center z-[3]">
+                              <img src="/wp-content/themes/iport/img/local/Afbeelding2.png" alt="" class="merklogo mix-blend-multiply">
+                           </div>
+                           <div class="content w-[266.15px] h-[417px] md:w-[264.73px] md:h-[416px] xl:h-[476px] xl:w-[302px] bg-white rounded-[10px] mt-[13px] overflow-hidden relative z-[2]">
+                              <img src="https://static.wixstatic.com/media/11062b_e0b380678e2746c3bdffa6e1533de45c~mv2.jpg/v1/fill/w_2914,h_1136,al_c,q_90,usm_0.66_1.00_0.01,enc_auto/11062b_e0b380678e2746c3bdffa6e1533de45c~mv2.jpg" alt="" class="h-full min-h-full min-w-full object-cover ocbject-center">
+                              <div class="hover-effect">
+                                 <div class="h-full w-full flex items-end px-[20px] py-[30px] xl:px-[30px] xl:py-[40px]">
+                                    <div class="grid">
+                                       <h3 class="text-white text-12 leading-22 xl:text-14 xl:leading-25 font-semibold">Enno Friesland – Senior Manager Passenger Services</h3>
+                                       <p class="text-white text-10 leading-22 xl:text-12 xl:leading-25 font-normal">iPort is a versatile DCS, easy-to-use, reliable, extremely stable and very cost efficient. Our agents love it. The support is excellent and calls are answered immediately. All requests and AHM updates are answered very satisfactory in the shortest possible time. We really appreciate the outstanding cooperation we have with all staff from the iPort team. I really can recommend the usage of iPort!</p>
+                                    </div>
+                                 </div>
+                              </div>
+                           </div>
+                        </div>
+                    </div>
+
+                     <div class="flex items-center w-max swiper-slide">
+                        <div class="w-[292.15px] h-[461px] md:w-[290.73px] md:h-[460px] xl:h-[520px] xl:w-[328px] bg-kleur rounded-[15px] flex justify-center items-start relative overflow-hidden">
+                           <div class="absolute left-[13px] top-[236px] md:top-[236px] lg:top-[237px] xl:top-[267px] h-[18px] w-[13px] bg-kleur z-[3]"></div>
+                           <div class="absolute right-[13px] top-[236px] md:top-[236px] lg:top-[237px] xl:top-[267px] h-[18px] w-[13px] bg-kleur z-[3]"></div>
+                           <div class="absolute right-[0px] bottom-[0px] w-[80px] h-[50px] xl:h-[60px] xl:w-[90px] bg-kleur rounded-[10px] flex items-center justify-center z-[3]">
+                              <img src="/wp-content/themes/iport/img/local/Afbeelding3.png" alt="" class="merklogo mix-blend-multiply">
+                           </div>
+                           <div class="content w-[266.15px] h-[417px] md:w-[264.73px] md:h-[416px] xl:h-[476px] xl:w-[302px] bg-white rounded-[10px] mt-[13px] overflow-hidden relative z-[2]">
+                              <img src="https://static.wixstatic.com/media/11062b_e0b380678e2746c3bdffa6e1533de45c~mv2.jpg/v1/fill/w_2914,h_1136,al_c,q_90,usm_0.66_1.00_0.01,enc_auto/11062b_e0b380678e2746c3bdffa6e1533de45c~mv2.jpg" alt="" class="h-full min-h-full min-w-full object-cover ocbject-center">
+                              <div class="hover-effect">
+                                 <div class="h-full w-full flex items-end px-[20px] py-[30px] xl:px-[30px] xl:py-[40px]">
+                                    <div class="grid">
+                                       <h3 class="text-white text-12 leading-22 xl:text-14 xl:leading-25 font-semibold">Chaipat Supasi – Director of Ground Operations</h3>
+                                       <p class="text-white text-10 leading-22 xl:text-12 xl:leading-25 font-normal">iPax by iPort has revolutionized our boarding process in Krabi. On its first use, we achieved the fastest boarding time ever recorded here. This mobile agent DCS has not only improved our operational efficiency by also significantly enhanced the passenger experience. We are thrilled with the results and the future potential of iPax. </p>
+                                    </div>
+                                 </div>
+                              </div>
+                           </div>
+                        </div>
+                    </div>
+
+                     <div class="flex items-center w-max swiper-slide">
+                        <div class="w-[292.15px] h-[461px] md:w-[290.73px] md:h-[460px] xl:h-[520px] xl:w-[328px] bg-kleur rounded-[15px] flex justify-center items-start relative overflow-hidden">
+                           <div class="absolute left-[13px] top-[236px] md:top-[236px] lg:top-[237px] xl:top-[267px] h-[18px] w-[13px] bg-kleur z-[3]"></div>
+                           <div class="absolute right-[13px] top-[236px] md:top-[236px] lg:top-[237px] xl:top-[267px] h-[18px] w-[13px] bg-kleur z-[3]"></div>
+                           <div class="absolute right-[0px] bottom-[0px] w-[80px] h-[50px] xl:h-[60px] xl:w-[90px] bg-kleur rounded-[10px] flex items-center justify-center z-[3]">
+                              <img src="/wp-content/themes/iport/img/local/Afbeelding4.png" alt="" class="merklogo mix-blend-multiply">
+                           </div>
+                           <div class="content w-[266.15px] h-[417px] md:w-[264.73px] md:h-[416px] xl:h-[476px] xl:w-[302px] bg-white rounded-[10px] mt-[13px] overflow-hidden relative z-[2]">
+                              <img src="https://static.wixstatic.com/media/11062b_e0b380678e2746c3bdffa6e1533de45c~mv2.jpg/v1/fill/w_2914,h_1136,al_c,q_90,usm_0.66_1.00_0.01,enc_auto/11062b_e0b380678e2746c3bdffa6e1533de45c~mv2.jpg" alt="" class="h-full min-h-full min-w-full object-cover ocbject-center">
+                              <div class="hover-effect">
+                                 <div class="h-full w-full flex items-end px-[20px] py-[30px] xl:px-[30px] xl:py-[40px]">
+                                    <div class="grid">
+                                       <h3 class="text-white text-12 leading-22 xl:text-14 xl:leading-25 font-semibold">Freek van der Pal – Managing Director</h3>
+                                       <p class="text-white text-10 leading-22 xl:text-12 xl:leading-25 font-normal">The iPort Departure Control System is flexible and easy to use. It is innovative and futureproof, which leads to a great customer experience, for the airline, handler and passengers! </p>
+                                    </div>
+                                 </div>
+                              </div>
+                           </div>
+                        </div>
+                    </div>
+
+                     <div class="flex items-center w-max swiper-slide">
+                        <div class="w-[292.15px] h-[461px] md:w-[290.73px] md:h-[460px] xl:h-[520px] xl:w-[328px] bg-kleur rounded-[15px] flex justify-center items-start relative overflow-hidden">
+                           <div class="absolute left-[13px] top-[236px] md:top-[236px] lg:top-[237px] xl:top-[267px] h-[18px] w-[13px] bg-kleur z-[3]"></div>
+                           <div class="absolute right-[13px] top-[236px] md:top-[236px] lg:top-[237px] xl:top-[267px] h-[18px] w-[13px] bg-kleur z-[3]"></div>
+                           <div class="absolute right-[0px] bottom-[0px] w-[80px] h-[50px] xl:h-[60px] xl:w-[90px] bg-kleur rounded-[10px] flex items-center justify-center z-[3]">
+                              <img src="/wp-content/themes/iport/img/local/Afbeelding5.jpg" alt="" class="merklogo mix-blend-multiply">
+                           </div>
+                           <div class="content w-[266.15px] h-[417px] md:w-[264.73px] md:h-[416px] xl:h-[476px] xl:w-[302px] bg-white rounded-[10px] mt-[13px] overflow-hidden relative z-[2]">
+                              <img src="https://static.wixstatic.com/media/11062b_e0b380678e2746c3bdffa6e1533de45c~mv2.jpg/v1/fill/w_2914,h_1136,al_c,q_90,usm_0.66_1.00_0.01,enc_auto/11062b_e0b380678e2746c3bdffa6e1533de45c~mv2.jpg" alt="" class="h-full min-h-full min-w-full object-cover ocbject-center">
+                              <div class="hover-effect">
+                                 <div class="h-full w-full flex items-end px-[20px] py-[30px] xl:px-[30px] xl:py-[40px]">
+                                    <div class="grid">
+                                       <h3 class="text-white text-12 leading-22 xl:text-14 xl:leading-25 font-semibold">Marco Kölsch – Senior Manager Sales</h3>
+                                       <p class="text-white text-10 leading-22 xl:text-12 xl:leading-25 font-normal">In seeking for an innovative and cost-effective Departure Control System that is above all very user-friendly and offers a wide range of services, iPort DCS particularly caught our eye. The contacting, the contract negotiation, the implementation and finally the first handling was very smooth. Our business partners at iPort really do an excellent job in all areas. We are really looking forward to a trustful, reliable and valuable cooperation with iPort and are glad that we can use iPort DCS as our new in-house Departure Control System at Frankfurt Airport. </p>
+                                    </div>
+                                 </div>
+                              </div>
+                           </div>
+                        </div>
+                    </div>
+
+                     <div class="flex items-center w-max swiper-slide">
+                        <div class="w-[292.15px] h-[461px] md:w-[290.73px] md:h-[460px] xl:h-[520px] xl:w-[328px] bg-kleur rounded-[15px] flex justify-center items-start relative overflow-hidden">
+                           <div class="absolute left-[13px] top-[236px] md:top-[236px] lg:top-[237px] xl:top-[267px] h-[18px] w-[13px] bg-kleur z-[3]"></div>
+                           <div class="absolute right-[13px] top-[236px] md:top-[236px] lg:top-[237px] xl:top-[267px] h-[18px] w-[13px] bg-kleur z-[3]"></div>
+                           <div class="absolute right-[0px] bottom-[0px] w-[80px] h-[50px] xl:h-[60px] xl:w-[90px] bg-kleur rounded-[10px] flex items-center justify-center z-[3]">
+                              <img src="/wp-content/themes/iport/img/local/Afbeelding6.jpg" alt="" class="merklogo mix-blend-multiply">
+                           </div>
+                           <div class="content w-[266.15px] h-[417px] md:w-[264.73px] md:h-[416px] xl:h-[476px] xl:w-[302px] bg-white rounded-[10px] mt-[13px] overflow-hidden relative z-[2]">
+                              <img src="https://static.wixstatic.com/media/11062b_e0b380678e2746c3bdffa6e1533de45c~mv2.jpg/v1/fill/w_2914,h_1136,al_c,q_90,usm_0.66_1.00_0.01,enc_auto/11062b_e0b380678e2746c3bdffa6e1533de45c~mv2.jpg" alt="" class="h-full min-h-full min-w-full object-cover ocbject-center ">
+                              <div class="hover-effect">
+                                 <div class="h-full w-full flex items-end px-[20px] py-[30px] xl:px-[30px] xl:py-[40px]">
+                                    <div class="grid">
+                                       <h3 class="text-white text-12 leading-22 xl:text-14 xl:leading-25 font-semibold">Damiano Rosso – NP Ground Operations</h3>
+                                       <p class="text-white text-10 leading-22 xl:text-12 xl:leading-25 font-normal">Thanks to partnering with iPort, our customer experience greatly improved. iPort has provided us savings and simplicity while boosting self-service usage and ancillary sales revenue. </p>
+                                    </div>
+                                 </div>
+                              </div>
+                           </div>
+                        </div>
+                    </div>
+
+                     <div class="flex items-center w-max swiper-slide">
+                        <div class="w-[292.15px] h-[461px] md:w-[290.73px] md:h-[460px] xl:h-[520px] xl:w-[328px] bg-kleur rounded-[15px] flex justify-center items-start relative overflow-hidden">
+                           <div class="absolute left-[13px] top-[236px] md:top-[236px] lg:top-[237px] xl:top-[267px] h-[18px] w-[13px] bg-kleur z-[3]"></div>
+                           <div class="absolute right-[13px] top-[236px] md:top-[236px] lg:top-[237px] xl:top-[267px] h-[18px] w-[13px] bg-kleur z-[3]"></div>
+                           <div class="absolute right-[0px] bottom-[0px] w-[80px] h-[50px] xl:h-[60px] xl:w-[90px] bg-kleur rounded-[10px] flex items-center justify-center z-[3]">
+                              <img src="/wp-content/themes/iport/img/local/Afbeelding7.png" alt="" class="merklogo mix-blend-multiply">
+                           </div>
+                           <div class="content w-[266.15px] h-[417px] md:w-[264.73px] md:h-[416px] xl:h-[476px] xl:w-[302px] bg-white rounded-[10px] mt-[13px] overflow-hidden relative z-[2]">
+                              <img src="https://static.wixstatic.com/media/11062b_e0b380678e2746c3bdffa6e1533de45c~mv2.jpg/v1/fill/w_2914,h_1136,al_c,q_90,usm_0.66_1.00_0.01,enc_auto/11062b_e0b380678e2746c3bdffa6e1533de45c~mv2.jpg" alt="" class="h-full min-h-full min-w-full object-cover ocbject-center">
+                              <div class="hover-effect">
+                                 <div class="h-full w-full flex items-end px-[20px] py-[30px] xl:px-[30px] xl:py-[40px]">
+                                    <div class="grid">
+                                       <h3 class="text-white text-12 leading-22 xl:text-14 xl:leading-25 font-semibold">Carmen López – Managing Director</h3>
+                                       <p class="text-white text-10 leading-22 xl:text-12 xl:leading-25 font-normal">This collaboration with iPort confirms our firm commitment to always offer the most recent advances in technology and innovation. This is why we have chosen to rely on one of the most recognized brands in the industry, which will undoubtedly provide us with its cutting-edge technology and extensive experience. </p>
+                                    </div>
+                                 </div>
+                              </div>
+                           </div>
+                        </div>
+                    </div>
+
+                     <div class="flex items-center w-max swiper-slide">
+                        <div class="w-[292.15px] h-[461px] md:w-[290.73px] md:h-[460px] xl:h-[520px] xl:w-[328px] bg-kleur rounded-[15px] flex justify-center items-start relative overflow-hidden">
+                           <div class="absolute left-[13px] top-[236px] md:top-[236px] lg:top-[237px] xl:top-[267px] h-[18px] w-[13px] bg-kleur z-[3]"></div>
+                           <div class="absolute right-[13px] top-[236px] md:top-[236px] lg:top-[237px] xl:top-[267px] h-[18px] w-[13px] bg-kleur z-[3]"></div>
+                           <div class="absolute right-[0px] bottom-[0px] w-[80px] h-[50px] xl:h-[60px] xl:w-[90px] bg-kleur rounded-[10px] flex items-center justify-center z-[3]">
+                              <img src="/wp-content/themes/iport/img/local/Afbeelding8.png" alt="" class="merklogo mix-blend-multiply">
+                           </div>
+                           <div class="content w-[266.15px] h-[417px] md:w-[264.73px] md:h-[416px] xl:h-[476px] xl:w-[302px] bg-white rounded-[10px] mt-[13px] overflow-hidden relative z-[2]">
+                              <img src="https://static.wixstatic.com/media/11062b_e0b380678e2746c3bdffa6e1533de45c~mv2.jpg/v1/fill/w_2914,h_1136,al_c,q_90,usm_0.66_1.00_0.01,enc_auto/11062b_e0b380678e2746c3bdffa6e1533de45c~mv2.jpg" alt="" class="h-full min-h-full min-w-full object-cover ocbject-center">
+                              <div class="hover-effect">
+                                 <div class="h-full w-full flex items-end px-[20px] py-[30px] xl:px-[30px] xl:py-[40px]">
+                                    <div class="grid">
+                                       <h3 class="text-white text-12 leading-22 xl:text-14 xl:leading-25 font-semibold">Farnush Anwar – Manager Airport Systems & Automation</h3>
                                        <p class="text-white text-10 leading-22 xl:text-12 xl:leading-25 font-normal">Lorem ipsum dolor sit amet, <br>consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. </p>
                                     </div>
                                  </div>
@@ -518,15 +665,15 @@
                            <div class="absolute left-[13px] top-[236px] md:top-[236px] lg:top-[237px] xl:top-[267px] h-[18px] w-[13px] bg-kleur z-[3]"></div>
                            <div class="absolute right-[13px] top-[236px] md:top-[236px] lg:top-[237px] xl:top-[267px] h-[18px] w-[13px] bg-kleur z-[3]"></div>
                            <div class="absolute right-[0px] bottom-[0px] w-[80px] h-[50px] xl:h-[60px] xl:w-[90px] bg-kleur rounded-[10px] flex items-center justify-center z-[3]">
-                              <img src="/wp-content/themes/iport/img/local/logo-1.png" alt="" class="merklogo">
+                              <img src="/wp-content/themes/iport/img/local/Afbeelding9.png" alt="" class="merklogo mix-blend-multiply">
                            </div>
                            <div class="content w-[266.15px] h-[417px] md:w-[264.73px] md:h-[416px] xl:h-[476px] xl:w-[302px] bg-white rounded-[10px] mt-[13px] overflow-hidden relative z-[2]">
                               <img src="https://static.wixstatic.com/media/11062b_e0b380678e2746c3bdffa6e1533de45c~mv2.jpg/v1/fill/w_2914,h_1136,al_c,q_90,usm_0.66_1.00_0.01,enc_auto/11062b_e0b380678e2746c3bdffa6e1533de45c~mv2.jpg" alt="" class="h-full min-h-full min-w-full object-cover ocbject-center">
                               <div class="hover-effect">
                                  <div class="h-full w-full flex items-end px-[20px] py-[30px] xl:px-[30px] xl:py-[40px]">
                                     <div class="grid">
-                                       <h3 class="text-white text-12 leading-22 xl:text-14 xl:leading-25 font-semibold">John Dory - CEO Ark Airlines</h3>
-                                       <p class="text-white text-10 leading-22 xl:text-12 xl:leading-25 font-normal">Lorem ipsum dolor sit amet, <br>consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. </p>
+                                       <h3 class="text-white text-12 leading-22 xl:text-14 xl:leading-25 font-semibold">Yerzhan Tolegenov – Operations Director</h3>
+                                       <p class="text-white text-10 leading-22 xl:text-12 xl:leading-25 font-normal">Qanot Sharq is very happy with the collaboration of iPort DCS: rapid and efficient training program, reactive, understanding, and flexible support team, and finally, technical aptitude that meets our business objectives in a timely and cost-effective manner. We can focus on our business and ‘customer happiness’ while iPort contributes to our operational efficiencies and required technical reactivity for growth </p>
                                     </div>
                                  </div>
                               </div>
@@ -534,174 +681,7 @@
                         </div>
                     </div>
 
-                     <div class="flex items-center w-max swiper-slide">
-                        <div class="w-[292.15px] h-[461px] md:w-[290.73px] md:h-[460px] xl:h-[520px] xl:w-[328px] bg-kleur rounded-[15px] flex justify-center items-start relative overflow-hidden">
-                           <div class="absolute left-[13px] top-[236px] md:top-[236px] lg:top-[237px] xl:top-[267px] h-[18px] w-[13px] bg-kleur z-[3]"></div>
-                           <div class="absolute right-[13px] top-[236px] md:top-[236px] lg:top-[237px] xl:top-[267px] h-[18px] w-[13px] bg-kleur z-[3]"></div>
-                           <div class="absolute right-[0px] bottom-[0px] w-[80px] h-[50px] xl:h-[60px] xl:w-[90px] bg-kleur rounded-[10px] flex items-center justify-center z-[3]">
-                              <img src="/wp-content/themes/iport/img/local/logo-1.png" alt="" class="merklogo">
-                           </div>
-                           <div class="content w-[266.15px] h-[417px] md:w-[264.73px] md:h-[416px] xl:h-[476px] xl:w-[302px] bg-white rounded-[10px] mt-[13px] overflow-hidden relative z-[2]">
-                              <img src="https://static.wixstatic.com/media/11062b_e0b380678e2746c3bdffa6e1533de45c~mv2.jpg/v1/fill/w_2914,h_1136,al_c,q_90,usm_0.66_1.00_0.01,enc_auto/11062b_e0b380678e2746c3bdffa6e1533de45c~mv2.jpg" alt="" class="h-full min-h-full min-w-full object-cover ocbject-center">
-                              <div class="hover-effect">
-                                 <div class="h-full w-full flex items-end px-[20px] py-[30px] xl:px-[30px] xl:py-[40px]">
-                                    <div class="grid">
-                                       <h3 class="text-white text-12 leading-22 xl:text-14 xl:leading-25 font-semibold">John Dory - CEO Ark Airlines</h3>
-                                       <p class="text-white text-10 leading-22 xl:text-12 xl:leading-25 font-normal">Lorem ipsum dolor sit amet, <br>consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. </p>
-                                    </div>
-                                 </div>
-                              </div>
-                           </div>
-                        </div>
-                    </div>
-
-                     <div class="flex items-center w-max swiper-slide">
-                        <div class="w-[292.15px] h-[461px] md:w-[290.73px] md:h-[460px] xl:h-[520px] xl:w-[328px] bg-kleur rounded-[15px] flex justify-center items-start relative overflow-hidden">
-                           <div class="absolute left-[13px] top-[236px] md:top-[236px] lg:top-[237px] xl:top-[267px] h-[18px] w-[13px] bg-kleur z-[3]"></div>
-                           <div class="absolute right-[13px] top-[236px] md:top-[236px] lg:top-[237px] xl:top-[267px] h-[18px] w-[13px] bg-kleur z-[3]"></div>
-                           <div class="absolute right-[0px] bottom-[0px] w-[80px] h-[50px] xl:h-[60px] xl:w-[90px] bg-kleur rounded-[10px] flex items-center justify-center z-[3]">
-                              <img src="/wp-content/themes/iport/img/local/logo-1.png" alt="" class="merklogo">
-                           </div>
-                           <div class="content w-[266.15px] h-[417px] md:w-[264.73px] md:h-[416px] xl:h-[476px] xl:w-[302px] bg-white rounded-[10px] mt-[13px] overflow-hidden relative z-[2]">
-                              <img src="https://static.wixstatic.com/media/11062b_e0b380678e2746c3bdffa6e1533de45c~mv2.jpg/v1/fill/w_2914,h_1136,al_c,q_90,usm_0.66_1.00_0.01,enc_auto/11062b_e0b380678e2746c3bdffa6e1533de45c~mv2.jpg" alt="" class="h-full min-h-full min-w-full object-cover ocbject-center">
-                              <div class="hover-effect">
-                                 <div class="h-full w-full flex items-end px-[20px] py-[30px] xl:px-[30px] xl:py-[40px]">
-                                    <div class="grid">
-                                       <h3 class="text-white text-12 leading-22 xl:text-14 xl:leading-25 font-semibold">John Dory - CEO Ark Airlines</h3>
-                                       <p class="text-white text-10 leading-22 xl:text-12 xl:leading-25 font-normal">Lorem ipsum dolor sit amet, <br>consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. </p>
-                                    </div>
-                                 </div>
-                              </div>
-                           </div>
-                        </div>
-                    </div>
-
-                     <div class="flex items-center w-max swiper-slide">
-                        <div class="w-[292.15px] h-[461px] md:w-[290.73px] md:h-[460px] xl:h-[520px] xl:w-[328px] bg-kleur rounded-[15px] flex justify-center items-start relative overflow-hidden">
-                           <div class="absolute left-[13px] top-[236px] md:top-[236px] lg:top-[237px] xl:top-[267px] h-[18px] w-[13px] bg-kleur z-[3]"></div>
-                           <div class="absolute right-[13px] top-[236px] md:top-[236px] lg:top-[237px] xl:top-[267px] h-[18px] w-[13px] bg-kleur z-[3]"></div>
-                           <div class="absolute right-[0px] bottom-[0px] w-[80px] h-[50px] xl:h-[60px] xl:w-[90px] bg-kleur rounded-[10px] flex items-center justify-center z-[3]">
-                              <img src="/wp-content/themes/iport/img/local/logo-1.png" alt="" class="merklogo">
-                           </div>
-                           <div class="content w-[266.15px] h-[417px] md:w-[264.73px] md:h-[416px] xl:h-[476px] xl:w-[302px] bg-white rounded-[10px] mt-[13px] overflow-hidden relative z-[2]">
-                              <img src="https://static.wixstatic.com/media/11062b_e0b380678e2746c3bdffa6e1533de45c~mv2.jpg/v1/fill/w_2914,h_1136,al_c,q_90,usm_0.66_1.00_0.01,enc_auto/11062b_e0b380678e2746c3bdffa6e1533de45c~mv2.jpg" alt="" class="h-full min-h-full min-w-full object-cover ocbject-center">
-                              <div class="hover-effect">
-                                 <div class="h-full w-full flex items-end px-[20px] py-[30px] xl:px-[30px] xl:py-[40px]">
-                                    <div class="grid">
-                                       <h3 class="text-white text-12 leading-22 xl:text-14 xl:leading-25 font-semibold">John Dory - CEO Ark Airlines</h3>
-                                       <p class="text-white text-10 leading-22 xl:text-12 xl:leading-25 font-normal">Lorem ipsum dolor sit amet, <br>consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. </p>
-                                    </div>
-                                 </div>
-                              </div>
-                           </div>
-                        </div>
-                    </div>
-
-                     <div class="flex items-center w-max swiper-slide">
-                        <div class="w-[292.15px] h-[461px] md:w-[290.73px] md:h-[460px] xl:h-[520px] xl:w-[328px] bg-kleur rounded-[15px] flex justify-center items-start relative overflow-hidden">
-                           <div class="absolute left-[13px] top-[236px] md:top-[236px] lg:top-[237px] xl:top-[267px] h-[18px] w-[13px] bg-kleur z-[3]"></div>
-                           <div class="absolute right-[13px] top-[236px] md:top-[236px] lg:top-[237px] xl:top-[267px] h-[18px] w-[13px] bg-kleur z-[3]"></div>
-                           <div class="absolute right-[0px] bottom-[0px] w-[80px] h-[50px] xl:h-[60px] xl:w-[90px] bg-kleur rounded-[10px] flex items-center justify-center z-[3]">
-                              <img src="/wp-content/themes/iport/img/local/logo-1.png" alt="" class="merklogo">
-                           </div>
-                           <div class="content w-[266.15px] h-[417px] md:w-[264.73px] md:h-[416px] xl:h-[476px] xl:w-[302px] bg-white rounded-[10px] mt-[13px] overflow-hidden relative z-[2]">
-                              <img src="https://static.wixstatic.com/media/11062b_e0b380678e2746c3bdffa6e1533de45c~mv2.jpg/v1/fill/w_2914,h_1136,al_c,q_90,usm_0.66_1.00_0.01,enc_auto/11062b_e0b380678e2746c3bdffa6e1533de45c~mv2.jpg" alt="" class="h-full min-h-full min-w-full object-cover ocbject-center">
-                              <div class="hover-effect">
-                                 <div class="h-full w-full flex items-end px-[20px] py-[30px] xl:px-[30px] xl:py-[40px]">
-                                    <div class="grid">
-                                       <h3 class="text-white text-12 leading-22 xl:text-14 xl:leading-25 font-semibold">John Dory - CEO Ark Airlines</h3>
-                                       <p class="text-white text-10 leading-22 xl:text-12 xl:leading-25 font-normal">Lorem ipsum dolor sit amet, <br>consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. </p>
-                                    </div>
-                                 </div>
-                              </div>
-                           </div>
-                        </div>
-                    </div>
-
-                     <div class="flex items-center w-max swiper-slide">
-                        <div class="w-[292.15px] h-[461px] md:w-[290.73px] md:h-[460px] xl:h-[520px] xl:w-[328px] bg-kleur rounded-[15px] flex justify-center items-start relative overflow-hidden">
-                           <div class="absolute left-[13px] top-[236px] md:top-[236px] lg:top-[237px] xl:top-[267px] h-[18px] w-[13px] bg-kleur z-[3]"></div>
-                           <div class="absolute right-[13px] top-[236px] md:top-[236px] lg:top-[237px] xl:top-[267px] h-[18px] w-[13px] bg-kleur z-[3]"></div>
-                           <div class="absolute right-[0px] bottom-[0px] w-[80px] h-[50px] xl:h-[60px] xl:w-[90px] bg-kleur rounded-[10px] flex items-center justify-center z-[3]">
-                              <img src="/wp-content/themes/iport/img/local/logo-1.png" alt="" class="merklogo">
-                           </div>
-                           <div class="content w-[266.15px] h-[417px] md:w-[264.73px] md:h-[416px] xl:h-[476px] xl:w-[302px] bg-white rounded-[10px] mt-[13px] overflow-hidden relative z-[2]">
-                              <img src="https://static.wixstatic.com/media/11062b_e0b380678e2746c3bdffa6e1533de45c~mv2.jpg/v1/fill/w_2914,h_1136,al_c,q_90,usm_0.66_1.00_0.01,enc_auto/11062b_e0b380678e2746c3bdffa6e1533de45c~mv2.jpg" alt="" class="h-full min-h-full min-w-full object-cover ocbject-center">
-                              <div class="hover-effect">
-                                 <div class="h-full w-full flex items-end px-[20px] py-[30px] xl:px-[30px] xl:py-[40px]">
-                                    <div class="grid">
-                                       <h3 class="text-white text-12 leading-22 xl:text-14 xl:leading-25 font-semibold">John Dory - CEO Ark Airlines</h3>
-                                       <p class="text-white text-10 leading-22 xl:text-12 xl:leading-25 font-normal">Lorem ipsum dolor sit amet, <br>consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. </p>
-                                    </div>
-                                 </div>
-                              </div>
-                           </div>
-                        </div>
-                    </div>
-
-                     <div class="flex items-center w-max swiper-slide">
-                        <div class="w-[292.15px] h-[461px] md:w-[290.73px] md:h-[460px] xl:h-[520px] xl:w-[328px] bg-kleur rounded-[15px] flex justify-center items-start relative overflow-hidden">
-                           <div class="absolute left-[13px] top-[236px] md:top-[236px] lg:top-[237px] xl:top-[267px] h-[18px] w-[13px] bg-kleur z-[3]"></div>
-                           <div class="absolute right-[13px] top-[236px] md:top-[236px] lg:top-[237px] xl:top-[267px] h-[18px] w-[13px] bg-kleur z-[3]"></div>
-                           <div class="absolute right-[0px] bottom-[0px] w-[80px] h-[50px] xl:h-[60px] xl:w-[90px] bg-kleur rounded-[10px] flex items-center justify-center z-[3]">
-                              <img src="/wp-content/themes/iport/img/local/logo-1.png" alt="" class="merklogo">
-                           </div>
-                           <div class="content w-[266.15px] h-[417px] md:w-[264.73px] md:h-[416px] xl:h-[476px] xl:w-[302px] bg-white rounded-[10px] mt-[13px] overflow-hidden relative z-[2]">
-                              <img src="https://static.wixstatic.com/media/11062b_e0b380678e2746c3bdffa6e1533de45c~mv2.jpg/v1/fill/w_2914,h_1136,al_c,q_90,usm_0.66_1.00_0.01,enc_auto/11062b_e0b380678e2746c3bdffa6e1533de45c~mv2.jpg" alt="" class="h-full min-h-full min-w-full object-cover ocbject-center">
-                              <div class="hover-effect">
-                                 <div class="h-full w-full flex items-end px-[20px] py-[30px] xl:px-[30px] xl:py-[40px]">
-                                    <div class="grid">
-                                       <h3 class="text-white text-12 leading-22 xl:text-14 xl:leading-25 font-semibold">John Dory - CEO Ark Airlines</h3>
-                                       <p class="text-white text-10 leading-22 xl:text-12 xl:leading-25 font-normal">Lorem ipsum dolor sit amet, <br>consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. </p>
-                                    </div>
-                                 </div>
-                              </div>
-                           </div>
-                        </div>
-                    </div>
-
-                     <div class="flex items-center w-max swiper-slide">
-                        <div class="w-[292.15px] h-[461px] md:w-[290.73px] md:h-[460px] xl:h-[520px] xl:w-[328px] bg-kleur rounded-[15px] flex justify-center items-start relative overflow-hidden">
-                           <div class="absolute left-[13px] top-[236px] md:top-[236px] lg:top-[237px] xl:top-[267px] h-[18px] w-[13px] bg-kleur z-[3]"></div>
-                           <div class="absolute right-[13px] top-[236px] md:top-[236px] lg:top-[237px] xl:top-[267px] h-[18px] w-[13px] bg-kleur z-[3]"></div>
-                           <div class="absolute right-[0px] bottom-[0px] w-[80px] h-[50px] xl:h-[60px] xl:w-[90px] bg-kleur rounded-[10px] flex items-center justify-center z-[3]">
-                              <img src="/wp-content/themes/iport/img/local/logo-1.png" alt="" class="merklogo">
-                           </div>
-                           <div class="content w-[266.15px] h-[417px] md:w-[264.73px] md:h-[416px] xl:h-[476px] xl:w-[302px] bg-white rounded-[10px] mt-[13px] overflow-hidden relative z-[2]">
-                              <img src="https://static.wixstatic.com/media/11062b_e0b380678e2746c3bdffa6e1533de45c~mv2.jpg/v1/fill/w_2914,h_1136,al_c,q_90,usm_0.66_1.00_0.01,enc_auto/11062b_e0b380678e2746c3bdffa6e1533de45c~mv2.jpg" alt="" class="h-full min-h-full min-w-full object-cover ocbject-center">
-                              <div class="hover-effect">
-                                 <div class="h-full w-full flex items-end px-[20px] py-[30px] xl:px-[30px] xl:py-[40px]">
-                                    <div class="grid">
-                                       <h3 class="text-white text-12 leading-22 xl:text-14 xl:leading-25 font-semibold">John Dory - CEO Ark Airlines</h3>
-                                       <p class="text-white text-10 leading-22 xl:text-12 xl:leading-25 font-normal">Lorem ipsum dolor sit amet, <br>consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. </p>
-                                    </div>
-                                 </div>
-                              </div>
-                           </div>
-                        </div>
-                    </div>
-
-                     <div class="flex items-center w-max swiper-slide">
-                        <div class="w-[292.15px] h-[461px] md:w-[290.73px] md:h-[460px] xl:h-[520px] xl:w-[328px] bg-kleur rounded-[15px] flex justify-center items-start relative overflow-hidden">
-                           <div class="absolute left-[13px] top-[236px] md:top-[236px] lg:top-[237px] xl:top-[267px] h-[18px] w-[13px] bg-kleur z-[3]"></div>
-                           <div class="absolute right-[13px] top-[236px] md:top-[236px] lg:top-[237px] xl:top-[267px] h-[18px] w-[13px] bg-kleur z-[3]"></div>
-                           <div class="absolute right-[0px] bottom-[0px] w-[80px] h-[50px] xl:h-[60px] xl:w-[90px] bg-kleur rounded-[10px] flex items-center justify-center z-[3]">
-                              <img src="/wp-content/themes/iport/img/local/logo-1.png" alt="" class="merklogo">
-                           </div>
-                           <div class="content w-[266.15px] h-[417px] md:w-[264.73px] md:h-[416px] xl:h-[476px] xl:w-[302px] bg-white rounded-[10px] mt-[13px] overflow-hidden relative z-[2]">
-                              <img src="https://static.wixstatic.com/media/11062b_e0b380678e2746c3bdffa6e1533de45c~mv2.jpg/v1/fill/w_2914,h_1136,al_c,q_90,usm_0.66_1.00_0.01,enc_auto/11062b_e0b380678e2746c3bdffa6e1533de45c~mv2.jpg" alt="" class="h-full min-h-full min-w-full object-cover ocbject-center">
-                              <div class="hover-effect">
-                                 <div class="h-full w-full flex items-end px-[20px] py-[30px] xl:px-[30px] xl:py-[40px]">
-                                    <div class="grid">
-                                       <h3 class="text-white text-12 leading-22 xl:text-14 xl:leading-25 font-semibold">John Dory - CEO Ark Airlines</h3>
-                                       <p class="text-white text-10 leading-22 xl:text-12 xl:leading-25 font-normal">Lorem ipsum dolor sit amet, <br>consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. </p>
-                                    </div>
-                                 </div>
-                              </div>
-                           </div>
-                        </div>
-                    </div>
-
+                    
                    
                    
                 </div>
@@ -743,10 +723,10 @@
                <h3 class="text-18 leading-19 font-medium text-[#009FE3]">Did you know?</h3>
                <div class="mt-[12px] md:mt-[20px] map-fact">
                   <p class="text-14 leading-22 lg:text-14 lg:leading-25 xl:text-16 xl:leading-30 font-normal text-black active" data-value="Amsterdam">The first flight ever handled in iPort DCS took off from Berlin Schönefeld (formerly IATA: SXF) on the 17th of August 2009. The current BER airport is still one of the +100 European airports where iPort is used.</p>
-                  <p class="text-14 leading-22 lg:text-14 lg:leading-25 xl:text-16 xl:leading-30 font-normal text-black" data-value="Cairo">Cairo is de grootste stad in het Midden-Oosten en Afrika.</p>
-                  <p class="text-14 leading-22 lg:text-14 lg:leading-25 xl:text-16 xl:leading-30 font-normal text-black" data-value="Tashkent">Tashkent is de hoofdstad van Oezbekistan en ligt in Centraal-Azië.</p>
-                  <p class="text-14 leading-22 lg:text-14 lg:leading-25 xl:text-16 xl:leading-30 font-normal text-black" data-value="Manila">Manila is de hoofdstad van de Filipijnen en ligt in de Stille Oceaan.</p>
-                  <p class="text-14 leading-22 lg:text-14 lg:leading-25 xl:text-16 xl:leading-30 font-normal text-black" data-value="Bogotá">Bogotá is de hoofdstad van Colombia en ligt in het midden van de Amerikas.</p>
+                  <p class="text-14 leading-22 lg:text-14 lg:leading-25 xl:text-16 xl:leading-30 font-normal text-black" data-value="Cairo">iPort is certified for all security messaging programs such as iAPI and APP in the Middle-East, including Saudi-Arabia, UAE, Qatar, Oman, Bahrain and more.</p>
+                  <p class="text-14 leading-22 lg:text-14 lg:leading-25 xl:text-16 xl:leading-30 font-normal text-black" data-value="Tashkent">Lorum ipsum</p>
+                  <p class="text-14 leading-22 lg:text-14 lg:leading-25 xl:text-16 xl:leading-30 font-normal text-black" data-value="Manila">Many airports in Asia use regional providers for common-use platforms, instead of global ones like SITA, ARINC, Resa, and ACUS. iPort currently operates on TravelSky (China), AirCUS (Korea), iCUTE (Vietnam), MCO Jaya (Indonesia), and others.</p>
+                  <p class="text-14 leading-22 lg:text-14 lg:leading-25 xl:text-16 xl:leading-30 font-normal text-black" data-value="Bogotá">Lorum ipsum</p>
                </div>
             </div>
          </div>
@@ -877,7 +857,7 @@
     <section class="bg-[#F6F6F6] py-[60px]">
       <div class="container lg:flex justify-between">
          <div class="w-full md:w-[558px] mb-[25px]">
-            <h2 class="text-25 leading-30 md:text-36 md:leading-37 lg:text-38 lg:leading-39 xl:text-40 xl:leading-41 font-semibold text-[#203145]">Over <span id="count" data-target="150" class="w-[40.61px] md:w-[61.72px] lg:w-[61.72px] xl:w-[64.97px] text-right inline-block">0</span> companies use iPort everyday. <br class="md:hidden">Join them.</h2>
+            <h2 class="text-25 leading-30 md:text-36 md:leading-37 lg:text-38 lg:leading-39 xl:text-40 xl:leading-41 font-semibold text-[#203145]">Over <span id="count" data-target="150" class="w-[40.61px] md:w-[61.72px] lg:w-[61.72px] xl:w-[64.97px] text-right inline-block">0</span> companies use iPort every day. <br class="md:hidden">Join them.</h2>
          </div>
          <div class="w-full md:w-[558px] lg:w-[503px] xl:mr-[60px] contact-form">
             <h3 class="text-18 leading-25 md:text-22 md:leading-30 xl:text-25 xl:leading-30 font-medium text-[#203145] mb-[20px]">Fill out the form and we’ll get in touch</h3>

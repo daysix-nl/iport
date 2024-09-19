@@ -1241,6 +1241,9 @@ video {
 .opacity-\[0\.5\] {
   opacity: 0.5;
 }
+.mix-blend-multiply {
+  mix-blend-mode: multiply;
+}
 .drop-shadow-\[0px_0px_15px_\#8CC63F\] {
   --tw-drop-shadow: drop-shadow(0px 0px 15px #8CC63F);
   filter: var(--tw-blur) var(--tw-brightness) var(--tw-contrast) var(--tw-grayscale) var(--tw-hue-rotate) var(--tw-invert) var(--tw-saturate) var(--tw-sepia) var(--tw-drop-shadow);
