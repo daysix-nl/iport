@@ -73,9 +73,9 @@ html {
   outline: -webkit-focus-ring-color auto 0px !important;
 }
 
-main {
-  overflow-x: hidden !important;
-}
+// main {
+//   overflow-x: hidden !important;
+// }
 
 
 .text-editor {
@@ -98,7 +98,7 @@ main {
     }
 
     a {
-      color: #000;
+      color: #1C1C1C;
       text-decoration: underline;
     }
   }
@@ -120,7 +120,7 @@ main {
   }
 
   blockquote {
-    border-left: 2px solid #000;
+    border-left: 2px solid #1C1C1C;
 
     p,
     h1,
@@ -134,27 +134,27 @@ main {
   }
 
   h1 {
-    font-size: 22px;
-    line-height: 30px;
+    font-size: 32px;
+    line-height: 33px;
     font-weight: 600;
-    font-family: Karlsen, sans-serif !important;
+
 
     // MD
     @media (min-width: 768px) {
-      font-size: 40px;
-      line-height: 46px;
+      font-size: 42px;
+      line-height: 43px;
     }
 
     // LG
     @media (min-width: 1200px) {
-      line-height: 70px;
-      font-size: 61px;
+      line-height: 45px;
+      font-size: 47px;
     }
 
     // XL
     @media (min-width: 1352px) {
-      font-size: 70px;
-      line-height: 80px;
+      font-size: 54px;
+      line-height: 56px;
     }
   }
 
@@ -163,28 +163,27 @@ main {
   h4,
   h5,
   h6 {
-    font-size: 25px;
-    line-height: 33px;
-    font-weight: 600;
-    font-family: satoshi;
-    color: #000;
+    font-size: 18px;
+    line-height: 25px;
+    font-weight: 500;
+    color: #000000;
 
     // MD
     @media (min-width: 768px) {
-      font-size: 16px;
-      line-height: 23px;
+      font-size: 33px;
+      line-height: 30px;
     }
 
     // LG
     @media (min-width: 1200px) {
       line-height: 22px;
-      font-size: 28px;
+      font-size: 30px;
     }
 
     // XL
     @media (min-width: 1352px) {
       font-size: 25px;
-      line-height: 33px;
+      line-height: 30px;
     }
   }
 

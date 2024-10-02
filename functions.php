@@ -103,8 +103,8 @@ add_filter('block_categories_all', function ($categories) {
 
     array_unshift($categories,   
       [
-        'slug'  => 'achtergrond',
-        'title' => 'Achtergronden',
+        'slug'  => 'templates',
+        'title' => 'Templates',
         'icon'  => null
     ],        
     [
@@ -113,8 +113,8 @@ add_filter('block_categories_all', function ($categories) {
         'icon'  => null
     ],  
     [
-        'slug'  => 'elementen',
-        'title' => 'Losse elementen',
+        'slug'  => 'parts',
+        'title' => 'Tempalte parts',
         'icon'  => null
     ],
 
@@ -437,7 +437,7 @@ add_action('admin_head', 'add_custom_admin_bar_styles');
 
 
 function vervang_dashboard_footer_tekst() {
-    echo 'Bedrijsnaam';
+    echo 'Attention Seekers';
 }
 
 add_filter('admin_footer_text', 'vervang_dashboard_footer_tekst');

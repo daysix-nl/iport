@@ -1,0 +1,43 @@
+{
+    "key": "group_66fd285048875",
+    "title": "Tempalte YouTube",
+    "fields": [
+        {
+            "key": "field_66fd2850a9fc4",
+            "label": "YouTube link",
+            "name": "youtube",
+            "aria-label": "",
+            "type": "url",
+            "instructions": "<iframe width=\"560\" height=\"315\" src=\"<b>https:\/\/www.youtube.com\/embed\/aBc_fnuL5xk?si=_xXxXxXxXx<\/b>\" title=\"YouTube video player\" frameborder=\"0\" allow=\"accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share\" referrerpolicy=\"strict-origin-when-cross-origin\" allowfullscreen><\/iframe>",
+            "required": 0,
+            "conditional_logic": 0,
+            "wrapper": {
+                "width": "",
+                "class": "",
+                "id": ""
+            },
+            "default_value": "",
+            "allow_in_bindings": 1,
+            "placeholder": "https:\/\/www.youtube.com\/embed\/aBc_fnuL5xk?si=_xXxXxXxXx"
+        }
+    ],
+    "location": [
+        [
+            {
+                "param": "block",
+                "operator": "==",
+                "value": "acf\/acf-template-youtube"
+            }
+        ]
+    ],
+    "menu_order": 0,
+    "position": "normal",
+    "style": "default",
+    "label_placement": "top",
+    "instruction_placement": "label",
+    "hide_on_screen": "",
+    "active": true,
+    "description": "",
+    "show_in_rest": 0,
+    "modified": 1727867385
+}

@@ -1,863 +1,47 @@
-<?php
+<?php 
 /**
- * Template name: Home 2
+ * The template for displaying the footer
+ * 
+ * @package Day Six theme
  */
+ ?>
 
-
- get_header(); ?>
-
-<main>
-   <!-- HEADER -->
-   <section class="home-header bg-[#F6F6F6]">
-      <a href="" class="h-[calc(100vh-135px)] lg:h-[calc(100dvh+55px)] xl:h-[calc(100dvh+35px)] max-h-[600px] md:max-h-[688px] lg:max-h-[950px] xl:max-h-[1000px] min-h-[550px] md:min-h-[500px] lg:min-h-[550px] xl:min-h-[600px] w-full block relative overflow-hidden">
-         <div class="button-header w-[200px] lg:w-[265px] xl:w-[299px] h-[43px] bg-white text-[#203145] text-14 leading-14 xl:text-16 xl:leading-16 rounded-[14px] md:rounded-[15px] xl:rounded-[18px] absolute bottom-[200px] right-[calc(50vw-175px)] md:right:[unset] md:bottom-[117px] md:left-[calc(50vw+70px)] lg:bottom-[190px] lg:left-[calc(50vw+293px)] xl:bottom-[160px] xl:left-[calc(50vw+298px)] flex items-center justify-between px-[20px] z-[10]">
-            <span class="correction">For airlines</span>
-               <svg id="Group_5" data-name="Group 5" xmlns="http://www.w3.org/2000/svg" width="10.955" height="10.955" viewBox="0 0 10.955 10.955">
-                  <path id="Path_5" data-name="Path 5" d="M1.409,0,0,1.407l7.281.006L8.694,0Z" transform="translate(-0.001 0)" fill="#203145"/>
-                  <path id="Path_6" data-name="Path 6" d="M11.737,0,3.051,8.686l.994.994,7.269-7.269v8.544l1.417-1.41V0Z" transform="translate(-1.776 0)" fill="#203145"/>
-               </svg>
-         </div>
-         <div class="absolute top-0 left-0 right-0 bottom-0 md:bottom-[90px] lg:bottom-[170px] xl:bottom-[140px] z-[8]">
-               <div class="container h-full flex md:items-center mt-[135px] md:mt-[unset]">
-                  <div class="grid gap-[15px] w-[298px] md:w-[566px] lg:w-[814px] xl:w-[883px] mx-[unset] md:mx-auto lg:mx-[unset] h-fit">
-                     <h1 class="text-white font-semibold text-32 leading-33 md:text-45 md:leading-47 xl:text-54 xl:leading-56">Complete <br>But not complex</h1>
-                     <h2 class="text-white font-normal text-20 leading-25 md:text-22 md:leading-23 xl:text-25 xl:leading-26">Your partner in departure and load control solutions</h2>
-                  </div>
-               </div>
-         </div>
-         <div class="absolute top-0 left-0 right-0 bottom-0 bg-[#1C1C1C] z-[6] opacity-[0.15]"></div>
-         <img src="https://static.wixstatic.com/media/11062b_e0b380678e2746c3bdffa6e1533de45c~mv2.jpg/v1/fill/w_2914,h_1136,al_c,q_90,usm_0.66_1.00_0.01,enc_auto/11062b_e0b380678e2746c3bdffa6e1533de45c~mv2.jpg" alt="" class="min-h-full h-full w-full object-center object-cover z-[5]">
-      </a>
-      <div class="md:flex md:justify-between md:mt-[-90px] lg:mt-[-170px] xl:mt-[-140px] z-[9] relative">
-         <a href="" class="h-[184px] md:h-[252px] lg:h-[455px] xl:h-[492px] md:w-[calc(50vw+32px)] lg:w-[calc(50vw+250px)] xl:w-[calc(50vw+250px)] mt-[-165px] md:mt-[unset] rounded-tl-[40px] md:rounded-tl-[unset] rounded-tr-[40px] md:rounded-br-[40px] relative block overflow-hidden">
-            <div class="button-header w-[200px] lg:w-[265px] xl:w-[299px] h-[43px] bg-white text-[#203145] text-14 leading-14 xl:text-16 xl:leading-16 rounded-[14px] md:rounded-[15px] xl:rounded-[18px] absolute top-[35px] md:top-[28px] right-[calc(50vw-175px)] md:right-[28px] flex items-center justify-between px-[20px] z-[6]">
-               <span class="correction">For groundhandlers</span>
-                <svg id="Group_5" data-name="Group 5" xmlns="http://www.w3.org/2000/svg" width="10.955" height="10.955" viewBox="0 0 10.955 10.955">
-                    <path id="Path_5" data-name="Path 5" d="M1.409,0,0,1.407l7.281.006L8.694,0Z" transform="translate(-0.001 0)" fill="#203145"/>
-                    <path id="Path_6" data-name="Path 6" d="M11.737,0,3.051,8.686l.994.994,7.269-7.269v8.544l1.417-1.41V0Z" transform="translate(-1.776 0)" fill="#203145"/>
-                </svg>
-            </div>
-            <img src="https://static.wixstatic.com/media/0d38b0_9fa7d922ced34cb1ab0b7fd218f7c2ec~mv2.jpg/v1/fill/w_2914,h_1136,al_t,q_90,usm_0.66_1.00_0.01,enc_auto/0d38b0_9fa7d922ced34cb1ab0b7fd218f7c2ec~mv2.jpg" alt="" class="min-h-full h-full w-full object-center object-cover z-[5]">
-         </a>
-         <a href="" class="h-[184px] md:h-[252px] lg:h-[455px] xl:h-[492px] md:w-[calc(50vw-45px)] lg:w-[calc(50vw-265px)] xl:w-[calc(50vw-270px)] mt-[-68px] md:mt-[unset] rounded-tl-[40px] rounded-tr-[40px] md:rounded-tr-[unset] md:rounded-bl-[40px] relative block overflow-hidden">
-            <div class="button-header w-[200px] lg:w-[265px] xl:w-[299px] h-[43px] bg-white text-[#203145] text-14 leading-14 xl:text-16 xl:leading-16 rounded-[14px] md:rounded-[15px] xl:rounded-[18px] absolute top-[35px] md:top-[28px] right-[calc(50vw-175px)] md:right:[unset] md:left-[28px] flex items-center justify-between px-[20px] z-[6]">
-               <span class="correction">For airports</span>
-                <svg id="Group_5" data-name="Group 5" xmlns="http://www.w3.org/2000/svg" width="10.955" height="10.955" viewBox="0 0 10.955 10.955">
-                    <path id="Path_5" data-name="Path 5" d="M1.409,0,0,1.407l7.281.006L8.694,0Z" transform="translate(-0.001 0)" fill="#203145"/>
-                    <path id="Path_6" data-name="Path 6" d="M11.737,0,3.051,8.686l.994.994,7.269-7.269v8.544l1.417-1.41V0Z" transform="translate(-1.776 0)" fill="#203145"/>
-                </svg>
-            </div>
-            <img src="https://static.wixstatic.com/media/11062b_e0b380678e2746c3bdffa6e1533de45c~mv2.jpg/v1/fill/w_2914,h_1136,al_c,q_90,usm_0.66_1.00_0.01,enc_auto/11062b_e0b380678e2746c3bdffa6e1533de45c~mv2.jpg" alt="" class="min-h-full h-full w-full object-center object-cover z-[5]">
-         </a>
-      </div>
-   </section>
-
-   <!-- SOLUTIONS -->
-    <section class="bg-[#F6F6F6]">
-      <div class="py-[60px]">
-         <div class="text-center container ">
-            <h2 class="text-[#2A3041] font-semibold text-32 leading-33 md:text-42 md:leading-43 lg:text-45 lg:leading-47 xl:text-54 xl:leading-56">iPort solutions</h2>
-         </div>
-         <div class="flex md:flex-wrap md:justify-center space-x-[8px] overflow-x-auto scroll-blok w-full md:w-[688px] lg:w-[1129px] xl:w-[1272px] px-[calc(50vw-155px)] md:px-[unset] md:mx-auto mt-[20px] md:mt-[25px] lg:mt-[35px] xl:mt-[45px]">
-            <button class="tablinks text-14 leading-14 xl:text-16 xl:leading-16 text-[#2A3041] font-medium md:min-w-[130px] h-[43px] px-[20px] border-[1px] border-[#1C1C1C] rounded-[14px] md:rounded-[15px] xl:rounded-[18px] mt-[8px] lg:hover:text-white lg:hover:bg-[#2A3041] duration-300" onclick="openTab(event, 'Tab1')"><span class="correction">iPort DCS</span></button>
-            <button class="tablinks text-14 leading-14 xl:text-16 xl:leading-16 text-[#2A3041] font-medium md:min-w-[130px] h-[43px] px-[20px] border-[1px] border-[#1C1C1C] rounded-[14px] md:rounded-[15px] xl:rounded-[18px] mt-[8px] lg:hover:text-white lg:hover:bg-[#2A3041] duration-300" onclick="openTab(event, 'Tab2')"><span class="correction">iPort W&B</span></button>
-            <button class="tablinks text-14 leading-14 xl:text-16 xl:leading-16 text-[#2A3041] font-medium md:min-w-[130px] h-[43px] px-[20px] border-[1px] border-[#1C1C1C] rounded-[14px] md:rounded-[15px] xl:rounded-[18px] mt-[8px] lg:hover:text-white lg:hover:bg-[#2A3041] duration-300" onclick="openTab(event, 'Tab3')"><span class="correction">Self-Service</span></button>
-            <button class="tablinks text-14 leading-14 xl:text-16 xl:leading-16 text-[#2A3041] font-medium md:min-w-[130px] h-[43px] px-[20px] border-[1px] border-[#1C1C1C] rounded-[14px] md:rounded-[15px] xl:rounded-[18px] mt-[8px] lg:hover:text-white lg:hover:bg-[#2A3041] duration-300" onclick="openTab(event, 'Tab4')"><span class="correction">iPax</span></button>
-            <button class="tablinks text-14 leading-14 xl:text-16 xl:leading-16 text-[#2A3041] font-medium md:min-w-[130px] h-[43px] px-[20px] border-[1px] border-[#1C1C1C] rounded-[14px] md:rounded-[15px] xl:rounded-[18px] mt-[8px] lg:hover:text-white lg:hover:bg-[#2A3041] duration-300" onclick="openTab(event, 'Tab5')"><span class="correction">iRamp</span></button>
-            <button class="tablinks text-14 leading-14 xl:text-16 xl:leading-16 text-[#2A3041] font-medium md:min-w-[130px] h-[43px] px-[20px] border-[1px] border-[#1C1C1C] rounded-[14px] md:rounded-[15px] xl:rounded-[18px] mt-[8px] lg:hover:text-white lg:hover:bg-[#2A3041] duration-300" onclick="openTab(event, 'Tab6')"><span class="correction">iSales</span></button>
-            <button class="tablinks text-14 leading-14 xl:text-16 xl:leading-16 text-[#2A3041] font-medium md:min-w-[130px] h-[43px] px-[20px] border-[1px] border-[#1C1C1C] rounded-[14px] md:rounded-[15px] xl:rounded-[18px] mt-[8px] lg:hover:text-white lg:hover:bg-[#2A3041] duration-300" onclick="openTab(event, 'Tab7')"><span class="correction">iTrack</span></button>
-         </div>
-
-         <div class="container mt-[30px] md:mt-[60px] lg:mt-[90px] xl:mt-[80px]">
-            <div id="Tab1" class="tabcontent">
-               <div class="lg:flex justify-between">
-                  <div class="w-[309px] md:w-[450px] mx-auto lg:mx-[unset] accordion-group">
-                    
-                     <!-- ACCORDION -->
-                     <div class="accordion-item"> 
-                        <button class="accordion text-[#203145] font-medium text-12 leading-13 md:text-15 md:leading-16 xl:text-18 xl:leading-19 py-[20px] xl:py-[20px]">
-                              <span class="pr-4">Introduction</span>
-                        </button>
-                        <div class="panel">
-                              <div class="pr-[15px] pb-[20px] xl:pb-[20px]">
-                                 <div class="text-[#203145] text-12 leading-22 md:text-14 md:leading-25 xl:text-16 xl:leading-30 font-normal w-full text-editor">An innovative Departure Control System covering a broad functional scope. CUTE & CUPPS certified, ready to operate on all common-use platforms worldwide. A proven stable web-based solution, running on hundreds of airports and compatible with any reservation or order management system.</div>
-                              </div>
-                        </div>
-                     </div>
-
-                     <div class="accordion-item"> 
-                        <button class="accordion text-[#203145] font-medium text-12 leading-13 md:text-15 md:leading-16 xl:text-18 xl:leading-19 py-[20px] xl:py-[20px]">
-                              <span class="pr-4">Why iPort DCS</span>
-                        </button>
-                        <div class="panel">
-                              <div class="pr-[15px] pb-[20px] xl:pb-[20px]">
-                                 <div class="text-[#203145] text-12 leading-22 md:text-14 md:leading-25 xl:text-16 xl:leading-30 font-normal w-full text-editor">Because of the up-time, the intuitive interface, the global coverage, connectivity and government messaging. Because we arrange the security messaging certifications (e.g. APIS, APP), the airport connectivity, system installation, platform certifications, system updates and more for you.</div>
-                              </div>
-                        </div>
-                     </div>
-
-                     <div class="accordion-item"> 
-                        <button class="accordion text-[#203145] font-medium text-12 leading-13 md:text-15 md:leading-16 xl:text-18 xl:leading-19 py-[20px] xl:py-[20px]">
-                              <span class="pr-4">Functional scope</span>
-                        </button>
-                        <div class="panel">
-                              <div class="pr-[15px] pb-[20px] xl:pb-[20px]">
-                                 <div class="text-[#203145] text-12 leading-22 md:text-14 md:leading-25 xl:text-16 xl:leading-30 font-normal w-full text-editor">iPort DCS covers all functionality regarding check-in and boarding, including security messaging capabilities (e.g. APIS, APP), e-ticket updates, through check-in, travel document checks, IROPS management, departure messaging, advanced reporting and much more.</div>
-                              </div>
-                        </div>
-                     </div>
-
-                     <div class="accordion-item"> 
-                        <button class="accordion text-[#203145] font-medium text-12 leading-13 md:text-15 md:leading-16 xl:text-18 xl:leading-19 py-[20px] xl:py-[20px]">
-                              <span class="pr-4">Integrations</span>
-                        </button>
-                        <div class="panel">
-                              <div class="pr-[15px] pb-[20px] xl:pb-[20px]">
-                                 <div class="text-[#203145] text-12 leading-22 md:text-14 md:leading-25 xl:text-16 xl:leading-30 font-normal w-full text-editor">Connect iPort DCS with any airline reservation or OMS, with the airport’s baggage and security check systems, with government applications, with reporting and revenue management systems, with flight planning systems, with cabin crew applications, with other DCSs, with W&B applications, and so on.</div>
-                              </div>
-                        </div>
-                     </div>
-                     <!-- EINDE ACCORDION -->
-                     <a href="" class="text-14 leading-14 xl:text-16 xl:leading-16 text-[#2A3041] font-medium md:min-w-[130px] h-[43px] px-[20px] border-[1px] border-[#1C1C1C] rounded-[14px] md:rounded-[15px] xl:rounded-[18px] mt-[30px] md:mt-[40px] lg:mt-[60px] xl:mt-[50px] lg:hover:text-white lg:hover:bg-[#2A3041] duration-300 flex items-center justify-center w-fit"><span class="correction">Download technical details</span></a>
-
-                  </div>
-                  <div class="w-[350px] md:w-[509px] lg:w-[590px] xl:w-[713px] mx-auto lg:mx-[unset] h-[197px] md:h-[286px] lg:h-[332px] xl:h-[400px] bg-black mt-[30px] md:mt-[40px] lg:mt-[unset] rounded-[40px] overflow-hidden item-shadow zoom-in zoom-in">
-                     <img src="https://static.wixstatic.com/media/11062b_e0b380678e2746c3bdffa6e1533de45c~mv2.jpg/v1/fill/w_2914,h_1136,al_c,q_90,usm_0.66_1.00_0.01,enc_auto/11062b_e0b380678e2746c3bdffa6e1533de45c~mv2.jpg" alt="" class="h-full min-h-full min-w-full object-cover object-center"> 
-                  </div>
-               </div>
-            </div>
-
-             <div id="Tab2" class="tabcontent">
-               <div class="lg:flex justify-between">
-                  <div class="w-[309px] md:w-[450px] mx-auto lg:mx-[unset] accordion-group">
-                    
-                     <!-- ACCORDION -->
-                     <div class="accordion-item"> 
-                        <button class="accordion text-[#203145] font-medium text-12 leading-13 md:text-15 md:leading-16 xl:text-18 xl:leading-19 py-[20px] xl:py-[20px]">
-                              <span class="pr-4">Introduction</span>
-                        </button>
-                        <div class="panel">
-                              <div class="pr-[15px] pb-[20px] xl:pb-[20px]">
-                                 <div class="text-[#203145] text-12 leading-22 md:text-14 md:leading-25 xl:text-16 xl:leading-30 font-normal w-full text-editor">An easy-to-use Load Control solution with resilient safety checks, making it impossible to finish out of trim, or to exceed the limitations of the aircraft. A web-based application, able to run with limited bandwidth. Offered as part of iPort DCS, stand-alone or integrated with another DCS.</div>
-                              </div>
-                        </div>
-                     </div>
-
-                     <div class="accordion-item"> 
-                        <button class="accordion text-[#203145] font-medium text-12 leading-13 md:text-15 md:leading-16 xl:text-18 xl:leading-19 py-[20px] xl:py-[20px]">
-                              <span class="pr-4">Why iPort W&B</span>
-                        </button>
-                        <div class="panel">
-                              <div class="pr-[15px] pb-[20px] xl:pb-[20px]">
-                                 <div class="text-[#203145] text-12 leading-22 md:text-14 md:leading-25 xl:text-16 xl:leading-30 font-normal w-full text-editor">Because the up-time, the intuitive interface that enables a high productivity, the integration capabilities, the broad functionality, the enhanced safety checks, the timestamp logging, the ample reporting possibilities and more.</div>
-                              </div>
-                        </div>
-                     </div>
-
-                     <div class="accordion-item"> 
-                        <button class="accordion text-[#203145] font-medium text-12 leading-13 md:text-15 md:leading-16 xl:text-18 xl:leading-19 py-[20px] xl:py-[20px]">
-                              <span class="pr-4">Functional scope</span>
-                        </button>
-                        <div class="panel">
-                              <div class="pr-[15px] pb-[20px] xl:pb-[20px]">
-                                 <div class="text-[#203145] text-12 leading-22 md:text-14 md:leading-25 xl:text-16 xl:leading-30 font-normal w-full text-editor">iPort W&B covers all functionality for load planning and loadsheet creation, including click-and-drop loading, IATA DG checks, multi-segment flights, load & fuel planning with historical averages, NOTOC issuance, cabin and seat row trimming, EZFW and departure messaging and more.</div>
-                              </div>
-                        </div>
-                     </div>
-
-                     <div class="accordion-item"> 
-                        <button class="accordion text-[#203145] font-medium text-12 leading-13 md:text-15 md:leading-16 xl:text-18 xl:leading-19 py-[20px] xl:py-[20px]">
-                              <span class="pr-4">Integrations</span>
-                        </button>
-                        <div class="panel">
-                              <div class="pr-[15px] pb-[20px] xl:pb-[20px]">
-                                 <div class="text-[#203145] text-12 leading-22 md:text-14 md:leading-25 xl:text-16 xl:leading-30 font-normal w-full text-editor">Establish data exchange between iPort W&B and iPort DCS or any other DCS, with flight planning systems, with the aircraft directly over ACARS or with the EFB application, with reporting systems, with cargo systems and more.</div>
-                              </div>
-                        </div>
-                     </div>
-                     <!-- EINDE ACCORDION -->
-                     <a href="" class="text-14 leading-14 xl:text-16 xl:leading-16 text-[#2A3041] font-medium md:min-w-[130px] h-[43px] px-[20px] border-[1px] border-[#1C1C1C] rounded-[14px] md:rounded-[15px] xl:rounded-[18px] mt-[30px] md:mt-[40px] lg:mt-[60px] xl:mt-[50px] lg:hover:text-white lg:hover:bg-[#2A3041] duration-300 flex items-center justify-center w-fit"><span class="correction">Download technical details</span></a>
-
-                  </div>
-                  <div class="w-[350px] md:w-[509px] lg:w-[590px] xl:w-[713px] mx-auto lg:mx-[unset] h-[197px] md:h-[286px] lg:h-[332px] xl:h-[400px] bg-black mt-[30px] md:mt-[40px] lg:mt-[unset] rounded-[40px] overflow-hidden item-shadow zoom-in">
-                     <img src="https://static.wixstatic.com/media/11062b_e0b380678e2746c3bdffa6e1533de45c~mv2.jpg/v1/fill/w_2914,h_1136,al_c,q_90,usm_0.66_1.00_0.01,enc_auto/11062b_e0b380678e2746c3bdffa6e1533de45c~mv2.jpg" alt="" class="h-full min-h-full min-w-full object-cover object-center"> 
-                  </div>
-               </div>
-            </div>
-
-             <div id="Tab3" class="tabcontent">
-               <div class="lg:flex justify-between">
-                  <div class="w-[309px] md:w-[450px] mx-auto lg:mx-[unset] accordion-group">
-      
-                     <!-- ACCORDION -->
-                     <div class="accordion-item"> 
-                        <button class="accordion text-[#203145] font-medium text-12 leading-13 md:text-15 md:leading-16 xl:text-18 xl:leading-19 py-[20px] xl:py-[20px]">
-                              <span class="pr-4">Introduction</span>
-                        </button>
-                        <div class="panel">
-                              <div class="pr-[15px] pb-[20px] xl:pb-[20px]">
-                                 <div class="text-[#203145] text-12 leading-22 md:text-14 md:leading-25 xl:text-16 xl:leading-30 font-normal w-full text-editor">iPort’s web, mobile and kiosk check-in solutions, as well as baggage drop-off. Connect your own applications to the iPort interfaces, or simply activate a portal or application created by our team. Certified and compliant with all self-service standards (CUSS, CUWS and more).</div>
-                              </div>
-                        </div>
-                     </div>
-
-                     <div class="accordion-item"> 
-                        <button class="accordion text-[#203145] font-medium text-12 leading-13 md:text-15 md:leading-16 xl:text-18 xl:leading-19 py-[20px] xl:py-[20px]">
-                              <span class="pr-4">Why Self-Service</span>
-                        </button>
-                        <div class="panel">
-                              <div class="pr-[15px] pb-[20px] xl:pb-[20px]">
-                                 <div class="text-[#203145] text-12 leading-22 md:text-14 md:leading-25 xl:text-16 xl:leading-30 font-normal w-full text-editor">To create a smooth and pleasant passenger experience, while covering all the operational needs such as security messaging (e.g. iAPI, APP), ancillary sales and seat selection, completely in sync with the airport DCS.</div>
-                              </div>
-                        </div>
-                     </div>
-
-                     <div class="accordion-item"> 
-                        <button class="accordion text-[#203145] font-medium text-12 leading-13 md:text-15 md:leading-16 xl:text-18 xl:leading-19 py-[20px] xl:py-[20px]">
-                              <span class="pr-4">Functional scope</span>
-                        </button>
-                        <div class="panel">
-                              <div class="pr-[15px] pb-[20px] xl:pb-[20px]">
-                                 <div class="text-[#203145] text-12 leading-22 md:text-14 md:leading-25 xl:text-16 xl:leading-30 font-normal w-full text-editor">The Self-Service solutions are branded in the customer identity, support passport data collection and security messaging feeds (e.g. iAPI, APP), seat selection and more. When connecting a own application, the functionality can be offered through a wide range of interfaces.</div>
-                              </div>
-                        </div>
-                     </div>
-
-                     <div class="accordion-item"> 
-                        <button class="accordion text-[#203145] font-medium text-12 leading-13 md:text-15 md:leading-16 xl:text-18 xl:leading-19 py-[20px] xl:py-[20px]">
-                              <span class="pr-4">Integrations</span>
-                        </button>
-                        <div class="panel">
-                              <div class="pr-[15px] pb-[20px] xl:pb-[20px]">
-                                 <div class="text-[#203145] text-12 leading-22 md:text-14 md:leading-25 xl:text-16 xl:leading-30 font-normal w-full text-editor">The web & mobile check-in solutions enjoy all integrations that iPort DCS offers, including security messaging (e.g. iAPI, APP), connectivity with the customer payment service provider for sales transactions and more. The kiosk and bag drop solutions support standard protocols such as CUSS and CUWS.</div>
-                              </div>
-                        </div>
-                     </div>
-                     <!-- EINDE ACCORDION -->
-                     <a href="" class="text-14 leading-14 xl:text-16 xl:leading-16 text-[#2A3041] font-medium md:min-w-[130px] h-[43px] px-[20px] border-[1px] border-[#1C1C1C] rounded-[14px] md:rounded-[15px] xl:rounded-[18px] mt-[30px] md:mt-[40px] lg:mt-[60px] xl:mt-[50px] lg:hover:text-white lg:hover:bg-[#2A3041] duration-300 flex items-center justify-center w-fit"><span class="correction">Download technical details</span></a>
-
-                  </div>
-                  <div class="w-[350px] md:w-[509px] lg:w-[590px] xl:w-[713px] mx-auto lg:mx-[unset] h-[197px] md:h-[286px] lg:h-[332px] xl:h-[400px] bg-black mt-[30px] md:mt-[40px] lg:mt-[unset] rounded-[40px] overflow-hidden item-shadow zoom-in">
-                     <img src="https://static.wixstatic.com/media/11062b_e0b380678e2746c3bdffa6e1533de45c~mv2.jpg/v1/fill/w_2914,h_1136,al_c,q_90,usm_0.66_1.00_0.01,enc_auto/11062b_e0b380678e2746c3bdffa6e1533de45c~mv2.jpg" alt="" class="h-full min-h-full min-w-full object-cover object-center"> 
-                  </div>
-               </div>
-            </div>
-
-             <div id="Tab4" class="tabcontent">
-               <div class="lg:flex justify-between">
-                  <div class="w-[309px] md:w-[450px] mx-auto lg:mx-[unset] accordion-group">
-                    
-                     <!-- ACCORDION -->
-                     <div class="accordion-item"> 
-                        <button class="accordion text-[#203145] font-medium text-12 leading-13 md:text-15 md:leading-16 xl:text-18 xl:leading-19 py-[20px] xl:py-[20px]">
-                              <span class="pr-4">Introduction</span>
-                        </button>
-                        <div class="panel">
-                              <div class="pr-[15px] pb-[20px] xl:pb-[20px]">
-                                 <div class="text-[#203145] text-12 leading-22 md:text-14 md:leading-25 xl:text-16 xl:leading-30 font-normal w-full text-editor">The mobile application for passenger handling agents, providing them with additional mobile capacity for check-in, connected with Bluetooth boarding pass and bag tag printers, and using the smartphone’s camera for boarding and passport scanning.</div>
-                              </div>
-                        </div>
-                     </div>
-
-                     <div class="accordion-item"> 
-                        <button class="accordion text-[#203145] font-medium text-12 leading-13 md:text-15 md:leading-16 xl:text-18 xl:leading-19 py-[20px] xl:py-[20px]">
-                              <span class="pr-4">Why iPax</span>
-                        </button>
-                        <div class="panel">
-                              <div class="pr-[15px] pb-[20px] xl:pb-[20px]">
-                                 <div class="text-[#203145] text-12 leading-22 md:text-14 md:leading-25 xl:text-16 xl:leading-30 font-normal w-full text-editor">To support when the airport faces congestion at check-in or boarding, or when the airport infrastructure fails. To provide remote check-in and baggage pick-up services at hotels, cruise ships and city locations. To support the operations in charter and ad-hoc operations.</div>
-                              </div>
-                        </div>
-                     </div>
-
-                     <div class="accordion-item"> 
-                        <button class="accordion text-[#203145] font-medium text-12 leading-13 md:text-15 md:leading-16 xl:text-18 xl:leading-19 py-[20px] xl:py-[20px]">
-                              <span class="pr-4">Functional scope</span>
-                        </button>
-                        <div class="panel">
-                              <div class="pr-[15px] pb-[20px] xl:pb-[20px]">
-                                 <div class="text-[#203145] text-12 leading-22 md:text-14 md:leading-25 xl:text-16 xl:leading-30 font-normal w-full text-editor">iPax covers the complete check-in and boarding process, including passport data collection via the smartphone’s camera, security messaging (e.g. iAPI, APP), boarding pass and bag tag printing over Bluetooth, seat selection, SSR changes, different lists and reports and much more.</div>
-                              </div>
-                        </div>
-                     </div>
-
-                     <div class="accordion-item"> 
-                        <button class="accordion text-[#203145] font-medium text-12 leading-13 md:text-15 md:leading-16 xl:text-18 xl:leading-19 py-[20px] xl:py-[20px]">
-                              <span class="pr-4">Integrations</span>
-                        </button>
-                        <div class="panel">
-                              <div class="pr-[15px] pb-[20px] xl:pb-[20px]">
-                                 <div class="text-[#203145] text-12 leading-22 md:text-14 md:leading-25 xl:text-16 xl:leading-30 font-normal w-full text-editor">iPax works in-sync with iPort DCS, and enjoys the same integration capabilities, which means it can be connected to any airline reservation or OMS, with the airport’s baggage and security check systems, with government applications, with W&B applications, and more.</div>
-                              </div>
-                        </div>
-                     </div>
-                     <!-- EINDE ACCORDION -->
-                     <a href="" class="text-14 leading-14 xl:text-16 xl:leading-16 text-[#2A3041] font-medium md:min-w-[130px] h-[43px] px-[20px] border-[1px] border-[#1C1C1C] rounded-[14px] md:rounded-[15px] xl:rounded-[18px] mt-[30px] md:mt-[40px] lg:mt-[60px] xl:mt-[50px] lg:hover:text-white lg:hover:bg-[#2A3041] duration-300 flex items-center justify-center w-fit"><span class="correction">Download technical details</span></a>
-
-                  </div>
-                  <div class="w-[350px] md:w-[509px] lg:w-[590px] xl:w-[713px] mx-auto lg:mx-[unset] h-[197px] md:h-[286px] lg:h-[332px] xl:h-[400px] bg-black mt-[30px] md:mt-[40px] lg:mt-[unset] rounded-[40px] overflow-hidden item-shadow zoom-in">
-                     <img src="https://static.wixstatic.com/media/11062b_e0b380678e2746c3bdffa6e1533de45c~mv2.jpg/v1/fill/w_2914,h_1136,al_c,q_90,usm_0.66_1.00_0.01,enc_auto/11062b_e0b380678e2746c3bdffa6e1533de45c~mv2.jpg" alt="" class="h-full min-h-full min-w-full object-cover object-center"> 
-                  </div>
-               </div>
-            </div>
-
-             <div id="Tab5" class="tabcontent">
-               <div class="lg:flex justify-between">
-                  <div class="w-[309px] md:w-[450px] mx-auto lg:mx-[unset] accordion-group">
-                    
-                     <!-- ACCORDION -->
-                     <div class="accordion-item"> 
-                        <button class="accordion text-[#203145] font-medium text-12 leading-13 md:text-15 md:leading-16 xl:text-18 xl:leading-19 py-[20px] xl:py-[20px]">
-                              <span class="pr-4">Introduction</span>
-                        </button>
-                        <div class="panel">
-                              <div class="pr-[15px] pb-[20px] xl:pb-[20px]">
-                                 <div class="text-[#203145] text-12 leading-22 md:text-14 md:leading-25 xl:text-16 xl:leading-30 font-normal w-full text-editor">Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores </div>
-                              </div>
-                        </div>
-                     </div>
-
-                     <div class="accordion-item"> 
-                        <button class="accordion text-[#203145] font-medium text-12 leading-13 md:text-15 md:leading-16 xl:text-18 xl:leading-19 py-[20px] xl:py-[20px]">
-                              <span class="pr-4">Why iRamp</span>
-                        </button>
-                        <div class="panel">
-                              <div class="pr-[15px] pb-[20px] xl:pb-[20px]">
-                                 <div class="text-[#203145] text-12 leading-22 md:text-14 md:leading-25 xl:text-16 xl:leading-30 font-normal w-full text-editor">Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. </div>
-                              </div>
-                        </div>
-                     </div>
-
-                     <div class="accordion-item"> 
-                        <button class="accordion text-[#203145] font-medium text-12 leading-13 md:text-15 md:leading-16 xl:text-18 xl:leading-19 py-[20px] xl:py-[20px]">
-                              <span class="pr-4">Functional scope</span>
-                        </button>
-                        <div class="panel">
-                              <div class="pr-[15px] pb-[20px] xl:pb-[20px]">
-                                 <div class="text-[#203145] text-12 leading-22 md:text-14 md:leading-25 xl:text-16 xl:leading-30 font-normal w-full text-editor">Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. </div>
-                              </div>
-                        </div>
-                     </div>
-
-                     <div class="accordion-item"> 
-                        <button class="accordion text-[#203145] font-medium text-12 leading-13 md:text-15 md:leading-16 xl:text-18 xl:leading-19 py-[20px] xl:py-[20px]">
-                              <span class="pr-4">Integrations</span>
-                        </button>
-                        <div class="panel">
-                              <div class="pr-[15px] pb-[20px] xl:pb-[20px]">
-                                 <div class="text-[#203145] text-12 leading-22 md:text-14 md:leading-25 xl:text-16 xl:leading-30 font-normal w-full text-editor">Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. </div>
-                              </div>
-                        </div>
-                     </div>
-                     <!-- EINDE ACCORDION -->
-                     <a href="" class="text-14 leading-14 xl:text-16 xl:leading-16 text-[#2A3041] font-medium md:min-w-[130px] h-[43px] px-[20px] border-[1px] border-[#1C1C1C] rounded-[14px] md:rounded-[15px] xl:rounded-[18px] mt-[30px] md:mt-[40px] lg:mt-[60px] xl:mt-[50px] lg:hover:text-white lg:hover:bg-[#2A3041] duration-300 flex items-center justify-center w-fit"><span class="correction">Download technical details</span></a>
-
-                  </div>
-                  <div class="w-[350px] md:w-[509px] lg:w-[590px] xl:w-[713px] mx-auto lg:mx-[unset] h-[197px] md:h-[286px] lg:h-[332px] xl:h-[400px] bg-black mt-[30px] md:mt-[40px] lg:mt-[unset] rounded-[40px] overflow-hidden item-shadow zoom-in">
-                     <img src="https://static.wixstatic.com/media/11062b_e0b380678e2746c3bdffa6e1533de45c~mv2.jpg/v1/fill/w_2914,h_1136,al_c,q_90,usm_0.66_1.00_0.01,enc_auto/11062b_e0b380678e2746c3bdffa6e1533de45c~mv2.jpg" alt="" class="h-full min-h-full min-w-full object-cover object-center"> 
-                  </div>
-               </div>
-            </div>
-
-             <div id="Tab6" class="tabcontent">
-               <div class="lg:flex justify-between">
-                  <div class="w-[309px] md:w-[450px] mx-auto lg:mx-[unset] accordion-group">
-                    
-                     <!-- ACCORDION -->
-                     <div class="accordion-item"> 
-                        <button class="accordion text-[#203145] font-medium text-12 leading-13 md:text-15 md:leading-16 xl:text-18 xl:leading-19 py-[20px] xl:py-[20px]">
-                              <span class="pr-4">Introduction</span>
-                        </button>
-                        <div class="panel">
-                              <div class="pr-[15px] pb-[20px] xl:pb-[20px]">
-                                 <div class="text-[#203145] text-12 leading-22 md:text-14 md:leading-25 xl:text-16 xl:leading-30 font-normal w-full text-editor">Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores </div>
-                              </div>
-                        </div>
-                     </div>
-
-                     <div class="accordion-item"> 
-                        <button class="accordion text-[#203145] font-medium text-12 leading-13 md:text-15 md:leading-16 xl:text-18 xl:leading-19 py-[20px] xl:py-[20px]">
-                              <span class="pr-4">Why iSales</span>
-                        </button>
-                        <div class="panel">
-                              <div class="pr-[15px] pb-[20px] xl:pb-[20px]">
-                                 <div class="text-[#203145] text-12 leading-22 md:text-14 md:leading-25 xl:text-16 xl:leading-30 font-normal w-full text-editor">Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. </div>
-                              </div>
-                        </div>
-                     </div>
-
-                     <div class="accordion-item"> 
-                        <button class="accordion text-[#203145] font-medium text-12 leading-13 md:text-15 md:leading-16 xl:text-18 xl:leading-19 py-[20px] xl:py-[20px]">
-                              <span class="pr-4">Functional scope</span>
-                        </button>
-                        <div class="panel">
-                              <div class="pr-[15px] pb-[20px] xl:pb-[20px]">
-                                 <div class="text-[#203145] text-12 leading-22 md:text-14 md:leading-25 xl:text-16 xl:leading-30 font-normal w-full text-editor">Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. </div>
-                              </div>
-                        </div>
-                     </div>
-
-                     <div class="accordion-item"> 
-                        <button class="accordion text-[#203145] font-medium text-12 leading-13 md:text-15 md:leading-16 xl:text-18 xl:leading-19 py-[20px] xl:py-[20px]">
-                              <span class="pr-4">Integrations</span>
-                        </button>
-                        <div class="panel">
-                              <div class="pr-[15px] pb-[20px] xl:pb-[20px]">
-                                 <div class="text-[#203145] text-12 leading-22 md:text-14 md:leading-25 xl:text-16 xl:leading-30 font-normal w-full text-editor">Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. </div>
-                              </div>
-                        </div>
-                     </div>
-                     <!-- EINDE ACCORDION -->
-                     <a href="" class="text-14 leading-14 xl:text-16 xl:leading-16 text-[#2A3041] font-medium md:min-w-[130px] h-[43px] px-[20px] border-[1px] border-[#1C1C1C] rounded-[14px] md:rounded-[15px] xl:rounded-[18px] mt-[30px] md:mt-[40px] lg:mt-[60px] xl:mt-[50px] lg:hover:text-white lg:hover:bg-[#2A3041] duration-300 flex items-center justify-center w-fit"><span class="correction">Download technical details</span></a>
-
-                  </div>
-                  <div class="w-[350px] md:w-[509px] lg:w-[590px] xl:w-[713px] mx-auto lg:mx-[unset] h-[197px] md:h-[286px] lg:h-[332px] xl:h-[400px] bg-black mt-[30px] md:mt-[40px] lg:mt-[unset] rounded-[40px] overflow-hidden item-shadow zoom-in">
-                     <img src="https://static.wixstatic.com/media/11062b_e0b380678e2746c3bdffa6e1533de45c~mv2.jpg/v1/fill/w_2914,h_1136,al_c,q_90,usm_0.66_1.00_0.01,enc_auto/11062b_e0b380678e2746c3bdffa6e1533de45c~mv2.jpg" alt="" class="h-full min-h-full min-w-full object-cover object-center"> 
-                  </div>
-               </div>
-            </div>
-
-             <div id="Tab7" class="tabcontent">
-               <div class="lg:flex justify-between">
-                  <div class="w-[309px] md:w-[450px] mx-auto lg:mx-[unset] accordion-group">
-                    
-                     <!-- ACCORDION -->
-                     <div class="accordion-item"> 
-                        <button class="accordion text-[#203145] font-medium text-12 leading-13 md:text-15 md:leading-16 xl:text-18 xl:leading-19 py-[20px] xl:py-[20px]">
-                              <span class="pr-4">Introduction</span>
-                        </button>
-                        <div class="panel">
-                              <div class="pr-[15px] pb-[20px] xl:pb-[20px]">
-                                 <div class="text-[#203145] text-12 leading-22 md:text-14 md:leading-25 xl:text-16 xl:leading-30 font-normal w-full text-editor">Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores </div>
-                              </div>
-                        </div>
-                     </div>
-
-                     <div class="accordion-item"> 
-                        <button class="accordion text-[#203145] font-medium text-12 leading-13 md:text-15 md:leading-16 xl:text-18 xl:leading-19 py-[20px] xl:py-[20px]">
-                              <span class="pr-4">Why iTrack</span>
-                        </button>
-                        <div class="panel">
-                              <div class="pr-[15px] pb-[20px] xl:pb-[20px]">
-                                 <div class="text-[#203145] text-12 leading-22 md:text-14 md:leading-25 xl:text-16 xl:leading-30 font-normal w-full text-editor">Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. </div>
-                              </div>
-                        </div>
-                     </div>
-
-                     <div class="accordion-item"> 
-                        <button class="accordion text-[#203145] font-medium text-12 leading-13 md:text-15 md:leading-16 xl:text-18 xl:leading-19 py-[20px] xl:py-[20px]">
-                              <span class="pr-4">Functional scope</span>
-                        </button>
-                        <div class="panel">
-                              <div class="pr-[15px] pb-[20px] xl:pb-[20px]">
-                                 <div class="text-[#203145] text-12 leading-22 md:text-14 md:leading-25 xl:text-16 xl:leading-30 font-normal w-full text-editor">Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. </div>
-                              </div>
-                        </div>
-                     </div>
-
-                     <div class="accordion-item"> 
-                        <button class="accordion text-[#203145] font-medium text-12 leading-13 md:text-15 md:leading-16 xl:text-18 xl:leading-19 py-[20px] xl:py-[20px]">
-                              <span class="pr-4">Integrations</span>
-                        </button>
-                        <div class="panel">
-                              <div class="pr-[15px] pb-[20px] xl:pb-[20px]">
-                                 <div class="text-[#203145] text-12 leading-22 md:text-14 md:leading-25 xl:text-16 xl:leading-30 font-normal w-full text-editor">Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. </div>
-                              </div>
-                        </div>
-                     </div>
-                     <!-- EINDE ACCORDION -->
-                     <a href="" class="text-14 leading-14 xl:text-16 xl:leading-16 text-[#2A3041] font-medium md:min-w-[130px] h-[43px] px-[20px] border-[1px] border-[#1C1C1C] rounded-[14px] md:rounded-[15px] xl:rounded-[18px] mt-[30px] md:mt-[40px] lg:mt-[60px] xl:mt-[50px] lg:hover:text-white lg:hover:bg-[#2A3041] duration-300 flex items-center justify-center w-fit"><span class="correction">Download technical details</span></a>
-
-                  </div>
-                  <div class="w-[350px] md:w-[509px] lg:w-[590px] xl:w-[713px] mx-auto lg:mx-[unset] h-[197px] md:h-[286px] lg:h-[332px] xl:h-[400px] bg-black mt-[30px] md:mt-[40px] lg:mt-[unset] rounded-[40px] overflow-hidden item-shadow zoom-in">
-                     <img src="https://static.wixstatic.com/media/11062b_e0b380678e2746c3bdffa6e1533de45c~mv2.jpg/v1/fill/w_2914,h_1136,al_c,q_90,usm_0.66_1.00_0.01,enc_auto/11062b_e0b380678e2746c3bdffa6e1533de45c~mv2.jpg" alt="" class="h-full min-h-full min-w-full object-cover object-center"> 
-                  </div>
-               </div>
-            </div>
-
-            
-         </div>
-         
-      </div>
-    </section>
-
-    <!-- COMPANIES -->
-    <section class="bg-gradient-to-b from-white to-[#F6F6F6] py-[60px]">
-      <div class="container">
-         <h2 class="text-[#2A3041] font-semibold text-32 leading-33 md:text-42 md:leading-43 lg:text-45 lg:leading-47 xl:text-54 xl:leading-56">Meet the companies <br>that proudly use our software</h2>
-      </div>
-
-      
-         <div class="mt-[20px] md:mt-[25px] lg:mt-[35px] xl:mt-[45px]">
-            <div class="w-screen relative overflow-x-hidden swiper swipercompanies">
-                <div class="flex w-full swiper-wrapper kleuren-wrapper">
-
-                    <div class="flex items-center w-max swiper-slide">
-                        <div class="w-[292.15px] h-[461px] md:w-[290.73px] md:h-[460px] xl:h-[520px] xl:w-[328px] bg-kleur rounded-[15px] flex justify-center items-start relative overflow-hidden">
-                           <div class="absolute left-[13px] top-[236px] md:top-[236px] lg:top-[237px] xl:top-[267px] h-[18px] w-[13px] bg-kleur z-[3]"></div>
-                           <div class="absolute right-[13px] top-[236px] md:top-[236px] lg:top-[237px] xl:top-[267px] h-[18px] w-[13px] bg-kleur z-[3]"></div>
-                           <div class="absolute right-[0px] bottom-[0px] w-[80px] h-[50px] xl:h-[60px] xl:w-[90px] bg-kleur rounded-[10px] flex items-center justify-center z-[3]">
-                              <img src="/wp-content/themes/iport/img/local/Afbeelding1.png" alt="" class="merklogo mix-blend-multiply">
-                           </div>
-                           <div class="content w-[266.15px] h-[417px] md:w-[264.73px] md:h-[416px] xl:h-[476px] xl:w-[302px] bg-white rounded-[10px] mt-[13px] overflow-hidden relative z-[2]">
-                              <img src="https://static.wixstatic.com/media/11062b_e0b380678e2746c3bdffa6e1533de45c~mv2.jpg/v1/fill/w_2914,h_1136,al_c,q_90,usm_0.66_1.00_0.01,enc_auto/11062b_e0b380678e2746c3bdffa6e1533de45c~mv2.jpg" alt="" class="h-full min-h-full min-w-full object-cover ocbject-center">
-                              <div class="hover-effect">
-                                 <div class="h-full w-full flex items-end px-[20px] py-[30px] xl:px-[30px] xl:py-[40px]">
-                                    <div class="grid">
-                                       <h3 class="text-white text-12 leading-22 xl:text-14 xl:leading-25 font-semibold">Mohamed Hanno – Executive Chairman & CEO</h3>
-                                       <p class="text-white text-10 leading-22 xl:text-12 xl:leading-25 font-normal">The professionalism and efficiency of iPort's products have significantly improved our operations, leading to a positive impact on our work. The high quality and reliability of their services have been instrumental in streamlining our processes and increasing our overall productivity.</p>
-                                    </div>
-                                 </div>
-                              </div>
-                           </div>
-                        </div>
-                    </div>
-
-                     <div class="flex items-center w-max swiper-slide">
-                        <div class="w-[292.15px] h-[461px] md:w-[290.73px] md:h-[460px] xl:h-[520px] xl:w-[328px] bg-kleur rounded-[15px] flex justify-center items-start relative overflow-hidden">
-                           <div class="absolute left-[13px] top-[236px] md:top-[236px] lg:top-[237px] xl:top-[267px] h-[18px] w-[13px] bg-kleur z-[3]"></div>
-                           <div class="absolute right-[13px] top-[236px] md:top-[236px] lg:top-[237px] xl:top-[267px] h-[18px] w-[13px] bg-kleur z-[3]"></div>
-                           <div class="absolute right-[0px] bottom-[0px] w-[80px] h-[50px] xl:h-[60px] xl:w-[90px] bg-kleur rounded-[10px] flex items-center justify-center z-[3]">
-                              <img src="/wp-content/themes/iport/img/local/Afbeelding2.png" alt="" class="merklogo mix-blend-multiply">
-                           </div>
-                           <div class="content w-[266.15px] h-[417px] md:w-[264.73px] md:h-[416px] xl:h-[476px] xl:w-[302px] bg-white rounded-[10px] mt-[13px] overflow-hidden relative z-[2]">
-                              <img src="https://static.wixstatic.com/media/11062b_e0b380678e2746c3bdffa6e1533de45c~mv2.jpg/v1/fill/w_2914,h_1136,al_c,q_90,usm_0.66_1.00_0.01,enc_auto/11062b_e0b380678e2746c3bdffa6e1533de45c~mv2.jpg" alt="" class="h-full min-h-full min-w-full object-cover ocbject-center">
-                              <div class="hover-effect">
-                                 <div class="h-full w-full flex items-end px-[20px] py-[30px] xl:px-[30px] xl:py-[40px]">
-                                    <div class="grid">
-                                       <h3 class="text-white text-12 leading-22 xl:text-14 xl:leading-25 font-semibold">Enno Friesland – Senior Manager Passenger Services</h3>
-                                       <p class="text-white text-10 leading-22 xl:text-12 xl:leading-25 font-normal">iPort is a versatile DCS, easy-to-use, reliable, extremely stable and very cost efficient. Our agents love it. The support is excellent and calls are answered immediately. All requests and AHM updates are answered very satisfactory in the shortest possible time. We really appreciate the outstanding cooperation we have with all staff from the iPort team. I really can recommend the usage of iPort!</p>
-                                    </div>
-                                 </div>
-                              </div>
-                           </div>
-                        </div>
-                    </div>
-
-                     <div class="flex items-center w-max swiper-slide">
-                        <div class="w-[292.15px] h-[461px] md:w-[290.73px] md:h-[460px] xl:h-[520px] xl:w-[328px] bg-kleur rounded-[15px] flex justify-center items-start relative overflow-hidden">
-                           <div class="absolute left-[13px] top-[236px] md:top-[236px] lg:top-[237px] xl:top-[267px] h-[18px] w-[13px] bg-kleur z-[3]"></div>
-                           <div class="absolute right-[13px] top-[236px] md:top-[236px] lg:top-[237px] xl:top-[267px] h-[18px] w-[13px] bg-kleur z-[3]"></div>
-                           <div class="absolute right-[0px] bottom-[0px] w-[80px] h-[50px] xl:h-[60px] xl:w-[90px] bg-kleur rounded-[10px] flex items-center justify-center z-[3]">
-                              <img src="/wp-content/themes/iport/img/local/Afbeelding3.png" alt="" class="merklogo mix-blend-multiply">
-                           </div>
-                           <div class="content w-[266.15px] h-[417px] md:w-[264.73px] md:h-[416px] xl:h-[476px] xl:w-[302px] bg-white rounded-[10px] mt-[13px] overflow-hidden relative z-[2]">
-                              <img src="https://static.wixstatic.com/media/11062b_e0b380678e2746c3bdffa6e1533de45c~mv2.jpg/v1/fill/w_2914,h_1136,al_c,q_90,usm_0.66_1.00_0.01,enc_auto/11062b_e0b380678e2746c3bdffa6e1533de45c~mv2.jpg" alt="" class="h-full min-h-full min-w-full object-cover ocbject-center">
-                              <div class="hover-effect">
-                                 <div class="h-full w-full flex items-end px-[20px] py-[30px] xl:px-[30px] xl:py-[40px]">
-                                    <div class="grid">
-                                       <h3 class="text-white text-12 leading-22 xl:text-14 xl:leading-25 font-semibold">Chaipat Supasi – Director of Ground Operations</h3>
-                                       <p class="text-white text-10 leading-22 xl:text-12 xl:leading-25 font-normal">iPax by iPort has revolutionized our boarding process in Krabi. On its first use, we achieved the fastest boarding time ever recorded here. This mobile agent DCS has not only improved our operational efficiency by also significantly enhanced the passenger experience. We are thrilled with the results and the future potential of iPax. </p>
-                                    </div>
-                                 </div>
-                              </div>
-                           </div>
-                        </div>
-                    </div>
-
-                     <div class="flex items-center w-max swiper-slide">
-                        <div class="w-[292.15px] h-[461px] md:w-[290.73px] md:h-[460px] xl:h-[520px] xl:w-[328px] bg-kleur rounded-[15px] flex justify-center items-start relative overflow-hidden">
-                           <div class="absolute left-[13px] top-[236px] md:top-[236px] lg:top-[237px] xl:top-[267px] h-[18px] w-[13px] bg-kleur z-[3]"></div>
-                           <div class="absolute right-[13px] top-[236px] md:top-[236px] lg:top-[237px] xl:top-[267px] h-[18px] w-[13px] bg-kleur z-[3]"></div>
-                           <div class="absolute right-[0px] bottom-[0px] w-[80px] h-[50px] xl:h-[60px] xl:w-[90px] bg-kleur rounded-[10px] flex items-center justify-center z-[3]">
-                              <img src="/wp-content/themes/iport/img/local/Afbeelding4.png" alt="" class="merklogo mix-blend-multiply">
-                           </div>
-                           <div class="content w-[266.15px] h-[417px] md:w-[264.73px] md:h-[416px] xl:h-[476px] xl:w-[302px] bg-white rounded-[10px] mt-[13px] overflow-hidden relative z-[2]">
-                              <img src="https://static.wixstatic.com/media/11062b_e0b380678e2746c3bdffa6e1533de45c~mv2.jpg/v1/fill/w_2914,h_1136,al_c,q_90,usm_0.66_1.00_0.01,enc_auto/11062b_e0b380678e2746c3bdffa6e1533de45c~mv2.jpg" alt="" class="h-full min-h-full min-w-full object-cover ocbject-center">
-                              <div class="hover-effect">
-                                 <div class="h-full w-full flex items-end px-[20px] py-[30px] xl:px-[30px] xl:py-[40px]">
-                                    <div class="grid">
-                                       <h3 class="text-white text-12 leading-22 xl:text-14 xl:leading-25 font-semibold">Freek van der Pal – Managing Director</h3>
-                                       <p class="text-white text-10 leading-22 xl:text-12 xl:leading-25 font-normal">The iPort Departure Control System is flexible and easy to use. It is innovative and futureproof, which leads to a great customer experience, for the airline, handler and passengers! </p>
-                                    </div>
-                                 </div>
-                              </div>
-                           </div>
-                        </div>
-                    </div>
-
-                     <div class="flex items-center w-max swiper-slide">
-                        <div class="w-[292.15px] h-[461px] md:w-[290.73px] md:h-[460px] xl:h-[520px] xl:w-[328px] bg-kleur rounded-[15px] flex justify-center items-start relative overflow-hidden">
-                           <div class="absolute left-[13px] top-[236px] md:top-[236px] lg:top-[237px] xl:top-[267px] h-[18px] w-[13px] bg-kleur z-[3]"></div>
-                           <div class="absolute right-[13px] top-[236px] md:top-[236px] lg:top-[237px] xl:top-[267px] h-[18px] w-[13px] bg-kleur z-[3]"></div>
-                           <div class="absolute right-[0px] bottom-[0px] w-[80px] h-[50px] xl:h-[60px] xl:w-[90px] bg-kleur rounded-[10px] flex items-center justify-center z-[3]">
-                              <img src="/wp-content/themes/iport/img/local/Afbeelding5.jpg" alt="" class="merklogo mix-blend-multiply">
-                           </div>
-                           <div class="content w-[266.15px] h-[417px] md:w-[264.73px] md:h-[416px] xl:h-[476px] xl:w-[302px] bg-white rounded-[10px] mt-[13px] overflow-hidden relative z-[2]">
-                              <img src="https://static.wixstatic.com/media/11062b_e0b380678e2746c3bdffa6e1533de45c~mv2.jpg/v1/fill/w_2914,h_1136,al_c,q_90,usm_0.66_1.00_0.01,enc_auto/11062b_e0b380678e2746c3bdffa6e1533de45c~mv2.jpg" alt="" class="h-full min-h-full min-w-full object-cover ocbject-center">
-                              <div class="hover-effect">
-                                 <div class="h-full w-full flex items-end px-[20px] py-[30px] xl:px-[30px] xl:py-[40px]">
-                                    <div class="grid">
-                                       <h3 class="text-white text-12 leading-22 xl:text-14 xl:leading-25 font-semibold">Marco Kölsch – Senior Manager Sales</h3>
-                                       <p class="text-white text-10 leading-22 xl:text-12 xl:leading-25 font-normal">In seeking for an innovative and cost-effective Departure Control System that is above all very user-friendly and offers a wide range of services, iPort DCS particularly caught our eye. The contacting, the contract negotiation, the implementation and finally the first handling was very smooth. Our business partners at iPort really do an excellent job in all areas. We are really looking forward to a trustful, reliable and valuable cooperation with iPort and are glad that we can use iPort DCS as our new in-house Departure Control System at Frankfurt Airport. </p>
-                                    </div>
-                                 </div>
-                              </div>
-                           </div>
-                        </div>
-                    </div>
-
-                     <div class="flex items-center w-max swiper-slide">
-                        <div class="w-[292.15px] h-[461px] md:w-[290.73px] md:h-[460px] xl:h-[520px] xl:w-[328px] bg-kleur rounded-[15px] flex justify-center items-start relative overflow-hidden">
-                           <div class="absolute left-[13px] top-[236px] md:top-[236px] lg:top-[237px] xl:top-[267px] h-[18px] w-[13px] bg-kleur z-[3]"></div>
-                           <div class="absolute right-[13px] top-[236px] md:top-[236px] lg:top-[237px] xl:top-[267px] h-[18px] w-[13px] bg-kleur z-[3]"></div>
-                           <div class="absolute right-[0px] bottom-[0px] w-[80px] h-[50px] xl:h-[60px] xl:w-[90px] bg-kleur rounded-[10px] flex items-center justify-center z-[3]">
-                              <img src="/wp-content/themes/iport/img/local/Afbeelding6.jpg" alt="" class="merklogo mix-blend-multiply">
-                           </div>
-                           <div class="content w-[266.15px] h-[417px] md:w-[264.73px] md:h-[416px] xl:h-[476px] xl:w-[302px] bg-white rounded-[10px] mt-[13px] overflow-hidden relative z-[2]">
-                              <img src="https://static.wixstatic.com/media/11062b_e0b380678e2746c3bdffa6e1533de45c~mv2.jpg/v1/fill/w_2914,h_1136,al_c,q_90,usm_0.66_1.00_0.01,enc_auto/11062b_e0b380678e2746c3bdffa6e1533de45c~mv2.jpg" alt="" class="h-full min-h-full min-w-full object-cover ocbject-center ">
-                              <div class="hover-effect">
-                                 <div class="h-full w-full flex items-end px-[20px] py-[30px] xl:px-[30px] xl:py-[40px]">
-                                    <div class="grid">
-                                       <h3 class="text-white text-12 leading-22 xl:text-14 xl:leading-25 font-semibold">Damiano Rosso – NP Ground Operations</h3>
-                                       <p class="text-white text-10 leading-22 xl:text-12 xl:leading-25 font-normal">Thanks to partnering with iPort, our customer experience greatly improved. iPort has provided us savings and simplicity while boosting self-service usage and ancillary sales revenue. </p>
-                                    </div>
-                                 </div>
-                              </div>
-                           </div>
-                        </div>
-                    </div>
-
-                     <div class="flex items-center w-max swiper-slide">
-                        <div class="w-[292.15px] h-[461px] md:w-[290.73px] md:h-[460px] xl:h-[520px] xl:w-[328px] bg-kleur rounded-[15px] flex justify-center items-start relative overflow-hidden">
-                           <div class="absolute left-[13px] top-[236px] md:top-[236px] lg:top-[237px] xl:top-[267px] h-[18px] w-[13px] bg-kleur z-[3]"></div>
-                           <div class="absolute right-[13px] top-[236px] md:top-[236px] lg:top-[237px] xl:top-[267px] h-[18px] w-[13px] bg-kleur z-[3]"></div>
-                           <div class="absolute right-[0px] bottom-[0px] w-[80px] h-[50px] xl:h-[60px] xl:w-[90px] bg-kleur rounded-[10px] flex items-center justify-center z-[3]">
-                              <img src="/wp-content/themes/iport/img/local/Afbeelding7.png" alt="" class="merklogo mix-blend-multiply">
-                           </div>
-                           <div class="content w-[266.15px] h-[417px] md:w-[264.73px] md:h-[416px] xl:h-[476px] xl:w-[302px] bg-white rounded-[10px] mt-[13px] overflow-hidden relative z-[2]">
-                              <img src="https://static.wixstatic.com/media/11062b_e0b380678e2746c3bdffa6e1533de45c~mv2.jpg/v1/fill/w_2914,h_1136,al_c,q_90,usm_0.66_1.00_0.01,enc_auto/11062b_e0b380678e2746c3bdffa6e1533de45c~mv2.jpg" alt="" class="h-full min-h-full min-w-full object-cover ocbject-center">
-                              <div class="hover-effect">
-                                 <div class="h-full w-full flex items-end px-[20px] py-[30px] xl:px-[30px] xl:py-[40px]">
-                                    <div class="grid">
-                                       <h3 class="text-white text-12 leading-22 xl:text-14 xl:leading-25 font-semibold">Carmen López – Managing Director</h3>
-                                       <p class="text-white text-10 leading-22 xl:text-12 xl:leading-25 font-normal">This collaboration with iPort confirms our firm commitment to always offer the most recent advances in technology and innovation. This is why we have chosen to rely on one of the most recognized brands in the industry, which will undoubtedly provide us with its cutting-edge technology and extensive experience. </p>
-                                    </div>
-                                 </div>
-                              </div>
-                           </div>
-                        </div>
-                    </div>
-
-                     <div class="flex items-center w-max swiper-slide">
-                        <div class="w-[292.15px] h-[461px] md:w-[290.73px] md:h-[460px] xl:h-[520px] xl:w-[328px] bg-kleur rounded-[15px] flex justify-center items-start relative overflow-hidden">
-                           <div class="absolute left-[13px] top-[236px] md:top-[236px] lg:top-[237px] xl:top-[267px] h-[18px] w-[13px] bg-kleur z-[3]"></div>
-                           <div class="absolute right-[13px] top-[236px] md:top-[236px] lg:top-[237px] xl:top-[267px] h-[18px] w-[13px] bg-kleur z-[3]"></div>
-                           <div class="absolute right-[0px] bottom-[0px] w-[80px] h-[50px] xl:h-[60px] xl:w-[90px] bg-kleur rounded-[10px] flex items-center justify-center z-[3]">
-                              <img src="/wp-content/themes/iport/img/local/Afbeelding8.png" alt="" class="merklogo mix-blend-multiply">
-                           </div>
-                           <div class="content w-[266.15px] h-[417px] md:w-[264.73px] md:h-[416px] xl:h-[476px] xl:w-[302px] bg-white rounded-[10px] mt-[13px] overflow-hidden relative z-[2]">
-                              <img src="https://static.wixstatic.com/media/11062b_e0b380678e2746c3bdffa6e1533de45c~mv2.jpg/v1/fill/w_2914,h_1136,al_c,q_90,usm_0.66_1.00_0.01,enc_auto/11062b_e0b380678e2746c3bdffa6e1533de45c~mv2.jpg" alt="" class="h-full min-h-full min-w-full object-cover ocbject-center">
-                              <div class="hover-effect">
-                                 <div class="h-full w-full flex items-end px-[20px] py-[30px] xl:px-[30px] xl:py-[40px]">
-                                    <div class="grid">
-                                       <h3 class="text-white text-12 leading-22 xl:text-14 xl:leading-25 font-semibold">Farnush Anwar – Manager Airport Systems & Automation</h3>
-                                       <p class="text-white text-10 leading-22 xl:text-12 xl:leading-25 font-normal">Lorem ipsum dolor sit amet, <br>consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. </p>
-                                    </div>
-                                 </div>
-                              </div>
-                           </div>
-                        </div>
-                    </div>
-
-                     <div class="flex items-center w-max swiper-slide">
-                        <div class="w-[292.15px] h-[461px] md:w-[290.73px] md:h-[460px] xl:h-[520px] xl:w-[328px] bg-kleur rounded-[15px] flex justify-center items-start relative overflow-hidden">
-                           <div class="absolute left-[13px] top-[236px] md:top-[236px] lg:top-[237px] xl:top-[267px] h-[18px] w-[13px] bg-kleur z-[3]"></div>
-                           <div class="absolute right-[13px] top-[236px] md:top-[236px] lg:top-[237px] xl:top-[267px] h-[18px] w-[13px] bg-kleur z-[3]"></div>
-                           <div class="absolute right-[0px] bottom-[0px] w-[80px] h-[50px] xl:h-[60px] xl:w-[90px] bg-kleur rounded-[10px] flex items-center justify-center z-[3]">
-                              <img src="/wp-content/themes/iport/img/local/Afbeelding9.png" alt="" class="merklogo mix-blend-multiply">
-                           </div>
-                           <div class="content w-[266.15px] h-[417px] md:w-[264.73px] md:h-[416px] xl:h-[476px] xl:w-[302px] bg-white rounded-[10px] mt-[13px] overflow-hidden relative z-[2]">
-                              <img src="https://static.wixstatic.com/media/11062b_e0b380678e2746c3bdffa6e1533de45c~mv2.jpg/v1/fill/w_2914,h_1136,al_c,q_90,usm_0.66_1.00_0.01,enc_auto/11062b_e0b380678e2746c3bdffa6e1533de45c~mv2.jpg" alt="" class="h-full min-h-full min-w-full object-cover ocbject-center">
-                              <div class="hover-effect">
-                                 <div class="h-full w-full flex items-end px-[20px] py-[30px] xl:px-[30px] xl:py-[40px]">
-                                    <div class="grid">
-                                       <h3 class="text-white text-12 leading-22 xl:text-14 xl:leading-25 font-semibold">Yerzhan Tolegenov – Operations Director</h3>
-                                       <p class="text-white text-10 leading-22 xl:text-12 xl:leading-25 font-normal">Qanot Sharq is very happy with the collaboration of iPort DCS: rapid and efficient training program, reactive, understanding, and flexible support team, and finally, technical aptitude that meets our business objectives in a timely and cost-effective manner. We can focus on our business and ‘customer happiness’ while iPort contributes to our operational efficiencies and required technical reactivity for growth </p>
-                                    </div>
-                                 </div>
-                              </div>
-                           </div>
-                        </div>
-                    </div>
-
-                    
-                   
-                   
-                </div>
-            </div>
-        </div>
-      <div class="container">
-         <a href="" class="text-14 leading-14 xl:text-16 xl:leading-16 text-white font-normal md:min-w-[130px] h-[43px] px-[20px] border-[1px] border-[#1C1C1C] bg-[#2A3041] lg:hover:bg-[#009FE3] lg:hover:border-[#009FE3] duration-300 rounded-[14px] md:rounded-[15px] xl:rounded-[18px] mt-[30px] md:mt-[40px] lg:mt-[60px] xl:mt-[50px] lg:hover:text-white flex items-center justify-center w-fit mx-auto">
-            <span class="correction">See more Stories</span>
-            <svg id="Group_134" data-name="Group 134" xmlns="http://www.w3.org/2000/svg" width="9.953" height="9.954" viewBox="0 0 9.953 9.954" class="ml-[50px] xl:ml-[30px]">
-               <path id="Path_5" data-name="Path 5" d="M1.28,0,0,1.278l6.615.005L7.9,0Z" transform="translate(-0.001 0)" fill="#f6f6f6"/>
-               <path id="Path_6" data-name="Path 6" d="M10.942,0,3.051,7.892l.9.9,6.6-6.6V9.954l1.287-1.281V0Z" transform="translate(-1.893 0)" fill="#f6f6f6"/>
-            </svg>
-         </a>
-      </div>
-    </section>
-
-   <!-- GLOBAL -->
-    <section class="bg-white py-[60px]">
-       <div class="container text-center">
-         <h2 class="text-[#2A3041] font-semibold text-32 leading-33 md:text-42 md:leading-43 lg:text-45 lg:leading-47 xl:text-54 xl:leading-56">Global presence</h2>
-         
-      </div>
-      <div class="md:flex justify-between mt-[20px] md:mt-[25px] lg:mt-[35px] xl:mt-[45px]">
-         <div class="md:pl-[calc(50vw-344px)] lg:pl-[calc(50vw-564.5px)] xl:pl-[calc(50vw-636px)] flex flex-col justify-between">
-            <div class="grid w-[250px] mx-auto md:mx-[unset] md:w-[190px] lg:w-[321px] h-fit map-menu">
-               <hr class="border-[#2A3041]">
-               <button class="location active text-left py-[12px] md:py-[20px] text-15 leading-15 xl:text-18 xl:leading-18 font-medium lg:hover:text-[#2A3041] duration-300" data-value="Amsterdam">Europa</button>
-               <hr class="border-[#2A3041]">
-               <button class="location text-left py-[12px] md:py-[20px] text-15 leading-15 xl:text-18 xl:leading-18 font-medium lg:hover:text-[#2A3041] duration-300" data-value="Cairo">Middle East and Africa</button>
-               <hr class="border-[#2A3041]">
-               <button class="location text-left py-[12px] md:py-[20px] text-15 leading-15 xl:text-18 xl:leading-18 font-medium lg:hover:text-[#2A3041] duration-300" data-value="Tashkent">Central Asia</button>
-               <hr class="border-[#2A3041]">
-               <button class="location text-left py-[12px] md:py-[20px] text-15 leading-15 xl:text-18 xl:leading-18 font-medium lg:hover:text-[#2A3041] duration-300" data-value="Manila">East Asia and Pacific</button>
-               <hr class="border-[#2A3041]">
-               <button class="location text-left py-[12px] md:py-[20px] text-15 leading-15 xl:text-18 xl:leading-18 font-medium lg:hover:text-[#2A3041] duration-300" data-value="Bogotá">Americas</button>
-               <hr class="border-[#2A3041]">
-            </div>
-            <div class="block md:hidden lg:block w-[322.42px] mx-auto md:mx-[unset] md:w-[390px] my-[30px] md:my-[unset]">
-               <h3 class="text-18 leading-19 font-medium text-[#009FE3]">Did you know?</h3>
-               <div class="mt-[12px] md:mt-[20px] map-fact">
-                  <p class="text-14 leading-22 lg:text-14 lg:leading-25 xl:text-16 xl:leading-30 font-normal text-black active" data-value="Amsterdam">The first flight ever handled in iPort DCS took off from Berlin Schönefeld (formerly IATA: SXF) on the 17th of August 2009. The current BER airport is still one of the +100 European airports where iPort is used.</p>
-                  <p class="text-14 leading-22 lg:text-14 lg:leading-25 xl:text-16 xl:leading-30 font-normal text-black" data-value="Cairo">iPort is certified for all security messaging programs such as iAPI and APP in the Middle-East, including Saudi-Arabia, UAE, Qatar, Oman, Bahrain and more.</p>
-                  <p class="text-14 leading-22 lg:text-14 lg:leading-25 xl:text-16 xl:leading-30 font-normal text-black" data-value="Tashkent">Lorum ipsum</p>
-                  <p class="text-14 leading-22 lg:text-14 lg:leading-25 xl:text-16 xl:leading-30 font-normal text-black" data-value="Manila">Many airports in Asia use regional providers for common-use platforms, instead of global ones like SITA, ARINC, Resa, and ACUS. iPort currently operates on TravelSky (China), AirCUS (Korea), iCUTE (Vietnam), MCO Jaya (Indonesia), and others.</p>
-                  <p class="text-14 leading-22 lg:text-14 lg:leading-25 xl:text-16 xl:leading-30 font-normal text-black" data-value="Bogotá">Lorum ipsum</p>
-               </div>
-            </div>
-         </div>
-         <div class="w-[100vw] md:w-[calc(50vw+107px)] lg:w-[calc(50vw+102px)] xl:w-[calc(50vw+177px)] overflow-hidden h-[276px] md:h-[344px] lg:h-[515px] xl:h-[647px]">
-            <div class=" origin-center-center google-map">
-               <?php echo do_shortcode( '[wpsl]' ); ?>
-            </div>
-         </div>
-      </div>
-      <div class="container hidden md:block lg:hidden">
-         <div class="w-[322.42px] mx-auto md:mx-[unset] md:w-[390px] mt-[20px]">
-            <h3 class="text-18 leading-19 font-medium text-[#009FE3]">Did you know?</h3>
-            <div class="mt-[12px] md:mt-[20px] map-fact">
-               <p class="text-14 leading-22 lg:text-14 lg:leading-25 xl:text-16 xl:leading-30 font-normal text-black active" data-value="Wenen">Wenen is de grootste stad in het Midden-Oosten en Afrika.</p>
-               <p class="text-14 leading-22 lg:text-14 lg:leading-25 xl:text-16 xl:leading-30 font-normal text-black" data-value="Cairo">Cairo is de grootste stad in het Midden-Oosten en Afrika.</p>
-               <p class="text-14 leading-22 lg:text-14 lg:leading-25 xl:text-16 xl:leading-30 font-normal text-black" data-value="Tashkent">Tashkent is de hoofdstad van Oezbekistan en ligt in Centraal-Azië.</p>
-               <p class="text-14 leading-22 lg:text-14 lg:leading-25 xl:text-16 xl:leading-30 font-normal text-black" data-value="Manila">Manila is de hoofdstad van de Filipijnen en ligt in de Stille Oceaan.</p>
-               <p class="text-14 leading-22 lg:text-14 lg:leading-25 xl:text-16 xl:leading-30 font-normal text-black" data-value="Bogotá">Bogotá is de hoofdstad van Colombia en ligt in het midden van de Amerikas.</p>
-            </div>
-         </div>
-      </div>
-    </section>
-
-   <!-- NEWS & EVENTS -->
-   <section class="bg-white pb-[60px]">
-      <div class="container text-center pb-[30px] md:pb-[40px] lg:pb-[40px] xl:pb-[50px]">
-         <h2 class="text-[#2A3041] font-semibold text-32 leading-33 md:text-42 md:leading-43 lg:text-45 lg:leading-47 xl:text-54 xl:leading-56">News & Events</h2>
-      </div>
-      <div class="w-full lg:w-[1129px] xl:w-[1272px] mx-auto">
-          <div class="swiper swipernews pb-[30px] md:pb-[40px] lg:pb-[50px] xl:pb-[50px] lg:px-[5px]">
-            <div class="flex w-full swiper-wrapper">
-               <a href="https://www.iport.aero/news" class="swiper-slide h-[495px] xl:h-[551px] w-[317px] lg:w-full rounded-[40px] item-shadow-news overflow-hidden">
-                  <div class="w-full h-[190px] xl:h-[236px] bg-black overflow-hidden">
-                     <img src="/wp-content/themes/iport/img/local/news1.png" alt="" class="h-full min-w-full min-h-full object-cover object-center">
-                  </div>
-                  <div class="w-[265px] xl:w-[280px] mx-auto h-[200px]">
-                     <div class="w-full h-[31px] flex space-x-[6px] mt-[20px]">
-                        <div class="h-[31px] px-[8px] bg-[#F3C155] flex items-center text-12 leading-12 xl:text-14 xl:leading-14 rounded-[11px] text-white"><span class="correction">#Airlines</span></div>
-                        <div class="h-[31px] px-[8px] bg-[#009FE3] flex items-center text-12 leading-12 xl:text-14 xl:leading-14 rounded-[11px] text-white"><span class="correction">#iPort</span></div>
-                     </div>
-                     <div class="h-[80px] w-full mt-[20px]">
-                        <h3 class="text-18 leading-22 xl:text-22 xl:leading-25 font-medium text-[#000000] line-clamp-3">iPort & PLAY airlines announce a new partnership</h3>
-                     </div>
-                     <div class="h-[60px] w-full mt-[10px]">
-                        <p class="text-14 leading-14 xl:text-16 xl:leading-16 font-normal text-[#000000]">5 september 2024</p>
-                     </div>
-                     <div class="w-full">
-                         <div id="button" class="text-14 leading-14 xl:text-16 xl:leading-16 text-[#203145] font-normal md:min-w-[130px] h-[43px] px-[20px] border-[1px] border-[#1C1C1C]  lg:hover:bg-[#F6F6F6] duration-300 rounded-[14px] md:rounded-[15px] xl:rounded-[18px] flex items-center justify-between w-[237px] xl:w-[272px] mt-[10px]">
-                           <span class="correction">Read more</span>
-                           <svg id="Group_134" data-name="Group 134" xmlns="http://www.w3.org/2000/svg" width="9.953" height="9.954" viewBox="0 0 9.953 9.954" class="ml-[50px] xl:ml-[30px]">
-                              <path id="Path_5" data-name="Path 5" d="M1.28,0,0,1.278l6.615.005L7.9,0Z" transform="translate(-0.001 0)" fill="#203145"/>
-                              <path id="Path_6" data-name="Path 6" d="M10.942,0,3.051,7.892l.9.9,6.6-6.6V9.954l1.287-1.281V0Z" transform="translate(-1.893 0)" fill="#203145"/>
-                           </svg>
-                        </div>
-                     </div>
-                  </div>
-               </a>
-
-               <a href="https://www.iport.aero/news" class="swiper-slide h-[495px] xl:h-[551px] w-[317px] lg:w-full rounded-[40px] item-shadow-news overflow-hidden">
-                  <div class="w-full h-[190px] xl:h-[236px] bg-black overflow-hidden">
-                     <img src="/wp-content/themes/iport/img/local/news2.png" alt="" class="h-full min-w-full min-h-full object-cover object-center">
-                  </div>
-                  <div class="w-[265px] xl:w-[280px] mx-auto h-[200px]">
-                     <div class="w-full h-[31px] flex space-x-[6px] mt-[20px]">
-                        <div class="h-[31px] px-[8px] bg-[#F3C155] flex items-center text-12 leading-12 xl:text-14 xl:leading-14 rounded-[11px] text-white"><span class="correction">#Airlines</span></div>
-                        <div class="h-[31px] px-[8px] bg-[#1B3247] flex items-center text-12 leading-12 xl:text-14 xl:leading-14 rounded-[11px] text-white"><span class="correction">#iPax</span></div>
-                     </div>
-                     <div class="h-[80px] w-full mt-[20px]">
-                        <h3 class="text-18 leading-22 xl:text-22 xl:leading-25 font-medium text-[#000000] line-clamp-3">Vietjet Air Thailand has gone live with iPax in Krabi</h3>
-                     </div>
-                     <div class="h-[60px] w-full mt-[10px]">
-                        <p class="text-14 leading-14 xl:text-16 xl:leading-16 font-normal text-[#000000]">15 august 2024</p>
-                     </div>
-                     <div class="w-full">
-                         <div id="button" class="text-14 leading-14 xl:text-16 xl:leading-16 text-[#203145] font-normal md:min-w-[130px] h-[43px] px-[20px] border-[1px] border-[#1C1C1C]  lg:hover:bg-[#F6F6F6] duration-300 rounded-[14px] md:rounded-[15px] xl:rounded-[18px] flex items-center justify-between w-[237px] xl:w-[272px] mt-[10px]">
-                           <span class="correction">Read more</span>
-                           <svg id="Group_134" data-name="Group 134" xmlns="http://www.w3.org/2000/svg" width="9.953" height="9.954" viewBox="0 0 9.953 9.954" class="ml-[50px] xl:ml-[30px]">
-                              <path id="Path_5" data-name="Path 5" d="M1.28,0,0,1.278l6.615.005L7.9,0Z" transform="translate(-0.001 0)" fill="#203145"/>
-                              <path id="Path_6" data-name="Path 6" d="M10.942,0,3.051,7.892l.9.9,6.6-6.6V9.954l1.287-1.281V0Z" transform="translate(-1.893 0)" fill="#203145"/>
-                           </svg>
-                        </div>
-                     </div>
-                  </div>
-               </a>
-
-               <a href="https://www.iport.aero/news" class="swiper-slide h-[495px] xl:h-[551px] w-[317px] lg:w-full rounded-[40px] item-shadow-news overflow-hidden">
-                  <div class="w-full h-[190px] xl:h-[236px] bg-black overflow-hidden">
-                     <img src="/wp-content/themes/iport/img/local/news3.png" alt="" class="h-full min-w-full min-h-full object-cover object-center">
-                  </div>
-                  <div class="w-[265px] xl:w-[280px] mx-auto h-[200px]">
-                     <div class="w-full h-[31px] flex space-x-[6px] mt-[20px]">
-                        <div class="h-[31px] px-[8px] bg-[#F3C155] flex items-center text-12 leading-12 xl:text-14 xl:leading-14 rounded-[11px] text-white"><span class="correction">#Airlines</span></div>
-                        <div class="h-[31px] px-[8px] bg-[#009FE3] flex items-center text-12 leading-12 xl:text-14 xl:leading-14 rounded-[11px] text-white"><span class="correction">#iPortDCS</span></div>
-                     </div>
-                     <div class="h-[80px] w-full mt-[20px]">
-                        <h3 class="text-18 leading-22 xl:text-22 xl:leading-25 font-medium text-[#000000] line-clamp-3">Thai Vietjet chooses iPort Departure Control System powered by Travelport and Res2</h3>
-                     </div>
-                     <div class="h-[60px] w-full mt-[10px]">
-                        <p class="text-14 leading-14 xl:text-16 xl:leading-16 font-normal text-[#000000]">10 october 2023</p>
-                     </div>
-                     <div class="w-full">
-                         <div id="button" class="text-14 leading-14 xl:text-16 xl:leading-16 text-[#203145] font-normal md:min-w-[130px] h-[43px] px-[20px] border-[1px] border-[#1C1C1C]  lg:hover:bg-[#F6F6F6] duration-300 rounded-[14px] md:rounded-[15px] xl:rounded-[18px] flex items-center justify-between w-[237px] xl:w-[272px] mt-[10px]">
-                           <span class="correction">Read more</span>
-                           <svg id="Group_134" data-name="Group 134" xmlns="http://www.w3.org/2000/svg" width="9.953" height="9.954" viewBox="0 0 9.953 9.954" class="ml-[50px] xl:ml-[30px]">
-                              <path id="Path_5" data-name="Path 5" d="M1.28,0,0,1.278l6.615.005L7.9,0Z" transform="translate(-0.001 0)" fill="#203145"/>
-                              <path id="Path_6" data-name="Path 6" d="M10.942,0,3.051,7.892l.9.9,6.6-6.6V9.954l1.287-1.281V0Z" transform="translate(-1.893 0)" fill="#203145"/>
-                           </svg>
-                        </div>
-                     </div>
-                  </div>
-               </a>
-            </div>
-            <div class="swiper-pagination bottom-[0px]"></div>
-         </div>
-      </div>
-      <div class="container mt-[30px] md:mt-[40px] lg:mt-[unset]">
-         <a href="https://www.iport.aero/news" class="text-14 leading-14 xl:text-16 xl:leading-16 text-white font-normal md:min-w-[130px] h-[43px] px-[20px] border-[1px] border-[#1C1C1C] bg-[#2A3041] lg:hover:bg-[#009FE3] lg:hover:border-[#009FE3] duration-300 rounded-[14px] md:rounded-[15px] xl:rounded-[18px] lg:hover:text-white flex items-center justify-center w-fit mx-auto">
-            <span class="correction">More news & events</span>
-            <svg id="Group_134" data-name="Group 134" xmlns="http://www.w3.org/2000/svg" width="9.953" height="9.954" viewBox="0 0 9.953 9.954" class="ml-[50px] xl:ml-[30px]">
-               <path id="Path_5" data-name="Path 5" d="M1.28,0,0,1.278l6.615.005L7.9,0Z" transform="translate(-0.001 0)" fill="#f6f6f6"/>
-               <path id="Path_6" data-name="Path 6" d="M10.942,0,3.051,7.892l.9.9,6.6-6.6V9.954l1.287-1.281V0Z" transform="translate(-1.893 0)" fill="#f6f6f6"/>
-            </svg>
-         </a>
-      </div>
-   </section>
-
-   <!-- CONTACT -->
+<footer>
+    <!-- CONTACT -->
     <section class="bg-[#F6F6F6] py-[60px]">
       <div class="container lg:flex justify-between">
-         <div class="w-full md:w-[558px] mb-[25px]">
+         <div class="w-full md:w-[558px] mb-[45px]">
             <h2 class="text-25 leading-30 md:text-36 md:leading-37 lg:text-38 lg:leading-39 xl:text-40 xl:leading-41 font-semibold text-[#203145]">Over <span id="count" data-target="150" class="w-[40.61px] md:w-[61.72px] lg:w-[61.72px] xl:w-[64.97px] text-right inline-block">0</span> companies use iPort every day. <br class="md:hidden">Join them.</h2>
+            <p class="text-12 leading-22 md:text-14 md:leading-24 lg:text-18 lg:leading-26 font-normal text-[#203145] md:w-[410px] lg:w-[487px] mt-[15px] lg:mt-[30px]">Do you want to learn more about how we can help you?  Our teams are here to answer all your questions. Fill out the form and we’ll get in touch or leave us an email or phonecall.</p>
+            <div class="flex space-x-[40px] lg:space-x-[50px] mt-[20px] lg:mt-[60px]">
+               <?php if (get_field('email', 'option')): ?>   
+               <a href="mailto:<?php echo get_field('email', 'option');?>" class="flex space-x-[15px] lg:space-x-[15px] items-center">
+                  <div class="scale-[0.85] lg:scale-[1]">
+                     <svg xmlns="http://www.w3.org/2000/svg" width="27.616" height="17.32" viewBox="0 0 27.616 17.32">
+                        <g id="Laag_2" data-name="Laag 2" transform="translate(0 125.703)">
+                           <g id="Group_322" data-name="Group 322" transform="translate(0 -125.703)">
+                              <path id="Path_57" data-name="Path 57" d="M9.691,8.76,0,16.627V1.49Z" transform="translate(0 -0.416)" fill="#009fe3"/>
+                              <path id="Path_58" data-name="Path 58" d="M14.361,9.28,1.99,0H26.739Z" transform="translate(-0.556)" fill="#009fe3"/>
+                              <path id="Path_59" data-name="Path 59" d="M17.037,13.05l9.741,7.918H1.9l9.734-7.918,2.7,2.032Z" transform="translate(-0.531 -3.648)" fill="#009fe3"/>
+                              <path id="Path_60" data-name="Path 60" d="M34.571,1.49V16.627L24.88,8.76Z" transform="translate(-6.954 -0.416)" fill="#009fe3"/>
+                           </g>
+                        </g>
+                     </svg>
+                  </div>
+                  <span class="text-12 leading-22 md:text-14 md:leading-24 lg:text-18 lg:leading-26 font-normal text-[#203145]"><?php echo get_field('email', 'option');?></span>
+               </a>
+               <?php endif; ?>
+               <?php if (get_field('phone', 'option')): ?>   
+               <a href="tel:<?php echo get_field('phone', 'option');?>" class="flex space-x-[15px] lg:space-x-[15px] items-center">
+                  <div class="scale-[0.85] lg:scale-[1]">
+                     <svg xmlns="http://www.w3.org/2000/svg" width="21.686" height="21.689" viewBox="0 0 21.686 21.689">
+                     <path id="Path_61" data-name="Path 61" d="M18.149,15.328H18.1a10.374,10.374,0,0,0-1.339-.1c-1.12,0-1.764.29-1.912.856-.187.727-.348,1.32-.412,1.545-.026,0-.058.006-.1.006-.8,0-2.794-1.133-5.981-4.32-3.792-3.792-4.4-5.588-4.313-6.077.225-.064.818-.219,1.551-.412,1.094-.283.869-2.285.766-3.251V3.528C6.188,2.021,5.847,0,4.81,0A4.373,4.373,0,0,0,.24,3.412,9.575,9.575,0,0,0,.838,9.3a20.532,20.532,0,0,0,4.68,6.876c3.457,3.451,7.532,5.517,10.918,5.517h0a6.673,6.673,0,0,0,1.841-.238,4.375,4.375,0,0,0,3.412-4.577c.019-1.03-2.015-1.371-3.541-1.545Z" transform="translate(-0.004)" fill="#009fe3"/>
+                     </svg>
+                  </div>
+                   <span class="text-12 leading-22 md:text-14 md:leading-24 lg:text-18 lg:leading-26 font-normal text-[#203145]"><?php echo get_field('phone', 'option');?></span>
+               </a>
+               <?php endif; ?>
+            </div>
          </div>
          <div class="w-full md:w-[558px] lg:w-[503px] xl:mr-[60px] contact-form">
             <h3 class="text-18 leading-25 md:text-22 md:leading-30 xl:text-25 xl:leading-30 font-medium text-[#203145] mb-[20px]">Fill out the form and we’ll get in touch</h3>
@@ -866,7 +50,7 @@
       </div>
     </section>
 
-    <!-- FOOTER -->
+   <!-- FOOTER -->
      <section class="bg-[#F6F6F6]">
       <div class="w-full rounded-t-[40px] bg-[#009FE3]">
          <div class="container flex justify-between pt-[30px] md:pt-[40px] lg:pt-[50px] xl:pt-[40px]">
@@ -896,26 +80,46 @@
          </div>
          <div class="container lg:flex pt-[20px] md:pt-[20px] lg:pt-[20px] xl:pt-[30px] pb-[30px] md:pb-[40px] lg:pb-[50px] xl:pb-[40px]">
             <div class="w-full lg:w-[275px] xl:w-[324px] grid h-fit">
-               <a href="" class="text-16 leading-24 font-normal text-[#F6F6F6] lg:hover:text-[#203145] duration-300 w-fit">For airlines</a>
-               <a href="" class="text-16 leading-24 font-normal text-[#F6F6F6] lg:hover:text-[#203145] duration-300 w-fit">For groundhandlers</a>
-               <a href="" class="text-16 leading-24 font-normal text-[#F6F6F6] lg:hover:text-[#203145] duration-300 w-fit">For airports</a>
-               <a href="" class="text-16 leading-24 font-normal text-[#F6F6F6] lg:hover:text-[#203145] duration-300 w-fit">Customers</a>
-               <a href="" class="text-16 leading-24 font-normal text-[#F6F6F6] lg:hover:text-[#203145] duration-300 w-fit">News & Events</a>
-               <a href="" class="text-16 leading-24 font-normal text-[#F6F6F6] lg:hover:text-[#203145] duration-300 w-fit">About us</a>
-               <a href="" class="text-16 leading-24 font-normal text-[#F6F6F6] lg:hover:text-[#203145] duration-300 w-fit">Academy</a>
+               <?php
+               if( have_rows('main_menu', 'option') ):
+                  while( have_rows('main_menu', 'option') ) : the_row(); ?>
+                  <?php
+                  $link = get_sub_field('link', 'option');
+                  $link_url = isset($link['url']) ? esc_url($link['url']) : '';
+                  $link_text = isset($link['title']) ? esc_html($link['title']) : '';
+                  $link_target = isset($link['target']) ? esc_attr($link['target']) : '';
+                  ?>
+                     <a href="<?php echo $link_url; ?>" class="text-16 leading-24 font-normal text-[#F6F6F6] lg:hover:text-[#203145] duration-300 w-fit" target="<?php echo $link_target; ?>"><?php echo $link_text; ?></a>
+                  <?php
+                  endwhile;
+               else :
+               endif;
+               ?>
             </div>
             <div class="w-full lg:w-[291px] xl:w-[312px] grid h-fit mt-[20px] lg:mt-[unset]">
-               <a href="" class="text-16 leading-24 font-normal text-[#F6F6F6] lg:hover:text-[#203145] duration-300 w-fit">Careers</a>
-               <a href="" class="text-16 leading-24 font-normal text-[#F6F6F6] lg:hover:text-[#203145] duration-300 w-fit">Privacy policy</a>
-               <a href="" class="text-16 leading-24 font-normal text-[#F6F6F6] lg:hover:text-[#203145] duration-300 w-fit">Term & conditions</a>
-               <a href="" class="text-16 leading-24 font-normal text-[#F6F6F6] lg:hover:text-[#203145] duration-300 w-fit">Customer notifications</a>
+              <?php
+               if( have_rows('sub_menu', 'option') ):
+                  while( have_rows('sub_menu', 'option') ) : the_row(); ?>
+                  <?php
+                  $link = get_sub_field('link', 'option');
+                  $link_url = isset($link['url']) ? esc_url($link['url']) : '';
+                  $link_text = isset($link['title']) ? esc_html($link['title']) : '';
+                  $link_target = isset($link['target']) ? esc_attr($link['target']) : '';
+                  ?>
+                     <a href="<?php echo $link_url; ?>" class="text-16 leading-24 font-normal text-[#F6F6F6] lg:hover:text-[#203145] duration-300 w-fit" target="<?php echo $link_target; ?>"><?php echo $link_text; ?></a>
+                  <?php
+                  endwhile;
+               else :
+               endif;
+               ?>
             </div>
             <div class="w-full lg:w-[291px] xl:w-[312px] grid h-fit mt-[20px] lg:mt-[unset]">
-               <p class="text-16 leading-24 font-normal text-[#F6F6F6]">Res2 B.V. <br>Rijnzathe 14 <br>3454 PV  De Meern</p>
-               <a href="tel:+31 (0) 85 130 36 60" class="text-16 leading-24 font-normal text-[#F6F6F6] lg:hover:text-[#203145] duration-300 w-fit">+31 (0) 85 130 36 60</a>
-               <a href="mailto:info@res2.eu" class="text-16 leading-24 font-normal text-[#F6F6F6] lg:hover:text-[#203145] duration-300 w-fit">info@res2.eu</a>
+               <p class="text-16 leading-24 font-normal text-[#F6F6F6]"><?php echo get_field('adress', 'option');?></p>
+               <a href="tel:<?php echo get_field('phone', 'option');?>" class="text-16 leading-24 font-normal text-[#F6F6F6] lg:hover:text-[#203145] duration-300 w-fit"><?php echo get_field('phone', 'option');?></a>
+               <a href="mailto:<?php echo get_field('email', 'option');?>" class="text-16 leading-24 font-normal text-[#F6F6F6] lg:hover:text-[#203145] duration-300 w-fit"><?php echo get_field('email', 'option');?></a>
                <div class="grid grid-cols-2 w-[115px] mt-[20px]">
-                  <a href=""class="social">
+                  <?php if (get_field('linkedin', 'option')): ?>   
+                  <a href="<?php echo get_field('linkedin', 'option');?>" class="social">
                      <svg xmlns="http://www.w3.org/2000/svg" width="44" height="44" viewBox="0 0 44 44">
                         <g id="Group_413" data-name="Group 413" transform="translate(0.258)">
                            <circle id="Ellipse_7" data-name="Ellipse 7" cx="22" cy="22" r="22" transform="translate(-0.258)" fill="#fff"/>
@@ -927,7 +131,9 @@
                         </g>
                      </svg>
                   </a>
-                  <a href="" class="social">
+                  <?php endif; ?>
+                  <?php if (get_field('facebook', 'option')): ?>   
+                  <a href="<?php echo get_field('facebook', 'option');?>" class="social">
                      <svg xmlns="http://www.w3.org/2000/svg" width="44" height="44" viewBox="0 0 44 44">
                         <g id="Group_414" data-name="Group 414" transform="translate(0.258)">
                            <circle id="Ellipse_6" data-name="Ellipse 6" cx="22" cy="22" r="22" transform="translate(-0.258)" fill="#fff"/>
@@ -937,6 +143,7 @@
                         </g>
                      </svg>
                   </a>
+                  <?php endif; ?>
                </div>
             </div>
          </div>
@@ -971,6 +178,7 @@
 
      </section>
 
-</main>
-<?php get_footer('nofooter'); ?>
-
+</footer>
+<?php wp_footer(); ?>
+</body>
+</html>

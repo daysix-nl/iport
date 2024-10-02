@@ -1,0 +1,8 @@
+.acf-innerblocks-container {
+    display: grid;
+    gap: 15px;
+
+    @media (min-width: 768px) {
+        gap: 30px;
+    }
+}

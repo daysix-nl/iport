@@ -57,3 +57,7 @@
 <div class="pb-[30px] md:pb-[50px] lg:pb-[80px]"></div>
 
 <div class="underline"></div>
+
+<div class="bg-[#F3C155]"></div>
+<div class="bg-[#469DDD]"></div>
+<div class="bg-[#1B3247]"></div>

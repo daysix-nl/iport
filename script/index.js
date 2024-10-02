@@ -120,6 +120,18 @@ try {
     });
 } catch (error) { }
 
+try {
+    document.addEventListener('DOMContentLoaded', function () {
+        // Selecteer de eerste button binnen de .map-menu container
+        const firstButton = document.querySelector('.map-menu button');
+
+        if (firstButton) {
+            // Voeg de .active class toe aan de eerste button
+            firstButton.classList.add('active');
+        }
+    });
+} catch (error) { }
+
 
 try {
     // Selecteer alle buttons met de class 'location'
