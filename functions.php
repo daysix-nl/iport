@@ -331,7 +331,7 @@ function customize_dashboard_menu() {
     if ($current_user_login !== $allowed_user) {
         // Hier kun je de volledige URL/querystrings vinden van de menu-onderdelen die je wilt verbergen:
         $hidden_menu_items_by_url = array(
-            // 'edit.php',
+            'edit.php',
             'edit.php?post_type=acf-field-group',
             'edit-comments.php',
             'themes.php',
@@ -412,6 +412,8 @@ function add_custom_admin_bar_styles() {
             #toplevel_page_getwooplugins { display: none !important; }
             #wp-admin-bar-weglot { display: none !important; }
             #toplevel_page_weglot-settings { display: none !important; }
+            #menu-posts-wpsl_stores { display: none !important; }
+            #toplevel_page_gf_edit_forms { display: none !important; }
             /* Voeg hier meer CSS-styling toe indien nodig */
         ";
 
