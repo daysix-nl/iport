@@ -7,7 +7,7 @@ else: ?>
  <section class="bg-white pb-[60px]">
     <div class="container pt-[50px] lg:pt-[60px] xl:pt-[50px] pb-[30px]">
         <div class="w-full lg:w-[718px] xl:w-[794px]">
-            <a href="" class="flex items-center">
+            <a href="/news-events/" class="flex items-center">
                 <div class="mr-[8px]">
                     <svg width="15.9339442px" height="15.9339442px" viewBox="0 0 15.9339442 15.9339442" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
                         <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
@@ -56,7 +56,7 @@ else: ?>
         </div>
         <div class="h-auto">
             <div class="hidden lg:block lg:sticky top-[108px] xl:top-[123px] lg:w-[350px] xl:w-[417px]">
-                <a href="" class="flex items-center justify-between">
+                <a href="/news-events/" class="flex items-center justify-between">
                     <span class="text-12 md:text-12 leading-22 lg:leading-22 xl:text-18 xl:leading-18 text-[#009FE3] font-medium">More news</span>
                     <div class="">
                         <svg id="Group_181" data-name="Group 181" xmlns="http://www.w3.org/2000/svg" width="9.953" height="9.954" viewBox="0 0 9.953 9.954">
@@ -67,20 +67,21 @@ else: ?>
                 </a>
                 <hr class="border-[0.5px] border-[#203145] mt-[10px] mb-[15px]">
                 <?php
-                    $loop = new WP_Query( array(
-                        'post_type' => array('event', 'news'), // Meerdere post types
-                        'posts_per_page' => 3,
-                        'orderby' => 'date',
-                        'order' => 'DECS'
-                    )
-                    );
-                    ?>
+                $current_post_id = get_the_ID(); // Haal het ID van de huidige post op
+                $loop = new WP_Query( array(
+                    'post_type' => array('event', 'news'), // Meerdere post types
+                    'posts_per_page' => 3,
+                    'orderby' => 'date',
+                    'order' => 'DECS',
+                    'post__not_in' => array($current_post_id) // Sluit de huidige post uit
+                ) );
+                ?>
                 <?php while ( $loop->have_posts() ) : $loop->the_post(); $post_id = get_the_ID(); ?>
-                <a href="<?php the_permalink();?>">
-                    <h3 class="text-12 md:text-18 leading-22 lg:leading-25 xl:text-18 xl:leading-25 text-[#203145] font-medium"><?php the_title();?></h3>
-                    <p class="text-12 md:text-14 leading-22 lg:leading-22 xl:text-16 xl:leading-26 text-[#203145] font-normal mt-[5px]"><?php echo get_field('introduction', $post_id);?></p>
-                    <hr class="border-[0.5px] border-[#203145] mt-[15px] mb-[15px]">
-                </a>
+                    <a href="<?php the_permalink();?>">
+                        <h3 class="text-12 md:text-18 leading-22 lg:leading-25 xl:text-18 xl:leading-25 text-[#203145] font-medium"><?php the_title();?></h3>
+                        <p class="text-12 md:text-14 leading-22 lg:leading-22 xl:text-16 xl:leading-26 text-[#203145] font-normal mt-[5px]"><?php echo get_field('introduction', $post_id);?></p>
+                        <hr class="border-[0.5px] border-[#203145] mt-[15px] mb-[15px]">
+                    </a>
                 <?php endwhile; wp_reset_query(); ?>
             </div>
         </div>
