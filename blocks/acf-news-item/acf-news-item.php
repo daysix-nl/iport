@@ -24,7 +24,7 @@ else: ?>
             </a>
             <h1 class="text-[#2A3041] font-semibold text-32 leading-33 md:text-42 md:leading-43 lg:text-45 lg:leading-47 xl:text-54 xl:leading-56 mt-[20px] md:mt-[30px] lg:mt-[35px]"><?php the_title();?></h1>
             <p class="text-12 md:text-14 leading-22 lg:leading-25 xl:text-18 xl:leading-30 text-[#1C1C1C] font-normal mt-[8px] md:mt-[10px]"><?php the_time('j F Y'); ?></p>
-            <p class="text-18 leading-25 md:text-22 md:leading-30 xl:text-25 xl:leading-30 font-medium text-[#000000] mt-[10px] md:mt-[15px]">After a pitch and proposal period of 4 weeks, the airport Singapore decided to choose for Iport as their go-to software company. </p>
+            <p class="text-18 leading-25 md:text-22 md:leading-30 xl:text-25 xl:leading-30 font-medium text-[#000000] mt-[10px] md:mt-[15px]"><?php echo get_field('introduction', $post_id);?></p>
             <div class="w-[265px] xl:w-[280px]">
                 <div class="w-full h-[31px] flex space-x-[6px] mt-[15px] md:mt-[20px]">
                     <?php
@@ -78,7 +78,7 @@ else: ?>
                 <?php while ( $loop->have_posts() ) : $loop->the_post(); $post_id = get_the_ID(); ?>
                 <a href="<?php the_permalink();?>">
                     <h3 class="text-12 md:text-18 leading-22 lg:leading-25 xl:text-18 xl:leading-25 text-[#203145] font-medium"><?php the_title();?></h3>
-                    <p class="text-12 md:text-14 leading-22 lg:leading-22 xl:text-16 xl:leading-26 text-[#203145] font-normal mt-[5px]">lkjahsdkfj h</p>
+                    <p class="text-12 md:text-14 leading-22 lg:leading-22 xl:text-16 xl:leading-26 text-[#203145] font-normal mt-[5px]"><?php echo get_field('introduction', $post_id);?></p>
                     <hr class="border-[0.5px] border-[#203145] mt-[15px] mb-[15px]">
                 </a>
                 <?php endwhile; wp_reset_query(); ?>
@@ -203,7 +203,7 @@ else: ?>
         <?php while ( $loop->have_posts() ) : $loop->the_post(); $post_id = get_the_ID(); ?>
         <a href="<?php the_permalink();?>">
             <h3 class="text-12 md:text-18 leading-22 lg:leading-25 xl:text-18 xl:leading-25 text-[#203145] font-medium"><?php the_title();?></h3>
-            <p class="text-12 md:text-14 leading-22 lg:leading-22 xl:text-16 xl:leading-26 text-[#203145] font-normal mt-[5px]">lkjahsdkfj h</p>
+            <p class="text-12 md:text-14 leading-22 lg:leading-22 xl:text-16 xl:leading-26 text-[#203145] font-normal mt-[5px]"><?php echo get_field('introduction', $post_id);?></p>
             <hr class="border-[0.5px] border-[#203145] mt-[15px] mb-[15px]">
         </a>
         <?php endwhile; wp_reset_query(); ?>
