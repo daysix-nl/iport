@@ -6,7 +6,7 @@ else: ?>
 <!-- SOLUTIONS -->
 <section class="bg-[#F6F6F6]">
     <div class="py-[60px]">
-        <div class="text-center container ">
+        <div class="text-left md:text-center container ">
         <h2 class="text-[#2A3041] font-semibold text-32 leading-33 md:text-42 md:leading-43 lg:text-45 lg:leading-47 xl:text-54 xl:leading-56"><?php echo get_field('title');?></h2>
         </div>
         <div class="flex md:flex-wrap md:justify-center space-x-[8px] overflow-x-auto scroll-blok w-full md:w-[688px] lg:w-[1129px] xl:w-[1272px] px-[calc(50vw-155px)] md:px-[unset] md:mx-auto mt-[20px] md:mt-[25px] lg:mt-[35px] xl:mt-[45px]">

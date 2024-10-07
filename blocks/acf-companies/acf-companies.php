@@ -60,13 +60,13 @@ $link_target = isset($link['target']) ? esc_attr($link['target']) : '';
                                 <div class="w-[292.15px] h-[461px] md:w-[290.73px] md:h-[460px] xl:h-[520px] xl:w-[328px] bg-kleur rounded-[15px] flex justify-center items-start relative overflow-hidden">
                                     <div class="absolute left-[13px] top-[236px] md:top-[236px] lg:top-[237px] xl:top-[267px] h-[18px] w-[13px] bg-kleur z-[3]"></div>
                                     <div class="absolute right-[13px] top-[236px] md:top-[236px] lg:top-[237px] xl:top-[267px] h-[18px] w-[13px] bg-kleur z-[3]"></div>
-                                    <div class="absolute right-[0px] bottom-[0px] w-[80px] h-[50px] xl:h-[60px] xl:w-[90px] bg-kleur rounded-[10px] flex items-center justify-center z-[3]">
+                                    <div class="absolute right-[0px] bottom-[0px] w-[100px] h-[60px] xl:h-[70px] xl:w-[120px] bg-kleur rounded-[10px] flex items-center justify-center z-[3]">
                                         <img src="<?php echo $image_url; ?>" alt="<?php echo $image_alt; ?>" class="merklogo mix-blend-multiply">
                                     </div>
                                     <div class="content w-[266.15px] h-[417px] md:w-[264.73px] md:h-[416px] xl:h-[476px] xl:w-[302px] bg-white rounded-[10px] mt-[13px] overflow-hidden relative z-[2]">
                                         <img src="<?php echo get_the_post_thumbnail_url();?>" alt="<?php the_title();?>" class="h-full min-h-full min-w-full object-cover object-center">
                                         <div class="hover-effect">
-                                            <div class="h-full w-full flex items-end px-[20px] py-[30px] xl:px-[30px] xl:py-[40px]">
+                                            <div class="h-full w-full flex items-end px-[20px] py-[35px] xl:px-[30px] xl:py-[45px]">
                                             <div class="grid">
                                                 <h3 class="text-white text-12 leading-22 xl:text-14 xl:leading-25 font-semibold"><?php echo get_field('name', $post_id);?></h3>
                                                 <p class="text-white text-10 leading-22 xl:text-12 xl:leading-25 font-normal"><?php echo get_field('text', $post_id);?></p>

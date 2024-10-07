@@ -68,6 +68,7 @@ $linktalk_target = isset($linktalk['target']) ? esc_attr($linktalk['target']) : 
                 ?>
              </div>
         </div>
+        
         <div class="w-[250px] md:w-[230px] lg:w-[160px] xl:w-[170px] flex items-center justify-end">
             <?php if (get_field('featured_link', 'option')): ?>  
             <a href="<?php echo $linktalk_url; ?>" id="talk" class="h-[35px] md:h-[37px] xl:h-[43px] flex items-center lg:text-14 lg:leading-14 xl:text-16 xl:leading-16 text-[#009FE3] border-[1px] border-[#009FE3] px-[20px] rounded-[14px] md:rounded-[15px] xl:rounded-[18px]" target="<?php echo $linktalk_target; ?>"><span class="correction"><?php echo $linktalk_text; ?></span> 
