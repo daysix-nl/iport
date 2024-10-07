@@ -706,6 +706,9 @@ video {
 .mt-\[20px\] {
   margin-top: 20px;
 }
+.mt-\[25px\] {
+  margin-top: 25px;
+}
 .mt-\[30px\] {
   margin-top: 30px;
 }
@@ -1138,6 +1141,9 @@ video {
 }
 .pb-\[30px\] {
   padding-bottom: 30px;
+}
+.pb-\[40px\] {
+  padding-bottom: 40px;
 }
 .pb-\[60px\] {
   padding-bottom: 60px;

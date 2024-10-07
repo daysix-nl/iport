@@ -16,7 +16,7 @@ $link_target = isset($link['target']) ? esc_attr($link['target']) : '';
         <h2 class="text-[#2A3041] font-semibold text-32 leading-33 md:text-42 md:leading-43 lg:text-45 lg:leading-47 xl:text-54 xl:leading-56"><?php echo get_field('title');?></h2>
     </div>
     <div class="w-full lg:w-[1129px] xl:w-[1272px] mx-auto">
-        <div class="swiper swipernews pb-[30px] md:pb-[40px] lg:pb-[50px] xl:pb-[50px] lg:px-[5px]">
+        <div class="swiper swipernews pb-[40px] md:pb-[40px] lg:pb-[50px] xl:pb-[50px] lg:px-[5px]">
         <div class="flex w-full swiper-wrapper">
             <?php
             $featured_post_id = get_field('featured_item_1');
@@ -191,7 +191,7 @@ $link_target = isset($link['target']) ? esc_attr($link['target']) : '';
         </div>
     </div>
     <?php if (get_field('link')): ?>   
-    <div class="container mt-[30px] md:mt-[40px] lg:mt-[unset]">
+    <div class="container mt-[25px] md:mt-[30px] lg:mt-[unset]">
         <a href="<?php echo $link_url; ?>" class="text-14 leading-14 xl:text-16 xl:leading-16 text-white font-normal md:min-w-[130px] h-[43px] px-[20px] border-[1px] border-[#1C1C1C] bg-[#2A3041] lg:hover:bg-[#009FE3] lg:hover:border-[#009FE3] duration-300 rounded-[14px] md:rounded-[15px] xl:rounded-[18px] lg:hover:text-white flex items-center justify-center w-fit mx-auto" target="<?php echo $link_target; ?>">
         <span class="correction"><?php echo $link_text; ?></span>
         <svg id="Group_134" data-name="Group 134" xmlns="http://www.w3.org/2000/svg" width="9.953" height="9.954" viewBox="0 0 9.953 9.954" class="ml-[50px] xl:ml-[30px]">
