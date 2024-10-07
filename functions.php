@@ -412,8 +412,12 @@ function add_custom_admin_bar_styles() {
             #toplevel_page_getwooplugins { display: none !important; }
             #wp-admin-bar-weglot { display: none !important; }
             #toplevel_page_weglot-settings { display: none !important; }
-            #menu-posts-wpsl_stores { display: none !important; }
+            // #menu-posts-wpsl_stores { display: none !important; }
             #toplevel_page_gf_edit_forms { display: none !important; }
+            #menu-posts-wpsl_stores ul.wp-submenu li:nth-child(4) { display: none !important; }
+            #menu-posts-wpsl_stores ul.wp-submenu li:nth-child(5) { display: none !important; }
+            #menu-posts-wpsl_stores ul.wp-submenu li:nth-child(6) { display: none !important; }
+            #wpsl_store_categorydiv { display: none !important; }
             /* Voeg hier meer CSS-styling toe indien nodig */
         ";
 
@@ -598,6 +602,30 @@ function custom_frontend_translations($translated_text, $text, $domain) {
              case 'Reset all':
             $translated_text = 'Reset alle filters';
             break;
+              case 'Store Details':
+            $translated_text = 'Details';
+            break;
+              case 'Store Locator':
+            $translated_text = 'Locator';
+            break;
+               case 'All Stores':
+            $translated_text = 'All Companies';
+            break;
+               case 'New Store':
+            $translated_text = 'New Company';
+            break;
+               case 'Add New Store':
+            $translated_text = 'Add New Company';
+            break;
+                case 'Enter store title here':
+            $translated_text = 'Enter company title here';
+            break;
+                case 'Store Categories':
+            $translated_text = 'Company Categories';
+            break;
+                case 'Store Map':
+            $translated_text = 'Company Map';
+            break;
        
     }
     return $translated_text;
@@ -630,3 +658,32 @@ function custom_text_color_shortcode($atts, $content = null) {
     return '<span style="color:' . esc_attr($color) . ';">' . do_shortcode($content) . '</span>';
 }
 add_shortcode('hl', 'custom_text_color_shortcode');
+
+
+
+
+function disable_gutenberg_for_wpsl_stores($can_edit, $post_type) {
+    // Controleer of het posttype 'wpsl_stores' is
+    if ($post_type === 'wpsl_stores') {
+        return false; // Uitschakelen van Gutenberg
+    }
+    return $can_edit; // Laat andere posttypes zoals gewoonlijk bewerken
+}
+add_filter('use_block_editor_for_post_type', 'disable_gutenberg_for_wpsl_stores', 10, 2);
+
+function customize_wpsl_stores_meta_boxes() {
+    // Verberg de inhoudsblok
+    remove_post_type_support('wpsl_stores', 'editor');
+    
+    // Verberg de excerpt
+    remove_post_type_support('wpsl_stores', 'excerpt');
+    
+    // Verberg de auteur
+    remove_post_type_support('wpsl_stores', 'author');
+
+    // Verberg de uitgelichte afbeelding
+    remove_post_type_support('wpsl_stores', 'thumbnail');
+
+    
+}
+add_action('init', 'customize_wpsl_stores_meta_boxes', 100); // Gebruik een hoge prioriteit
