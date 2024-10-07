@@ -863,9 +863,6 @@ video {
 .w-\[298px\] {
   width: 298px;
 }
-.w-\[309px\] {
-  width: 309px;
-}
 .w-\[317px\] {
   width: 317px;
 }
@@ -1112,9 +1109,9 @@ video {
   padding-left: 8px;
   padding-right: 8px;
 }
-.px-\[calc\(50vw-155px\)\] {
-  padding-left: calc(50vw - 155px);
-  padding-right: calc(50vw - 155px);
+.px-\[calc\(50vw-175\.5px\)\] {
+  padding-left: calc(50vw - 175.5px);
+  padding-right: calc(50vw - 175.5px);
 }
 .py-\[12px\] {
   padding-top: 12px;

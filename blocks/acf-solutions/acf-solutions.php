@@ -9,7 +9,7 @@ else: ?>
         <div class="text-left md:text-center container ">
         <h2 class="text-[#2A3041] font-semibold text-32 leading-33 md:text-42 md:leading-43 lg:text-45 lg:leading-47 xl:text-54 xl:leading-56"><?php echo get_field('title');?></h2>
         </div>
-        <div class="flex md:flex-wrap md:justify-center space-x-[8px] overflow-x-auto scroll-blok w-full md:w-[688px] lg:w-[1129px] xl:w-[1272px] px-[calc(50vw-155px)] md:px-[unset] md:mx-auto mt-[20px] md:mt-[25px] lg:mt-[35px] xl:mt-[45px]">
+        <div class="flex md:flex-wrap md:justify-center space-x-[8px] overflow-x-auto scroll-blok w-full md:w-[688px] lg:w-[1129px] xl:w-[1272px] px-[calc(50vw-175.5px)] md:px-[unset] md:mx-auto mt-[20px] md:mt-[25px] lg:mt-[35px] xl:mt-[45px]">
             <?php
             if( have_rows('solutions') ):
                 $tab_number = 1; // Teller starten bij 1
@@ -46,7 +46,7 @@ else: ?>
 
             <div id="Tab<?php echo $tab_number; ?>" class="tabcontent">
                 <div class="lg:flex justify-between">
-                    <div class="w-[309px] md:w-[450px] mx-auto lg:mx-[unset] accordion-group">
+                    <div class="w-[351px] md:w-[450px] mx-auto lg:mx-[unset] accordion-group">
                         <!-- ACCORDION -->
                         <div class="accordion-item"> 
                         <button class="accordion text-[#203145] font-medium text-12 leading-13 md:text-15 md:leading-16 xl:text-18 xl:leading-19 py-[20px] xl:py-[20px]">
