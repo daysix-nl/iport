@@ -47,49 +47,25 @@ else: ?>
             <div id="Tab<?php echo $tab_number; ?>" class="tabcontent">
                 <div class="lg:flex justify-between">
                     <div class="w-[351px] md:w-[450px] mx-auto lg:mx-[unset] accordion-group">
-                        <!-- ACCORDION -->
-                        <div class="accordion-item"> 
-                        <button class="accordion text-[#203145] font-medium text-12 leading-13 md:text-15 md:leading-16 xl:text-18 xl:leading-19 py-[20px] xl:py-[20px]">
-                            <span class="pr-4">Introduction</span>
-                        </button>
-                        <div class="panel">
-                            <div class="pr-[15px] pb-[20px] xl:pb-[20px]">
-                                <div class="text-[#203145] text-12 leading-22 md:text-14 md:leading-25 xl:text-16 xl:leading-30 font-normal w-full text-editor"><?php echo get_sub_field('introduction');?></div>
+                        <?php
+                        if( have_rows('repeater') ):
+                            while( have_rows('repeater') ) : the_row(); ?>
+                            <div class="accordion-item"> 
+                                <button class="accordion text-[#203145] font-medium text-12 leading-13 md:text-15 md:leading-16 xl:text-18 xl:leading-19 py-[20px] xl:py-[20px]">
+                                    <span class="pr-4"><?php echo get_sub_field('title');?></span>
+                                </button>
+                                <div class="panel">
+                                    <div class="pr-[15px] pb-[20px] xl:pb-[20px]">
+                                        <div class="text-[#203145] text-12 leading-22 md:text-14 md:leading-25 xl:text-16 xl:leading-30 font-normal w-full text-editor"><?php echo get_sub_field('text');?></div>
+                                    </div>
+                                </div>
                             </div>
-                        </div>
-                        </div>
-                        <div class="accordion-item"> 
-                        <button class="accordion text-[#203145] font-medium text-12 leading-13 md:text-15 md:leading-16 xl:text-18 xl:leading-19 py-[20px] xl:py-[20px]">
-                            <span class="pr-4">Why <?php echo get_sub_field('title');?></span>
-                        </button>
-                        <div class="panel">
-                            <div class="pr-[15px] pb-[20px] xl:pb-[20px]">
-                                <div class="text-[#203145] text-12 leading-22 md:text-14 md:leading-25 xl:text-16 xl:leading-30 font-normal w-full text-editor"><?php echo get_sub_field('why');?></div>
-                            </div>
-                        </div>
-                        </div>
-                        <div class="accordion-item"> 
-                        <button class="accordion text-[#203145] font-medium text-12 leading-13 md:text-15 md:leading-16 xl:text-18 xl:leading-19 py-[20px] xl:py-[20px]">
-                            <span class="pr-4">Functional scope</span>
-                        </button>
-                        <div class="panel">
-                            <div class="pr-[15px] pb-[20px] xl:pb-[20px]">
-                                <div class="text-[#203145] text-12 leading-22 md:text-14 md:leading-25 xl:text-16 xl:leading-30 font-normal w-full text-editor"><?php echo get_sub_field('scope');?></div>
-                            </div>
-                        </div>
-                        </div>
-                        <div class="accordion-item"> 
-                        <button class="accordion text-[#203145] font-medium text-12 leading-13 md:text-15 md:leading-16 xl:text-18 xl:leading-19 py-[20px] xl:py-[20px]">
-                            <span class="pr-4">Integrations</span>
-                        </button>
-                        <div class="panel">
-                            <div class="pr-[15px] pb-[20px] xl:pb-[20px]">
-                                <div class="text-[#203145] text-12 leading-22 md:text-14 md:leading-25 xl:text-16 xl:leading-30 font-normal w-full text-editor"><?php echo get_sub_field('integrations');?></div>
-                            </div>
-                        </div>
-                        </div>
-                        <!-- EINDE ACCORDION -->
-                         <?php if (get_sub_field('link')): ?>   
+                            <?php
+                            endwhile;
+                        else :
+                        endif;
+                        ?>
+                        <?php if (get_sub_field('link')): ?>   
                         <a href="<?php echo $link_url; ?>" class="text-14 leading-14 xl:text-16 xl:leading-16 text-[#2A3041] font-medium md:min-w-[130px] h-[43px] px-[20px] border-[1px] border-[#1C1C1C] rounded-[14px] md:rounded-[15px] xl:rounded-[18px] mt-[30px] md:mt-[40px] lg:mt-[60px] xl:mt-[50px] lg:hover:text-white lg:hover:bg-[#2A3041] duration-300 flex items-center justify-center w-fit" target="<?php echo $link_target; ?>"><span class="correction"><?php echo $link_text; ?></span></a>
                         <?php endif; ?>
                     </div>
