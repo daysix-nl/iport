@@ -2,26 +2,65 @@
 if (isset($block['data']['preview_image_help'])): ?>
     <img src="#" style="width:100%; height:auto;">
     <?php
-else: ?>
+else: 
+
+function get_current_post_type() {
+    if ( is_singular() ) {
+        // Haal het posttype op als je op een enkele post of pagina bent
+        return get_post_type();
+    } elseif ( is_post_type_archive() ) {
+        // Haal het posttype op als je op een post type archiefpagina bent
+        return get_query_var('post_type');
+    } else {
+        return null;
+    }
+}
+$post_type = get_current_post_type();
+?>
 <!-- NEWS ITEM -->
  <section class="bg-white pb-[60px]">
     <div class="container pt-[50px] lg:pt-[60px] xl:pt-[50px] pb-[30px]">
         <div class="w-full lg:w-[718px] xl:w-[794px]">
-            <a href="/news-events/" class="flex items-center">
-                <div class="mr-[8px]">
-                    <svg width="15.9339442px" height="15.9339442px" viewBox="0 0 15.9339442 15.9339442" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
-                        <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
-                            <g id="Group" fill="#9DDAF4" fill-rule="nonzero">
-                                <g id="Group_443" transform="translate(7.967, 7.967) rotate(-135) translate(-7.967, -7.967)translate(2.3075, 2.3595)">
-                                    <polygon id="Path_5" points="2.645 3.33934269e-16 1.365 1.278 7.98 1.283 9.265 3.33934269e-16"></polygon>
-                                    <polygon id="Path_6" points="10.415 3.33934269e-16 -4.4408921e-16 10.415 0.8 11.215 10.032 2.191 10.032 9.954 11.319 8.673 11.319 3.33934269e-16"></polygon>
+            <?php 
+            if ( $post_type == 'event' ) {?>
+                <a href="/news-events/" class="flex items-center">
+                    <div class="mr-[8px]">
+                        <svg width="15.9339442px" height="15.9339442px" viewBox="0 0 15.9339442 15.9339442" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+                            <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+                                <g id="Group" fill="#9DDAF4" fill-rule="nonzero">
+                                    <g id="Group_443" transform="translate(7.967, 7.967) rotate(-135) translate(-7.967, -7.967)translate(2.3075, 2.3595)">
+                                        <polygon id="Path_5" points="2.645 3.33934269e-16 1.365 1.278 7.98 1.283 9.265 3.33934269e-16"></polygon>
+                                        <polygon id="Path_6" points="10.415 3.33934269e-16 -4.4408921e-16 10.415 0.8 11.215 10.032 2.191 10.032 9.954 11.319 8.673 11.319 3.33934269e-16"></polygon>
+                                    </g>
                                 </g>
                             </g>
-                        </g>
-                    </svg>
-                </div>
-                <span class="correction text-14 leading-14 md:text-20 md:leading-20 lg:text-18 lg:leading-18 xl:text-20 xl:leading-20 text-[#9DDAF4] font-medium">See all news</span>
-            </a>
+                        </svg>
+                    </div>
+                    <span class="correction text-14 leading-14 md:text-20 md:leading-20 lg:text-18 lg:leading-18 xl:text-20 xl:leading-20 text-[#9DDAF4] font-medium">See all events</span>
+                </a>
+                <?php
+            } elseif ( $post_type == 'news' ) { ?>
+                <a href="/news-events/" class="flex items-center">
+                    <div class="mr-[8px]">
+                        <svg width="15.9339442px" height="15.9339442px" viewBox="0 0 15.9339442 15.9339442" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+                            <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+                                <g id="Group" fill="#9DDAF4" fill-rule="nonzero">
+                                    <g id="Group_443" transform="translate(7.967, 7.967) rotate(-135) translate(-7.967, -7.967)translate(2.3075, 2.3595)">
+                                        <polygon id="Path_5" points="2.645 3.33934269e-16 1.365 1.278 7.98 1.283 9.265 3.33934269e-16"></polygon>
+                                        <polygon id="Path_6" points="10.415 3.33934269e-16 -4.4408921e-16 10.415 0.8 11.215 10.032 2.191 10.032 9.954 11.319 8.673 11.319 3.33934269e-16"></polygon>
+                                    </g>
+                                </g>
+                            </g>
+                        </svg>
+                    </div>
+                    <span class="correction text-14 leading-14 md:text-20 md:leading-20 lg:text-18 lg:leading-18 xl:text-20 xl:leading-20 text-[#9DDAF4] font-medium">See all news</span>
+                </a>
+
+            <?php
+            } else {
+            }
+            ?>
+            
             <h1 class="text-[#2A3041] font-semibold text-32 leading-33 md:text-42 md:leading-43 lg:text-45 lg:leading-47 xl:text-54 xl:leading-56 mt-[20px] md:mt-[30px] lg:mt-[35px]"><?php the_title();?></h1>
             <p class="text-12 md:text-14 leading-22 lg:leading-25 xl:text-18 xl:leading-30 text-[#1C1C1C] font-normal mt-[8px] md:mt-[10px]"><?php the_time('j F Y'); ?></p>
             <p class="text-18 leading-25 md:text-22 md:leading-30 xl:text-25 xl:leading-30 font-medium text-[#000000] mt-[10px] md:mt-[15px]"><?php echo get_field('introduction', $post_id);?></p>
@@ -54,10 +93,14 @@ else: ?>
             <?php $allowed_blocks_inner = ['acf/acf-template-button', 'acf/acf-template-image', 'acf/acf-template-images', 'acf/acf-template-text', 'acf/acf-template-video', 'acf/acf-template-youtube'];?>
             <InnerBlocks allowedBlocks="<?php echo esc_attr( wp_json_encode( $allowed_blocks_inner ) ); ?>"/>
         </div>
+        
+ 
+    <?php 
+         if ( $post_type == 'event' ) {?>
         <div class="h-auto">
             <div class="hidden lg:block lg:sticky top-[108px] xl:top-[123px] lg:w-[350px] xl:w-[417px]">
                 <a href="/news-events/" class="flex items-center justify-between">
-                    <span class="text-12 md:text-12 leading-22 lg:leading-22 xl:text-18 xl:leading-18 text-[#009FE3] font-medium">More news</span>
+                    <span class="text-12 md:text-12 leading-22 lg:leading-22 xl:text-18 xl:leading-18 text-[#009FE3] font-medium">More events</span>
                     <div class="">
                         <svg id="Group_181" data-name="Group 181" xmlns="http://www.w3.org/2000/svg" width="9.953" height="9.954" viewBox="0 0 9.953 9.954">
                             <path id="Path_5" data-name="Path 5" d="M1.28,0,0,1.278l6.615.005L7.9,0Z" transform="translate(-0.001 0)" fill="#009fe3"/>
@@ -69,7 +112,7 @@ else: ?>
                 <?php
                 $current_post_id = get_the_ID(); // Haal het ID van de huidige post op
                 $loop = new WP_Query( array(
-                    'post_type' => array('event', 'news'), // Meerdere post types
+                    'post_type' => 'event', 
                     'posts_per_page' => 3,
                     'orderby' => 'date',
                     'order' => 'DECS',
@@ -85,7 +128,45 @@ else: ?>
                 <?php endwhile; wp_reset_query(); ?>
             </div>
         </div>
-    </div>
+            <?php
+         } elseif ( $post_type == 'news' ) { ?>
+       <div class="h-auto">
+            <div class="hidden lg:block lg:sticky top-[108px] xl:top-[123px] lg:w-[350px] xl:w-[417px]">
+                <a href="/news-events/" class="flex items-center justify-between">
+                    <span class="text-12 md:text-12 leading-22 lg:leading-22 xl:text-18 xl:leading-18 text-[#009FE3] font-medium">More news</span>
+                    <div class="">
+                        <svg id="Group_181" data-name="Group 181" xmlns="http://www.w3.org/2000/svg" width="9.953" height="9.954" viewBox="0 0 9.953 9.954">
+                            <path id="Path_5" data-name="Path 5" d="M1.28,0,0,1.278l6.615.005L7.9,0Z" transform="translate(-0.001 0)" fill="#009fe3"/>
+                            <path id="Path_6" data-name="Path 6" d="M10.942,0,3.051,7.892l.9.9,6.6-6.6V9.954l1.287-1.281V0Z" transform="translate(-1.893 0)" fill="#009fe3"/>
+                        </svg>
+                    </div>
+                </a>
+                <hr class="border-[0.5px] border-[#203145] mt-[10px] mb-[15px]">
+                <?php
+                $current_post_id = get_the_ID(); // Haal het ID van de huidige post op
+                $loop = new WP_Query( array(
+                    'post_type' => 'news', 
+                    'posts_per_page' => 3,
+                    'orderby' => 'date',
+                    'order' => 'DECS',
+                    'post__not_in' => array($current_post_id) // Sluit de huidige post uit
+                ) );
+                ?>
+                <?php while ( $loop->have_posts() ) : $loop->the_post(); $post_id = get_the_ID(); ?>
+                    <a href="<?php the_permalink();?>">
+                        <h3 class="text-12 md:text-18 leading-22 lg:leading-25 xl:text-18 xl:leading-25 text-[#203145] font-medium"><?php the_title();?></h3>
+                        <p class="text-12 md:text-14 leading-22 lg:leading-22 xl:text-16 xl:leading-26 text-[#203145] font-normal mt-[5px]"><?php echo get_field('introduction', $post_id);?></p>
+                        <hr class="border-[0.5px] border-[#203145] mt-[15px] mb-[15px]">
+                    </a>
+                <?php endwhile; wp_reset_query(); ?>
+            </div>
+        </div>
+
+        <?php
+        } else {
+        }
+        ?>
+        </div>
  </section>
 
 
@@ -180,10 +261,12 @@ else: ?>
     ?>
 <?php endif; ?>
 
+<?php 
+if ( $post_type == 'event' ) {?>
 <div class="container lg:hidden pb-[60px]">
     <div class="w-full">
-        <a href="" class="flex items-center justify-between">
-            <span class="text-12 md:text-12 leading-22 lg:leading-22 xl:text-18 xl:leading-18 text-[#009FE3] font-medium">More news</span>
+        <a href="/news-events/" class="flex items-center justify-between">
+            <span class="text-12 md:text-12 leading-22 lg:leading-22 xl:text-18 xl:leading-18 text-[#009FE3] font-medium">More events</span>
             <div class="">
                 <svg id="Group_181" data-name="Group 181" xmlns="http://www.w3.org/2000/svg" width="9.953" height="9.954" viewBox="0 0 9.953 9.954">
                     <path id="Path_5" data-name="Path 5" d="M1.28,0,0,1.278l6.615.005L7.9,0Z" transform="translate(-0.001 0)" fill="#009fe3"/>
@@ -194,7 +277,7 @@ else: ?>
         <hr class="border-[0.5px] border-[#203145] mt-[10px] mb-[15px]">
         <?php
             $loop = new WP_Query( array(
-                'post_type' => array('event', 'news'), // Meerdere post types
+                'post_type' => 'event', // Meerdere post types
                 'posts_per_page' => 3,
                 'orderby' => 'date',
                 'order' => 'DECS'
@@ -210,3 +293,42 @@ else: ?>
         <?php endwhile; wp_reset_query(); ?>
     </div>
 </div>
+    <?php
+  } elseif ( $post_type == 'news' ) { ?>
+<div class="container lg:hidden pb-[60px]">
+    <div class="w-full">
+        <a href="/news-events/" class="flex items-center justify-between">
+            <span class="text-12 md:text-12 leading-22 lg:leading-22 xl:text-18 xl:leading-18 text-[#009FE3] font-medium">More news</span>
+            <div class="">
+                <svg id="Group_181" data-name="Group 181" xmlns="http://www.w3.org/2000/svg" width="9.953" height="9.954" viewBox="0 0 9.953 9.954">
+                    <path id="Path_5" data-name="Path 5" d="M1.28,0,0,1.278l6.615.005L7.9,0Z" transform="translate(-0.001 0)" fill="#009fe3"/>
+                    <path id="Path_6" data-name="Path 6" d="M10.942,0,3.051,7.892l.9.9,6.6-6.6V9.954l1.287-1.281V0Z" transform="translate(-1.893 0)" fill="#009fe3"/>
+                </svg>
+            </div>
+        </a>
+        <hr class="border-[0.5px] border-[#203145] mt-[10px] mb-[15px]">
+        <?php
+            $loop = new WP_Query( array(
+                'post_type' => 'news', // Meerdere post types
+                'posts_per_page' => 3,
+                'orderby' => 'date',
+                'order' => 'DECS'
+            )
+            );
+            ?>
+        <?php while ( $loop->have_posts() ) : $loop->the_post(); $post_id = get_the_ID(); ?>
+        <a href="<?php the_permalink();?>">
+            <h3 class="text-12 md:text-18 leading-22 lg:leading-25 xl:text-18 xl:leading-25 text-[#203145] font-medium"><?php the_title();?></h3>
+            <p class="text-12 md:text-14 leading-22 lg:leading-22 xl:text-16 xl:leading-26 text-[#203145] font-normal mt-[5px]"><?php echo get_field('introduction', $post_id);?></p>
+            <hr class="border-[0.5px] border-[#203145] mt-[15px] mb-[15px]">
+        </a>
+        <?php endwhile; wp_reset_query(); ?>
+    </div>
+</div>
+
+<?php
+} else {
+}
+?>
+
+
