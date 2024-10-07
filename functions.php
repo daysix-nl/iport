@@ -414,6 +414,8 @@ function add_custom_admin_bar_styles() {
             #toplevel_page_weglot-settings { display: none !important; }
             // #menu-posts-wpsl_stores { display: none !important; }
             #toplevel_page_gf_edit_forms { display: none !important; }
+            .wpsl-opening-hours-tab { display: none !important; }
+            .wpsl-additional-information-tab { display: none !important; }
             #menu-posts-wpsl_stores ul.wp-submenu li:nth-child(4) { display: none !important; }
             #menu-posts-wpsl_stores ul.wp-submenu li:nth-child(5) { display: none !important; }
             #menu-posts-wpsl_stores ul.wp-submenu li:nth-child(6) { display: none !important; }
