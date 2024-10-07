@@ -619,3 +619,14 @@ function custom_admin_marker_dir() {
 }
 
 define( 'WPSL_MARKER_URI', dirname( get_bloginfo( 'stylesheet_url') ) . '/wpsl-markers/' );
+
+
+
+function custom_text_color_shortcode($atts, $content = null) {
+    // Stel de gewenste kleur in (bijvoorbeeld blauw)
+    $color = '#009FE3'; // Dit is de kleur blauw
+
+    // Zorg ervoor dat de inhoud tussen de shortcodes wordt weergegeven met de kleur
+    return '<span style="color:' . esc_attr($color) . ';">' . do_shortcode($content) . '</span>';
+}
+add_shortcode('hl', 'custom_text_color_shortcode');
