@@ -63,7 +63,7 @@
             "min": 0,
             "max": 0,
             "collapsed": "field_6703ac79030d7",
-            "button_label": "Add Row",
+            "button_label": "Add USP",
             "rows_per_page": 20,
             "sub_fields": [
                 {
@@ -158,5 +158,5 @@
     "active": true,
     "description": "",
     "show_in_rest": 0,
-    "modified": 1728294850
+    "modified": 1728295117
 }
