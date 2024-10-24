@@ -58,7 +58,7 @@ $link3_target = isset($link3['target']) ? esc_attr($link3['target']) : '';
         </div>
         <div class="absolute top-0 left-0 right-0 bottom-0 bg-[#1C1C1C] z-[6] opacity-[0.15]"></div>
         <?php if (get_field('video')): ?>  
-        <video autoplay loop muted class="min-h-full h-full w-full object-center object-cover z-[5]">
+        <video autoplay loop muted playsinline class="min-h-full h-full w-full object-center object-cover z-[5]">
             <source src="<?php echo get_field('video');?>#t=0.001" type="video/mp4">
             Your browser does not support the video element.
         </video>
