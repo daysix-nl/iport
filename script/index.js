@@ -121,6 +121,20 @@ try {
 } catch (error) { }
 
 try {
+    var swiperQuote = new Swiper(".swiperquote", {
+        spaceBetween: 20,
+        loop: true,
+        navigation: {
+            nextEl: ".swiper-button-next",
+            prevEl: ".swiper-button-prev",
+        },
+        pagination: {
+            el: ".swiper-pagination",
+        },
+    });
+} catch (error) { }
+
+try {
     document.addEventListener('DOMContentLoaded', function () {
         // Selecteer de eerste button binnen de .map-menu container
         const firstButton = document.querySelector('.map-menu button');

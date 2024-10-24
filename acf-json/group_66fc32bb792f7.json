@@ -17,7 +17,7 @@
                 "id": ""
             },
             "choices": {
-                "bg-[#F3C155]": "Yellow",
+                "bg-[#F3C155]": "Orange",
                 "bg-[#469DDD]": "Blue",
                 "bg-[#1B3247]": "Dark blue"
             },
@@ -49,5 +49,5 @@
     "active": true,
     "description": "",
     "show_in_rest": 0,
-    "modified": 1727804681
+    "modified": 1729788480
 }

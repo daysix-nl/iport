@@ -200,3 +200,29 @@
     }
 
 }
+
+.swiperquote {
+    .bg-orange {
+        background: #F3C155 !important;
+
+        .tag-colour {
+            background: #1B3247 !important;
+        }
+    }
+
+    .bg-blue {
+        background: #469DDD !important;
+
+        .tag-colour {
+            background: #F3C155 !important;
+        }
+    }
+
+    .bg-darkblue {
+        background: #1B3247 !important;
+
+        .tag-colour {
+            background: #469DDD !important;
+        }
+    }
+}

@@ -61,3 +61,7 @@
 <div class="bg-[#F3C155]"></div>
 <div class="bg-[#469DDD]"></div>
 <div class="bg-[#1B3247]"></div>
+
+<div class="bg-organe"></div>
+<div class="bg-blue"></div>
+<div class="bg-darkblue"></div>
