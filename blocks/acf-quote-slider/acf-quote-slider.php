@@ -29,13 +29,13 @@ else: ?>
                                     <div class="h-[31px] px-[8px] tag-colour items-center text-12 leading-12 xl:text-14 xl:leading-14 rounded-[11px] text-white hidden lg:flex"><span class="correction">#<?php echo get_sub_field('tag');?></span></div>
                                     <?php endif; ?>
                                     <?php if (get_sub_field('logo')): ?>   
-                                    <div class="<?php echo get_sub_field('colour');?>">
+                                    <div class="">
                                         <img decoding="async" src="<?php echo $image_url; ?>" alt="<?php echo $image_alt; ?>" class="h-full max-h-[50px] md:max-h-[80px] w-auto mix-blend-multiply">
                                     </div>
                                     <?php endif; ?>
                                 </div>
                                 <div class="w-full max-w-[863px] mt-[30px] h-[200px] md:h-[310px] lg:h-[188px] overflow-hidden">
-                                    <h3 class="text-white font-medium text-18 leading-18 md:text-24 md:leading-34 lg:text-35 lg:leading-36 mt-[8px]"><?php echo get_sub_field('text');?></h3>
+                                    <h3 class="text-white font-medium text-18 leading-28 md:text-24 md:leading-34 lg:text-35 lg:leading-36 mt-[8px]"><?php echo get_sub_field('text');?></h3>
                                 </div>
                                 <div class="w-full lg:flex lg:justify-between lg:items-end mt-[30px]">
                                     <?php if (get_sub_field('name')): ?>   

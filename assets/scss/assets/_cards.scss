@@ -152,6 +152,29 @@
     }
 }
 
+.team-img {
+    .hover-effect {
+
+        position: absolute;
+        background: #2A3041F2 !important;
+        left: 0px;
+        right: 0px;
+        bottom: -100%;
+        transition: all .2s ease-out;
+    }
+
+    &:hover .hover-effect {
+        background: #2A3041F2 !important;
+        height: 100%;
+        left: 0px;
+        right: 0px;
+        bottom: 0px;
+        transition: all .2s ease-out;
+
+    }
+
+}
+
 
 .swipernews a {
     img {

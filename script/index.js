@@ -130,6 +130,30 @@ try {
         },
         pagination: {
             el: ".swiper-pagination",
+            clickable: true,
+        },
+    });
+} catch (error) { }
+
+try {
+    var swiper = new Swiper(".swiperteam", {
+        slidesPerView: "auto",
+        spaceBetween: 15,
+        freeMode: true,
+        breakpoints: {
+            640: {
+                spaceBetween: 20,
+            },
+            768: {
+                spaceBetween: 30,
+            },
+            1200: {
+                spaceBetween: 40,
+            },
+        },
+        navigation: {
+            nextEl: ".swiper-button-next",
+            prevEl: ".swiper-button-prev",
         },
     });
 } catch (error) { }
