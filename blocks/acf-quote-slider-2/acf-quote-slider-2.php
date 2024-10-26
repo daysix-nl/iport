@@ -17,7 +17,7 @@ else: ?>
                         $image_alt = isset($image['alt']) ? esc_attr($image['alt']) : '';
                         ?>
                         <?php
-                        $image1 = get_field('image');
+                        $image1 = get_sub_field('image');
                         $image1_url = isset($image1['url']) ? esc_url($image1['url']) : '';
                         $image1_alt = isset($image1['alt']) ? esc_attr($image1['alt']) : '';
                         ?>
