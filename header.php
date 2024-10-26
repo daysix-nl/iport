@@ -35,7 +35,7 @@ $linktalk_target = isset($linktalk['target']) ? esc_attr($linktalk['target']) : 
             <!-- LOGO -->
             <div class="h-[25px] xl:h-[30px]">
                 <a href="/">
-                    <svg xmlns="http://www.w3.org/2000/svg" width="67.8" height="24.995" viewBox="0 0 67.8 24.995">
+                    <svg xmlns="http://www.w3.org/2000/svg" width="67.8" height="24.995" viewBox="0 0 67.8 24.995" class="pb-[0.6px]">
                       <g id="Iport_logo_zwart" transform="translate(-359.099 -318.5)">
                         <g id="Group_1" data-name="Group 1" transform="translate(359.099 318.5)">
                           <rect id="Rectangle_1" data-name="Rectangle 1" width="4.129" height="16.872" transform="translate(0.447 7.779)" fill="#009fe3"/>
