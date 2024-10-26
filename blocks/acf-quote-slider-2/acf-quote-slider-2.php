@@ -37,7 +37,7 @@ else: ?>
                                             Your browser does not support the video element.
                                         </video>
                                         <?php endif; ?>
-                                        <img src="<?php echo $image_url; ?>" alt="<?php echo $image_alt; ?>" class="h-full min-h-full min-w-full object-cover object-center"> 
+                                        <img src="<?php echo $image1_url; ?>" alt="<?php echo $image1_alt; ?>" class="h-full min-h-full min-w-full object-cover object-center"> 
                                     </div>
                                 </div>
                                 <div class="order-1 lg:order-2">
