@@ -9,7 +9,7 @@ $image_url = isset($image['url']) ? esc_url($image['url']) : '';
 $image_alt = isset($image['alt']) ? esc_attr($image['alt']) : '';
 ?>
 <!-- HEADER -2 -->
- <section class="h-[calc(100dvh-71px)] lg:h-[calc(100dvh-64px)] xl:h-[calc(100dvh-73px)] min-h-[480px] w-full relative overflow-hidden">
+ <section class="h-[calc(100vh-71px)] lg:h-[calc(100dvh-64px)] xl:h-[calc(100dvh-73px)] min-h-[480px] w-full relative overflow-hidden">
     <div class="absolute top-0 left-0 right-0 bottom-0 z-[10]">
         <div class="h-full w-full">
             <div class="container pt-[80px] md:pt-[100px] lg:pt-[140px]">
