@@ -1266,6 +1266,9 @@ video {
   padding-top: 60px;
   padding-bottom: 60px;
 }
+.pb-\[0\.6px\] {
+  padding-bottom: 0.6px;
+}
 .pb-\[20px\] {
   padding-bottom: 20px;
 }
