@@ -159,6 +159,29 @@ try {
 } catch (error) { }
 
 try {
+    var swiper = new Swiper(".swiperevents", {
+        slidesPerView: "auto",
+        spaceBetween: 15,
+        freeMode: true,
+        breakpoints: {
+            640: {
+                spaceBetween: 20,
+            },
+            768: {
+                spaceBetween: 30,
+            },
+            1200: {
+                spaceBetween: 40,
+            },
+        },
+        navigation: {
+            nextEl: ".swiper-button-next",
+            prevEl: ".swiper-button-prev",
+        },
+    });
+} catch (error) { }
+
+try {
     document.addEventListener('DOMContentLoaded', function () {
         // Selecteer de eerste button binnen de .map-menu container
         const firstButton = document.querySelector('.map-menu button');

@@ -29,8 +29,8 @@ else: ?>
                                     <div class="h-[31px] px-[8px] tag-colour items-center text-12 leading-12 xl:text-14 xl:leading-14 rounded-[11px] text-white hidden lg:flex"><span class="correction">#<?php echo get_sub_field('tag');?></span></div>
                                     <?php endif; ?>
                                     <?php if (get_sub_field('logo')): ?>   
-                                    <div class="">
-                                        <img decoding="async" src="<?php echo $image_url; ?>" alt="<?php echo $image_alt; ?>" class="h-full max-h-[50px] md:max-h-[80px] w-auto mix-blend-multiply">
+                                    <div class="company">
+                                        <img decoding="async" src="<?php echo $image_url; ?>" alt="<?php echo $image_alt; ?>" class="h-full max-h-[50px] md:max-h-[80px] w-auto merklogo">
                                     </div>
                                     <?php endif; ?>
                                 </div>
