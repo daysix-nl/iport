@@ -986,6 +986,12 @@ video {
 .max-w-\[863px\] {
   max-width: 863px;
 }
+.max-w-\[100px\!\] {
+  max-width: 100px!;
+}
+.max-w-\[100px\] {
+  max-width: 100px;
+}
 .origin-top-left {
   transform-origin: top left;
 }
@@ -1218,6 +1224,14 @@ video {
 .object-center {
   -o-object-position: center;
      object-position: center;
+}
+.object-right-bottom {
+  -o-object-position: right bottom;
+     object-position: right bottom;
+}
+.object-left-bottom {
+  -o-object-position: left bottom;
+     object-position: left bottom;
 }
 .px-\[20px\] {
   padding-left: 20px;
@@ -2268,6 +2282,11 @@ video {
     --tw-space-x-reverse: 0;
     margin-right: calc(50px * var(--tw-space-x-reverse));
     margin-left: calc(50px * calc(1 - var(--tw-space-x-reverse)));
+  }
+
+  .lg\:object-right-bottom {
+    -o-object-position: right bottom;
+       object-position: right bottom;
   }
 
   .lg\:px-\[5px\] {

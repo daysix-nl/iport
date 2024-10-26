@@ -30,7 +30,7 @@ else: ?>
                                     <?php endif; ?>
                                     <?php if (get_sub_field('logo')): ?>   
                                     <div class="company">
-                                        <img decoding="async" src="<?php echo $image_url; ?>" alt="<?php echo $image_alt; ?>" class="h-full max-h-[50px] md:max-h-[80px] w-auto merklogo">
+                                        <img decoding="async" src="<?php echo $image_url; ?>" alt="<?php echo $image_alt; ?>" class="h-full max-h-[50px] md:max-h-[80px] w-auto merklogo object-right-bottom">
                                     </div>
                                     <?php endif; ?>
                                 </div>
