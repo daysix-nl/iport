@@ -416,9 +416,9 @@ function add_custom_admin_bar_styles() {
             #toplevel_page_gf_edit_forms { display: none !important; }
             .wpsl-opening-hours-tab { display: none !important; }
             .wpsl-additional-information-tab { display: none !important; }
-            #menu-posts-wpsl_stores ul.wp-submenu li:nth-child(4) { display: none !important; }
-            #menu-posts-wpsl_stores ul.wp-submenu li:nth-child(5) { display: none !important; }
-            #menu-posts-wpsl_stores ul.wp-submenu li:nth-child(6) { display: none !important; }
+            // #menu-posts-wpsl_stores ul.wp-submenu li:nth-child(4) { display: none !important; }
+            // #menu-posts-wpsl_stores ul.wp-submenu li:nth-child(5) { display: none !important; }
+            // #menu-posts-wpsl_stores ul.wp-submenu li:nth-child(6) { display: none !important; }
             #wpsl_store_categorydiv { display: none !important; }
             /* Voeg hier meer CSS-styling toe indien nodig */
         ";
