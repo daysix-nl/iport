@@ -89,7 +89,7 @@
                <a href="mailto:<?php echo get_field('email', 'option');?>" class="text-16 leading-24 font-normal text-[#F6F6F6] lg:hover:text-[#203145] duration-300 w-fit"><?php echo get_field('email', 'option');?></a>
                <div class="grid grid-cols-2 w-[115px] mt-[20px]">
                   <?php if (get_field('linkedin', 'option')): ?>   
-                  <a href="<?php echo get_field('linkedin', 'option');?>" class="social">
+                  <a href="<?php echo get_field('linkedin', 'option');?>" class="social" target="_blank">
                      <svg xmlns="http://www.w3.org/2000/svg" width="44" height="44" viewBox="0 0 44 44">
                         <g id="Group_413" data-name="Group 413" transform="translate(0.258)">
                            <circle id="Ellipse_7" data-name="Ellipse 7" cx="22" cy="22" r="22" transform="translate(-0.258)" fill="#fff"/>
@@ -103,7 +103,7 @@
                   </a>
                   <?php endif; ?>
                   <?php if (get_field('facebook', 'option')): ?>   
-                  <a href="<?php echo get_field('facebook', 'option');?>" class="social">
+                  <a href="<?php echo get_field('facebook', 'option');?>" class="social" target="_blank">
                      <svg xmlns="http://www.w3.org/2000/svg" width="44" height="44" viewBox="0 0 44 44">
                         <g id="Group_414" data-name="Group 414" transform="translate(0.258)">
                            <circle id="Ellipse_6" data-name="Ellipse 6" cx="22" cy="22" r="22" transform="translate(-0.258)" fill="#fff"/>
@@ -141,7 +141,7 @@
                      </g>
                   </svg>
                </div>
-               <p class="text-[#F6F6F6] text-12 leading-12 font-normal">©Iport 2024</p>
+               <p class="text-[#F6F6F6] text-12 leading-12 font-normal">© iPort 2024</p>
             </div>
          </div>
       </div>

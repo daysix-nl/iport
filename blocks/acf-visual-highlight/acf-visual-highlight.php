@@ -18,7 +18,7 @@ $image_alt = isset($image['alt']) ? esc_attr($image['alt']) : '';
     <div class="container">
         <div class="w-full md:w-full lg:w-[838px] xl:w-[838px] mx-auto h-[197px] md:h-[386px] lg:h-[471px] xl:h-[471px] mt-[30px] md:mt-[40px] lg:mt-[unset] rounded-[40px] overflow-hidden item-shadow zoom-in">
             <?php if (get_field('video')): ?>  
-            <video controls <?php echo get_field('autoplay_video');?> muted loop playsinline class="h-full min-h-full min-w-full object-cover object-center">
+            <video controls controlsList="nodownload" <?php echo get_field('autoplay_video');?> muted loop playsinline class="h-full min-h-full min-w-full object-cover object-center">
                 <source src="<?php echo get_field('video');?>#t=0.001" type="video/mp4">
                 Your browser does not support the video element.
             </video>

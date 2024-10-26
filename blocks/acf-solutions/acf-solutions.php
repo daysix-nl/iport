@@ -71,7 +71,7 @@ else: ?>
                     </div>
                     <div class="w-[350px] md:w-[509px] lg:w-[590px] xl:w-[713px] mx-auto lg:mx-[unset] h-[197px] md:h-[286px] lg:h-[332px] xl:h-[400px] mt-[30px] md:mt-[40px] lg:mt-[unset] rounded-[40px] overflow-hidden item-shadow zoom-in">
                          <?php if (get_sub_field('video')): ?>  
-                        <video controls class="h-full min-h-full min-w-full object-cover object-center">
+                        <video controls controlsList="nodownload" playsinline class="h-full min-h-full min-w-full object-cover object-center">
                             <source src="<?php echo get_sub_field('video');?>#t=0.001" type="video/mp4">
                             Your browser does not support the video element.
                         </video>
