@@ -12,7 +12,7 @@
       <div class="container lg:flex justify-between">
          <div class="w-full md:w-[558px] mb-[45px]">
             <h2 class="text-25 leading-30 md:text-36 md:leading-37 lg:text-38 lg:leading-39 xl:text-40 xl:leading-41 font-semibold text-[#203145]">Over <span id="count" data-target="150" class="w-[40.61px] md:w-[61.72px] lg:w-[61.72px] xl:w-[64.97px] text-right inline-block">0</span> companies use iPort every day. <br class="md:hidden">Join them.</h2>
-            <p class="text-12 leading-22 md:text-14 md:leading-24 lg:text-18 lg:leading-26 font-normal text-[#203145] md:w-[410px] lg:w-[487px] mt-[15px] lg:mt-[30px]">Do you want to learn more about how we can help you?  Our teams are here to answer all your questions. Fill out the form and we’ll get in touch or leave us an email or phonecall.</p>
+            <p class="text-12 leading-22 md:text-14 md:leading-24 lg:text-18 lg:leading-26 font-normal text-[#203145] md:w-[410px] lg:w-[487px] mt-[15px] lg:mt-[30px]"><?php echo get_field('contact_text', 'option');?></p>
             <div class="flex space-x-[40px] lg:space-x-[50px] mt-[20px] lg:mt-[60px]">
                <?php if (get_field('email', 'option')): ?>   
                <a href="mailto:<?php echo get_field('email', 'option');?>" class="flex space-x-[15px] lg:space-x-[15px] items-center">
