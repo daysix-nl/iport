@@ -4,7 +4,7 @@ if (isset($block['data']['preview_image_help'])): ?>
     <?php
 else: ?>
 <!-- MAP -->
-<section class="bg-white py-[60px]">
+<section class="bg-white my-[60px]">
     <div class="container text-left md:text-center">
         <h2 class="text-[#2A3041] font-semibold text-32 leading-33 md:text-42 md:leading-43 lg:text-45 lg:leading-47 xl:text-54 xl:leading-56"><?php echo get_field('title');?></h2>
     </div>

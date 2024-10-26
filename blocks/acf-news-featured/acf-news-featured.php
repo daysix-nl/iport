@@ -11,7 +11,7 @@ $link_target = isset($link['target']) ? esc_attr($link['target']) : '';
 ?>
 
 <!-- NEWS & EVENTS -->
-<section class="bg-white pb-[60px]">
+<section class="bg-white my-[60px]">
     <div class="container text-center pb-[30px] md:pb-[40px] lg:pb-[40px] xl:pb-[50px]">
         <h2 class="text-[#2A3041] font-semibold text-32 leading-33 md:text-42 md:leading-43 lg:text-45 lg:leading-47 xl:text-54 xl:leading-56"><?php echo get_field('title');?></h2>
     </div>
