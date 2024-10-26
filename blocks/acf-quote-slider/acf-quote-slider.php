@@ -3,7 +3,7 @@ if (isset($block['data']['preview_image_help'])): ?>
     <img src="#" style="width:100%; height:auto;">
     <?php
 else: ?>
-<!-- QUOTE SLIDER -->
+<!-- QUOTE SLIDER 1 -->
  <section class="bg-white">
     <div class="container my-[60px]">
         <div class="swiper swiperquote rounded-[40px] overflow-hidden">

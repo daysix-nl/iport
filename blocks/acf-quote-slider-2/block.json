@@ -1,6 +1,6 @@
 {
-  "name": "acf-quote-slider",
-  "title": "Quote slider 1",
+  "name": "acf-quote-slider-2",
+  "title": "Quote slider 2",
   "description": "",
   "category": "bibliotheek",
   "icon": "slides",
@@ -13,7 +13,7 @@
   },
   "acf": {
     "mode": "preview",
-    "renderTemplate": "acf-quote-slider.php"
+    "renderTemplate": "acf-quote-slider-2.php"
   },
   "example": {
     "attributes": {
