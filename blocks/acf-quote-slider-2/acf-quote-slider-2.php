@@ -69,7 +69,7 @@ else: ?>
                                 </div>
                             </div>
                             <?php if (get_sub_field('logo')): ?>   
-                            <div class="company absolute top-0 left-0 lg:right-0 lg:bottom-0 lg:top-[unset] lg:left-[unset]">
+                            <div class="company absolute top-0 left-0 lg:right-0 lg:bottom-0 lg:top-[unset] lg:left-[unset] max-w-[130px]">
                                 <img decoding="async" src="<?php echo $image_url; ?>" alt="<?php echo $image_alt; ?>" class="h-full max-h-[50px] md:max-h-[80px] w-auto merklogo object-left-bottom lg:object-right-bottom">
                             </div>
                             <?php endif; ?>
