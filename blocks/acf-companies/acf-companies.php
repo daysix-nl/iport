@@ -61,7 +61,7 @@ $link_target = isset($link['target']) ? esc_attr($link['target']) : '';
                                     <div class="absolute left-[13px] top-[236px] md:top-[236px] lg:top-[237px] xl:top-[267px] h-[18px] w-[13px] bg-kleur z-[3]"></div>
                                     <div class="absolute right-[13px] top-[236px] md:top-[236px] lg:top-[237px] xl:top-[267px] h-[18px] w-[13px] bg-kleur z-[3]"></div>
                                     <div class="absolute right-[0px] bottom-[0px] w-[100px] h-[60px] xl:h-[70px] xl:w-[120px] bg-kleur rounded-[10px] flex items-center justify-center z-[3]">
-                                        <img src="<?php echo $image_url; ?>" alt="<?php echo $image_alt; ?>" class="merklogo">
+                                        <img src="<?php echo $image_url; ?>" alt="<?php echo $image_alt; ?>" class="merklogo-company">
                                     </div>
                                     <div class="content w-[266.15px] h-[417px] md:w-[264.73px] md:h-[416px] xl:h-[476px] xl:w-[302px] bg-white rounded-[10px] mt-[13px] overflow-hidden relative z-[2]">
                                         <img src="<?php echo get_the_post_thumbnail_url();?>" alt="<?php the_title();?>" class="h-full min-h-full min-w-full object-cover object-center">
