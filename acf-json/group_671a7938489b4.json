@@ -108,7 +108,7 @@
                     "name": "text",
                     "aria-label": "",
                     "type": "textarea",
-                    "instructions": "",
+                    "instructions": "Use [hl].....[\/hl] to highlight text",
                     "required": 0,
                     "conditional_logic": 0,
                     "wrapper": {
@@ -116,7 +116,7 @@
                         "class": "",
                         "id": ""
                     },
-                    "default_value": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.",
+                    "default_value": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do [hl]eiusmod tempor incididunt ut labore[\/hl] et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.",
                     "maxlength": "",
                     "allow_in_bindings": 0,
                     "rows": 8,
@@ -207,5 +207,5 @@
     "active": true,
     "description": "",
     "show_in_rest": 0,
-    "modified": 1729791527
+    "modified": 1730018350
 }
