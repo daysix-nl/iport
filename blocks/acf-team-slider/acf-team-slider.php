@@ -31,6 +31,7 @@ else: ?>
                         </div>
                         <h4 class="text-[#2A3041] text-18 leading-19 md:text-25 md:leading-26 font-medium mt-[20px]"><?php echo get_sub_field('name');?></h4>
                         <p class="text-[#2A3041] text-14 leading-15 md:text-18 md:leading-19 font-normal mt-[8px]"><?php echo get_sub_field('function');?></p>
+                        <?php if (get_sub_field('linkedin')): ?>   
                         <a href="<?php echo get_sub_field('linkedin');?>" class="mt-[18px] block scale-[0.8] md:scale-[1] origin-top-left">
                             <svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="43" height="43" viewBox="0 0 43 43">
                                 <g id="Group_552" data-name="Group 552" transform="translate(-2 19.9)">
@@ -38,6 +39,7 @@ else: ?>
                                 </g>
                             </svg>
                         </a>
+                        <?php endif; ?>
                     </div>
                     <?php
                     endwhile;
