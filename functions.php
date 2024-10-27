@@ -654,7 +654,7 @@ define( 'WPSL_MARKER_URI', dirname( get_bloginfo( 'stylesheet_url') ) . '/wpsl-m
 
 function custom_text_color_shortcode($atts, $content = null) {
     // Zorg ervoor dat de inhoud tussen de shortcodes wordt weergegeven met de kleur
-    return '<span class="hightlight">' . do_shortcode($content) . '</span>';
+    return '<span class="highlight">' . do_shortcode($content) . '</span>';
 }
 add_shortcode('hl', 'custom_text_color_shortcode');
 
