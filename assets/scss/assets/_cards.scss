@@ -249,3 +249,26 @@
         }
     }
 }
+
+
+.highlight {
+    color: #469DDD;
+}
+
+.bg-orange {
+    .highlight {
+        color: #469DDD !important;
+    }
+}
+
+.bg-blue {
+    .highlight {
+        color: #2A3041 !important;
+    }
+}
+
+.bg-darkblue {
+    .highlight {
+        color: #469DDD !important;
+    }
+}
