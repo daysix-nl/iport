@@ -17,7 +17,7 @@
 
     gtag('config', 'G-GR9B57M647');
     </script>
-    <script id="Cookiebot" src="https://consent.cookiebot.com/uc.js" data-cbid="c49b4dbc-fbed-4bc7-8901-b6b7c8aaf805" type="text/javascript" async></script>
+    <!-- <script id="Cookiebot" src="https://consent.cookiebot.com/uc.js" data-cbid="c49b4dbc-fbed-4bc7-8901-b6b7c8aaf805" type="text/javascript" async></script> -->
     <meta charset="<?php bloginfo( 'charset' ); ?>">
     <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no">
     <link rel="preconnect" href="https://fonts.googleapis.com">
