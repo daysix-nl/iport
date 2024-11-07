@@ -2086,6 +2086,10 @@ video {
     margin-top: 35px;
   }
 
+  .lg\:mt-\[40px\] {
+    margin-top: 40px;
+  }
+
   .lg\:mt-\[50px\] {
     margin-top: 50px;
   }

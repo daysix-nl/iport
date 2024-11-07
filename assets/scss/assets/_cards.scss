@@ -301,3 +301,29 @@
         color: #469DDD !important;
     }
 }
+
+
+.newsmin .load .loads:nth-child(n+5) {
+    display: none;
+}
+
+// MD
+@media (min-width: 768px) {
+    .newsmin .load .loads:nth-child(n+5) {
+        display: none;
+    }
+}
+
+// LG
+@media (min-width: 1200px) {
+    .newsmin .load .loads:nth-child(n+5) {
+        display: none;
+    }
+}
+
+// XL
+@media (min-width: 1352px) {
+    .newsmin .load .loads:nth-child(n+5) {
+        display: none;
+    }
+}

@@ -10,8 +10,8 @@ $link_text = isset($link['title']) ? esc_html($link['title']) : '';
 $link_target = isset($link['target']) ? esc_attr($link['target']) : '';
 ?>
 
-<!-- NEWS & EVENTS -->
-<section class="bg-white my-[60px]">
+<!-- NEWS -->
+<section class="bg-white my-[60px] newsmin">
     <div class="container text-center pb-[30px] md:pb-[40px] lg:pb-[40px] xl:pb-[50px]">
         <h2 class="text-[#2A3041] font-semibold text-32 leading-33 md:text-42 md:leading-43 lg:text-45 lg:leading-47 xl:text-54 xl:leading-56"><?php echo get_field('title');?></h2>
     </div>
@@ -120,7 +120,7 @@ $link_target = isset($link['target']) ? esc_attr($link['target']) : '';
                 </a>
             <?php endwhile; wp_reset_query(); ?>  
         </div>
-        <div class="lg:px-[35px] xl:px-[unset] flex justify-between flex-wrap">
+        <div class="lg:px-[35px] xl:px-[unset] flex justify-between flex-wrap load">
             <?php
                $loop = new WP_Query( array(
                   'post_type' => 'news',
@@ -183,7 +183,7 @@ $link_target = isset($link['target']) ? esc_attr($link['target']) : '';
                );
                ?>
             <?php while ( $loop->have_posts() ) : $loop->the_post(); $post_id = get_the_ID(); ?>
-               <a href="<?php the_permalink();?>" class="swiper-slide h-[495px] xl:h-[551px] w-[317px] mx-auto md:mx-[unset] md:w-[317px] lg:w-[317px] xl:w-[374px] rounded-[40px] item-shadow-news overflow-hidden mt-[30px] md:mt-[40px] lg:mt-[55px] xl:mt-[40px]">
+               <a href="<?php the_permalink();?>" class="loads swiper-slide h-[495px] xl:h-[551px] w-[317px] mx-auto md:mx-[unset] md:w-[317px] lg:w-[317px] xl:w-[374px] rounded-[40px] item-shadow-news overflow-hidden mt-[30px] md:mt-[40px] lg:mt-[55px] xl:mt-[40px]">
                     <div class="w-full h-[190px] xl:h-[236px] bg-black overflow-hidden">
                         <img src="<?php echo get_the_post_thumbnail_url();?>" alt="<?php the_title();?>" class="h-full min-w-full min-h-full object-cover object-center">
                     </div>
@@ -225,5 +225,36 @@ $link_target = isset($link['target']) ? esc_attr($link['target']) : '';
             <?php endwhile; wp_reset_query(); ?>  
         </div>
     </div>
+    <div class="container mt-[40px] md:mt-[40px] lg:mt-[40px]">
+        <button id="loadmore" class="text-14 leading-14 xl:text-16 xl:leading-16 text-white font-normal md:min-w-[130px] h-[43px] px-[20px] border-[1px] border-[#1C1C1C] bg-[#2A3041] lg:hover:bg-[#009FE3] lg:hover:border-[#009FE3] duration-300 rounded-[14px] md:rounded-[15px] xl:rounded-[18px] lg:hover:text-white flex items-center justify-center w-fit mx-auto" target="">
+        <span class="correction">Load more news</span>
+        <svg id="Group_134" data-name="Group 134" xmlns="http://www.w3.org/2000/svg" width="9.953" height="9.954" viewBox="0 0 9.953 9.954" class="ml-[50px] xl:ml-[30px]">
+            <path id="Path_5" data-name="Path 5" d="M1.28,0,0,1.278l6.615.005L7.9,0Z" transform="translate(-0.001 0)" fill="#f6f6f6"></path>
+            <path id="Path_6" data-name="Path 6" d="M10.942,0,3.051,7.892l.9.9,6.6-6.6V9.954l1.287-1.281V0Z" transform="translate(-1.893 0)" fill="#f6f6f6"></path>
+        </svg>
+        </button>
+    </div>
 </section>
+<script>
+document.addEventListener("DOMContentLoaded", function() {
+    const loadMoreButton = document.getElementById("loadmore");
+    const buttonText = loadMoreButton.querySelector("span"); // Selecteer de span in de knop
+    const newsContainer = document.querySelector(".newsmin"); // Zorg dat dit je initiële containerklasse is
+
+    loadMoreButton.addEventListener("click", function() {
+        // Toggle de klassen .newsmin en .newsplus
+        newsContainer.classList.toggle("newsmin");
+        newsContainer.classList.toggle("newsplus");
+
+        // Update de tekst in de span op basis van de actieve klasse
+        if (newsContainer.classList.contains("newsmin")) {
+            buttonText.textContent = "Load more news";
+        } else {
+            buttonText.textContent = "Load less news";
+        }
+    });
+});
+
+
+</script>
 <?php endif; ?>
