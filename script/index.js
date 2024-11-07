@@ -64,10 +64,10 @@ try {
         freeMode: true,
         loop: true,
         speed: 20000,
-
+        allowTouchMove: false, // Swipe uitschakelen
         autoplay: {
             delay: 0,
-            disableOnInteraction: false,
+            disableOnInteraction: false, // Altijd doorgaan, zelfs bij interactie
         },
         slidesPerView: "auto",
         breakpoints: {
@@ -131,6 +131,38 @@ try {
         pagination: {
             el: ".swiper-pagination",
             clickable: true,
+        },
+    });
+} catch (error) { }
+
+try {
+    var swiperQuote = new Swiper(".swiperlookbook", {
+        spaceBetween: 20,
+        slidesPerView: "auto",
+        freeMode: true,
+        loop: true,
+        allowTouchMove: false, // Swipe uitschakelen
+        navigation: {
+            nextEl: ".swiper-button-next",
+            prevEl: ".swiper-button-prev",
+        },
+        pagination: {
+            el: ".swiper-pagination",
+            clickable: true,
+        },
+    });
+} catch (error) { }
+
+try {
+    var swiperQuote = new Swiper(".swiperlookbookmobile", {
+        spaceBetween: 20,
+        slidesPerView: "auto",
+        freeMode: true,
+        loop: true,
+        allowTouchMove: false, // Swipe uitschakelen
+        navigation: {
+            nextEl: ".swiper-button-next",
+            prevEl: ".swiper-button-prev",
         },
     });
 } catch (error) { }
